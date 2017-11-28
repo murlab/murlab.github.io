@@ -1,0 +1,196 @@
+@font-face {
+	font-family: 'Upheaval Pro';
+	src: url('../fonts/UpheavalPro-Regular.eot');
+	src: local('UpheavalPro'), local('UpheavalPro-Regular'),
+		url('../fonts/UpheavalPro-Regular.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/UpheavalPro-Regular.woff') format('woff'),
+		url('../fonts/UpheavalPro-Regular.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+
+body {
+	background-color: #5a6988;
+	margin: 0;
+	padding: 0;
+	background: url(../images/body_left_bg.jpg) no-repeat, 
+                url(../images/body_right_bg.jpg) 100% 0 no-repeat;
+	background-attachment: fixed;
+}
+a {
+	text-decoration: none;
+}
+.center {
+	width: 990px;
+	padding: 0;
+	margin: auto;
+	background-color: #5a6988;
+	text-align: center;
+	box-shadow: 0 0 15px #000;
+	background: url(../images/border_bg.png) repeat-y,
+                url(../images/top_bg.png) 100% 0 no-repeat;
+}
+
+.menu {
+	width: 100%;
+	height: 191px;
+	background: url(../images/menu_center_bg.png) 0 100% no-repeat;
+}
+.menuBars {
+	float: left;
+	font-size: 25px;
+	padding-left: 16px;
+	padding-top: 4px;
+}
+.menuItems {
+	position: relative;
+	top: 130px;
+	left: 0px;
+	text-align: right;
+	padding-right: 10px;
+}
+.menuItems .fa {
+	color: #fff;
+	padding: 0 6px;
+}
+.menuItems .fa-download {
+	margin-top: 5px;
+}
+.menuItem {
+	font-family: 'Upheaval Pro';
+	font-size: 24px;
+	color: #fff;
+}
+.menuItemActive {
+	color: #ff6f1d;
+	text-decoration: underline;
+}
+.menuItem:hover {
+	color: #ff9153;
+	text-decoration: underline;
+}
+.menuItem:hover .fa {
+	color: #ff9153;
+}
+.menuSpace {
+	padding: 0 10px;
+}
+.menuLeft {
+	width: 6px;
+	height: 82px;
+	background: url(../images/menu_left_bg.png) no-repeat;
+	position: relative;
+	left: -6px;
+	top: 273px;
+}
+.menuRight {
+	width: 6px;
+	height: 82px;
+	background: url(../images/menu_right_bg.png) 0 100% no-repeat;
+	position: relative;
+	left: 990px;
+	top: 191px;
+}
+.avatar {
+	width: 195px;
+	height: 195px;
+	background: url(../images/avatar.png) no-repeat;
+	position: relative;
+	left: 52px;
+	top: -176px;
+}
+.content {
+	width: 982px;
+	padding: 0 0 40px 0;
+	margin-top: -195px;
+	background-color: #5a6988;
+	margin-left: 4px;
+}
+.message {
+	width: 876px;
+	margin: 0 auto;
+	text-align: center;
+	padding-top: 50px;
+}
+.messageHeader {
+	width: 876px;
+	height: 33px;
+	background: url(../images/msg_title_bg.png) no-repeat;
+	font-family: 'Upheaval Pro';
+	font-size: 24px;
+	color: #fff;
+	text-align: left;
+	padding-left: 20px;
+	padding-top: 2px;
+}
+.messageHeader .date {
+	color: #7394b0;
+}
+.messageHeader .fa-star {
+	font-size: 18px;
+	padding: 0 15px 0 15px;
+	color: #ff959a;
+}
+.messageHeader .title {
+	letter-spacing: 1px;
+}
+.messageImage {
+	width: 850px;
+	height: 270px;
+	background-color: #8896b4;
+	margin-left: 12px;
+}
+.messageImageOver {
+	width: 850px;
+	height: 270px;
+	margin-top: -70px;
+}
+.messageContent {
+	width: 850px;
+	background-color: #8896b4;
+	margin-left: 12px;
+	margin-top: -14px;
+	text-align: left;
+}
+.messageContent p {
+	padding: 15px 10px 20px 10px;
+	font-family: "Arial";
+	font-size: 18px;
+}
+.messageContentBottom {
+	width: 850px;
+	height: 6px;
+	margin-left: 12px;
+	margin-top: -18px;
+	background: url(../images/msg_bottom.png) no-repeat;
+}
+.messageContinue {
+	clear: both;
+	float: right;
+	height: 28px;
+}
+.messageContinue {
+	text-align: center;
+	width: 120px;
+	height: 28px;
+	background: url(../images/msg_cont.png) no-repeat;
+	font-family: 'Upheaval Pro';
+	font-size: 22px;
+	margin-right: 30px;
+}
+.messageContinue a {
+	color: #7394b0;
+}
+.messageContinue a:hover {
+	color: #fff;
+}
+.copy {
+	width: 100%;
+	height: 25px;
+	padding-top: 50px;
+	font-family: 'Arial';
+	font-size: 14px;
+	color: #3a4458;
+	background-color: #5a6988;
+	background-image: url(../images/border_bg.png);
+}

@@ -1,0 +1,387 @@
+@import url(https://fonts.googleapis.com/css?family=Lato:700);
+
+body {
+	margin: 0;
+	padding: 0;
+	font-family: "Helvetica Neue", Arial, sans-serif;
+	/*font-family: 'Lato', Arial, sans-serif;*/
+	font-size: 18px;
+	background-color: #5a6988;
+	background: url(../images/body_left_bg.jpg) no-repeat, 
+				url(../images/body_right_bg.jpg) 100% 0 no-repeat;
+	background-attachment: fixed;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    width: auto\9; /* ie8 */
+    display: block;
+    margin: 0px;
+    padding: 0px;
+}
+
+.center, .centerEnd {
+	margin: 0 auto;
+	padding: 0;
+	max-width: 990px;
+	border: none;
+}
+.centerEnd {
+	height: 18px;
+	background: url(../images/page_end_left.png) no-repeat, 
+				url(../images/page_end_right.png) 100% 0 no-repeat;
+	margin-bottom: 10px;
+}
+.centerEnd div {
+	height: 15px;
+	margin: 0 18px;
+	background-color: #48556e;
+	border: none;
+	border-bottom: 3px solid #fff;
+}
+
+.footer {
+	padding: 16px;
+	text-align: center;
+	font-size: 16px;
+	color: #2e333c;
+}
+
+.header, .content {
+	background-color: #48556e;
+	box-shadow: 0 0 16px #000;
+	border-left: 3px solid #fff;
+	border-right: 3px solid #fff;
+}
+.header {
+	height: 298px;
+	background: url(../images/top_bg.png) no-repeat;
+}
+
+.topLogo {
+	width: 192px;
+	height: 121px;
+	position: relative;
+	top: 108px;
+	right: 66px;
+	background: url(../images/mur_logo.png) no-repeat;
+	float: right;
+}
+
+.topMenuCenter {
+	height: 57px;
+	margin: 0;
+	border: none;
+	border-top: 3px solid #fff;
+	border-bottom: 3px solid #fff;
+	background: url(../images/menu_bg.png) repeat-x;
+	padding-right: 20px;
+	overflow: hidden;
+}
+.topMenu {
+	background: url(../images/top_bg_2.png) no-repeat;
+	position: relative;
+	z-index: 10000;
+}
+
+.topMenuIcon {
+	font-size: 28px;
+}
+
+.topMenuSpace {
+	float: left;
+	width: 250px;
+}
+
+.topMenuItem {
+	display: block;
+	float: left;
+	margin: 6px 0 0 12px;
+	font-family: 'Upheaval Pro';
+	font-size: 20px;
+	color: #fff;
+	text-align: center;
+	text-decoration: none;
+	line-height: 1;
+}
+.topMenuItem:hover {
+	color: orange;
+	text-decoration: underline;
+}
+
+.topMenuItem.active {
+	color: #f35860;
+	text-decoration: underline;
+}
+
+.content {
+	padding: 26px;
+}
+
+.sticky {
+	position: fixed;
+	top: 0;
+	width: 990px;
+	background: none;
+}
+.sticky .topMenuAvatar {
+	display: none;
+}
+.sticky .topMenuSpace {
+	width: 50px;
+}
+.sticky + .content {
+	padding-top: 60px;
+}
+
+.topMenuLeft {
+	height: 63px;
+	width: 9px;
+	position: absolute;
+	top: 0;
+	left: -9px;
+	background: url(../images/menu_outside_left.png) no-repeat;
+}
+.topMenuRight {
+	height: 63px;
+	width: 9px;
+	position: absolute;
+	top: 0;
+	right: -9px;
+	background: url(../images/menu_outside_right.png) no-repeat;
+}
+.topMenuAvatar {
+	height: 195px;
+	width: 195px;
+	position: absolute;
+	left: 58px;
+	top: -111px;
+	background: url(../images/avatar.png) no-repeat;
+}
+
+.topMenuAdd {
+	width: 80px;
+	height: 20px;
+	position: relative;
+	top: 10px;
+	right: -180px;
+	float: right;
+}
+
+.popupMenu {
+	position: absolute;
+	left: 4px;
+	top: 4px;
+	padding-top: 2px;
+}
+.popupMenuItem {
+	display: block;
+	font-family: 'Upheaval Pro';
+	font-size: 20px;
+	color: #fff;
+	text-decoration: none;
+}
+.popupMenuItem .fa {
+	margin-right: 8px;
+	margin-top: 2px;
+}
+.popupMenuItem:hover {
+	color: orange;
+}
+.popupMenuItem.active {
+	color: #f35860;
+}
+.popupMenuLine {
+	width: 100%;
+	height: 1px;
+	background: rgba(0,0,0,0.5);
+}
+
+#popupMenuLabel{
+	position: relative;
+	display: block;
+	padding: 0 18px 0 12px;
+	line-height: 3em;
+	transition: background 0.3s;
+	cursor: pointer;
+	color: #fff;
+	width: 20px;
+}
+
+#popupMenuLabel:hover,
+#popupMenuInput:checked ~ #popupMenuLabel{
+	color: orange;
+	background: rgba(0, 0, 0, 0.5);
+}
+
+#popupMenuInput:checked ~ #popupMenuLabel:after{
+	border-top:0 solid rgba(255,255,255,.5);
+	border-bottom:4px solid rgba(255,255,255,.5);
+	transition:border-top .1s, border-bottom .1s .1s;
+}
+#popupMenuInput{ display:none; }
+#popupMenuInput:checked ~ ul.menu{
+	max-height: 300px;
+	transition: max-height 0.5s ease-in;
+}
+ul.menu{
+	max-height: 0;
+	padding: 0;
+	margin: 0;
+	overflow: hidden;
+	list-style-type:none;
+	background: rgba(0, 0, 0, 0.5);
+	transition: max-height 0.5s ease-out;
+	position: absolute;
+	min-width:100%;
+}
+
+ul.menu li a{
+	display: block;
+	padding: 6px 12px;
+	transition: background .3s;
+	white-space: nowrap;
+}
+
+ul.menu li a:hover{
+	background:rgba(0,0,0,.3);
+}
+
+.post {
+	clear: both;
+}
+
+.postHeader {
+	background: linear-gradient(to right, #384154, rgba(0,0,0,0));
+	border-radius: 10px 0 0 10px;
+	height: 40px;
+}
+.postStar {
+	color: #ff959a;
+	font-size: 30px;
+	float: left;
+	border-right: 3px solid #48556e;
+	padding: 3px 4px 0 7px;
+	width: 30px;
+	height: 40px;
+	margin: 0;
+	text-align: center;
+}
+.postDate {
+	color: #9bd1ff;
+	font-size: 14px;
+	margin-top: 8px;
+	font-weight: bold;
+	margin-bottom: -4px;
+	padding: 2px 0 0 50px;
+}
+.postTitle {
+	color: #fff;
+	font-size: 20px;
+	font-family: 'Upheaval Pro';
+	letter-spacing: 2px;
+	padding: 2px 0 0 8px;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+.postContent {
+	margin: 0 auto;
+}
+.postImage {
+	margin-left: 3px;
+}
+.postImage::after {
+	display: block;
+	position: relative;
+	background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0) 0, #48556e 100%);
+	margin-top: -150px;
+	height: 150px;
+	width: 100%;
+	content: '';
+}
+.postImage img {
+	z-index: -1;
+}
+.postBody {
+	color: #fff;
+	margin: -10px 6px 0 44px;
+}
+.postEnd {
+	clear: both;
+	margin-bottom: 70px;
+}
+.postEndLineStart {
+	float: right;
+	width: 20px;
+	height: 2px;
+	background: linear-gradient(to right, #384154, rgba(0,0,0,0));
+}
+.postEndCont {
+	float: right;
+	width: 100px;
+	height: 20px;
+	border-left: 2px solid #384154;
+	border-right: 2px solid #384154;
+	border-bottom: 2px solid #384154;
+	border-radius: 0 0 10px 10px;
+	padding-bottom: 5px;
+	text-align: center;
+	color: #9bd1ff;
+	font-size: 14px;
+	font-weight: bold;
+}
+.postEndCont a {
+	color: #9bd1ff;
+	text-decoration: none;
+}
+.postEndCont a:hover {
+	color: #fff;
+}
+.postEndLineFinish {
+	float: right;
+	width: 500px;
+	height: 2px;
+	background: linear-gradient(to left, #384154, rgba(0,0,0,0));
+}
+
+.topMenuItem, .popupMenuItem, #popupMenuLabel, .topMenuItem, .postStar, .postTitle {
+	text-shadow: 0.5px 0.5px 1px rgba(0,0,0,0.8);
+}
+
+@media (max-width: 720px) {
+	.postBody {
+		color: #fff;
+		margin: -10px 0 0 0;
+	}
+	.postEndLineFinish {
+		width: 175px;
+	}
+}
+
+@media (max-width: 414px) {
+	.postBody {
+		color: #fff;
+		margin: -10px 0 0 0;
+	}
+	.postEndLineFinish {
+		width: 135px;
+	}
+	.postImage::after {
+		background: none;
+	}
+}
+
+@media (max-width: 767px) {
+	.topMenuItem {
+		display: none;
+	}
+}
+
+@media (max-width: 959px) {
+	.postBody {
+		color: #fff;
+		margin: -10px 0 0 0;
+	}
+}

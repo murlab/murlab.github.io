@@ -1,75 +1,129 @@
 <!DOCTYPE html>
 <html>
 	<head>
-		<meta charset="utf-8">
+		<meta charset="utf-8" />
 		<title>Mur Laboratory</title>
-		<meta charset="utf-8">
-		<link rel="stylesheet" type="text/css" href="style/font-awesome.css">
-		<link rel="stylesheet" type="text/css" href="style/main.css">
+		<meta charset="utf-8" />
+		<link rel="shortcut icon" type="image/x-icon" href="images/favicon.ico" />
+		<link rel="icon" type="image/png" href="images/favicon.png" />
+		<link rel="stylesheet" type="text/css" href="css/font-awesome.css" />
+		<link rel="stylesheet" type="text/css" href="css/main.css" />
+		<script type="text/javascript" src="js/main.js"></script>
 	</head>
-	<body>
-		<div class="center">
-			<div class="menuLeft"></div>
-			<div class="menuRight"></div>
-			<div class="menu">
-				<div class="menuItems">
-					<div class="menuBars"><a href="#" class="menuItem"><i class="fa fa-bars" aria-hidden="true"></i></a></div>
-					<a href="#" class="menuItem menuItemActive">Блог</a>
-					<i class="fa fa-star" aria-hidden="true"></i>
-					<a href="#" class="menuItem">Графика</a>
-					<i class="fa fa-star" aria-hidden="true"></i>
-					<a href="#" class="menuItem">Разное</a>
-					<i class="fa fa-star" aria-hidden="true"></i>
-					<a href="#" class="menuItem">RPG Maker</a>
-					<i class="fa fa-star" aria-hidden="true"></i>
-					<a href="#" class="menuItem">Godot</a>
-					<i class="fa fa-star" aria-hidden="true"></i>
-					<a href="#" class="menuItem">Я</a>
-					<span class="menuSpace"></span>
-					<a href="#" class="menuItem"><i class="fa fa-download" aria-hidden="true"></i></a>
-					<a href="#" class="menuItem"><i class="fa fa-rss" aria-hidden="true"></i></a>
-				</div>
+	<body onload="init();">
+	<div class="center">
+		<div class="header">
+			<div class="topLogo"></div>
+			<div class="topMenuAdd">
+				<a href="#" class="topMenuItem" title="Файлы для скачивания"><i class="fa fa-download" aria-hidden="true"></i></a>
+				<a href="#" class="topMenuItem" title="Подписаться на RSS"><i class="fa fa-rss" aria-hidden="true"></i></a>
 			</div>
-			<div class="avatar"></div>
-			<div class="content">
-				<div class="message">
-					<div class="messageHeader"><span class="date">28  ноября  2017</span><i class="fa fa-star" aria-hidden="true"></i>[RMMV] Запускаем проект в браузере</div>
-					<div class="messageImage"><img src="images.posts/test.jpg" /><div class="messageImageOver"><img src="images/msg_image_over.png" /></div></div>
-					<div class="messageContent">
-						<p>Обновление от 02.02.2017: Спешу вам сообщить, что начиная с 31 августа 2015 года поддержка доступа к google disk как web-сервису (описанного в данной статье) более не доступна: «Beginning August 31, 2015, web hosting in Google Drive for users and developers will be deprecated. Google Apps customers can continue to use this feature for a period of one year until August 31, 2016, when serving content via googledrive.com/host/doc id will be discontinued.»</p>
-						<p>Всем привет и сегодняшний мини-урок мне бы хотелось посвятить запуску нашей игры созданной с помощью RPG Maker MV в браузере.</p>
-					</div>
-					<div class="messageContentBottom"></div>
-					<div class="messageContinue">
-						<a href="#">Далее &gt;&gt;</a>
-					</div>
-				</div>
-				<div class="message">
-					<div class="messageHeader"><span class="date">28  ноября  2017</span><i class="fa fa-star" aria-hidden="true"></i>[RMMV] Запускаем проект в браузере</div>
-					<div class="messageImage"><img src="images.posts/test.jpg" /><div class="messageImageOver"><img src="images/msg_image_over.png" /></div></div>
-					<div class="messageContent">
-						<p>Обновление от 02.02.2017: Спешу вам сообщить, что начиная с 31 августа 2015 года поддержка доступа к google disk как web-сервису (описанного в данной статье) более не доступна: «Beginning August 31, 2015, web hosting in Google Drive for users and developers will be deprecated. Google Apps customers can continue to use this feature for a period of one year until August 31, 2016, when serving content via googledrive.com/host/doc id will be discontinued.»</p>
-						<p>Всем привет и сегодняшний мини-урок мне бы хотелось посвятить запуску нашей игры созданной с помощью RPG Maker MV в браузере.</p>
-					</div>
-					<div class="messageContentBottom"></div>
-					<div class="messageContinue">
-						<a href="#">Далее &gt;&gt;</a>
-					</div>
-				</div>
-				<div class="message">
-					<div class="messageHeader"><span class="date">28  ноября  2017</span><i class="fa fa-star" aria-hidden="true"></i>[RMMV] Запускаем проект в браузере</div>
-					<div class="messageImage"><img src="images.posts/test.jpg" /><div class="messageImageOver"><img src="images/msg_image_over.png" /></div></div>
-					<div class="messageContent">
-						<p>Обновление от 02.02.2017: Спешу вам сообщить, что начиная с 31 августа 2015 года поддержка доступа к google disk как web-сервису (описанного в данной статье) более не доступна: «Beginning August 31, 2015, web hosting in Google Drive for users and developers will be deprecated. Google Apps customers can continue to use this feature for a period of one year until August 31, 2016, when serving content via googledrive.com/host/doc id will be discontinued.»</p>
-						<p>Всем привет и сегодняшний мини-урок мне бы хотелось посвятить запуску нашей игры созданной с помощью RPG Maker MV в браузере.</p>
-					</div>
-					<div class="messageContentBottom"></div>
-					<div class="messageContinue">
-						<a href="#">Далее &gt;&gt;</a>
-					</div>
-				</div>
-			</div>
-			<div class="copy">2017 &copy; Mur Laboratory</div>
 		</div>
-	</body>
+
+		<div id="navbar" class="topMenu">
+			<div class="topMenuLeft"></div>
+			<div class="topMenuCenter">
+				<span class="topMenuSpace">&nbsp;</span>
+				<span><a href="#" class="topMenuItem active"><i class="fa fa-paw" aria-hidden="true"></i><br>Блог</a></span>
+				<span><a href="#" class="topMenuItem"><i class="fa fa-pencil" aria-hidden="true"></i><br>Графика</a></span>
+				<span><a href="#" class="topMenuItem"><i class="fa fa-code" aria-hidden="true"></i><br>Разное</a></span>
+				<span><a href="#" class="topMenuItem"><i class="fa fa-diamond" aria-hidden="true"></i><br>RPG Maker</a></span>
+				<span><a href="#" class="topMenuItem"><i class="fa fa-cogs" aria-hidden="true"></i><br>Godot</a></span>
+				<span><a href="#" class="topMenuItem"><i class="fa fa-github-alt" aria-hidden="true"></i><br>Мур?</a></span>
+			</div>
+			<div class="topMenuRight"></div>
+			<div class="topMenuAvatar"></div>
+			<div class="popupMenu">
+				<input id="popupMenuInput" type="checkbox" name="menu"/>
+				<label id="popupMenuLabel" for="popupMenuInput"><span class="fa fa-bars topMenuIcon" aria-hidden="true"></span></label>
+				<ul class="menu">
+					<li><a href="#" class="popupMenuItem active"><i class="fa fa-paw" aria-hidden="true"></i>Блог</a></li>
+					<li><a href="#" class="popupMenuItem"><i class="fa fa-pencil" aria-hidden="true"></i>Графика</a></li>
+					<li><a href="#" class="popupMenuItem"><i class="fa fa-code" aria-hidden="true"></i>Разное</a></li>
+					<li><a href="#" class="popupMenuItem"><i class="fa fa-diamond" aria-hidden="true"></i>RPG Maker</a></li>
+					<li><a href="#" class="popupMenuItem"><i class="fa fa-cogs" aria-hidden="true"></i>Godot</a></li>
+					<li><a href="#" class="popupMenuItem"><i class="fa fa-github-alt" aria-hidden="true"></i>Мур?</a></li>
+					<li><div class="popupMenuLine"></div></li>
+					<li><a href="#" class="popupMenuItem"><i class="fa fa-cloud-download" aria-hidden="true"></i> Cкачать файлы</a></li>
+					<li><a href="#" class="popupMenuItem"><i class="fa fa-rss" aria-hidden="true"></i> RSS лента</a></li>
+				</ul>
+			</div>
+		</div>
+
+		<div class="content">
+			
+			<div class="post">
+				<div class="postHeader">
+					<div class="postStar"><i class="fa fa-star-o" aria-hidden="true"></i></div>
+					<div class="postDate">3 декабря 2017</div>
+					<div class="postTitle">[RMMV] Запускаем проект в браузере</div>
+				</div>
+				<div class="postContent">
+					<div class="postImage">
+						<img src="images.posts/test.jpg" />
+					</div>
+					<div class="postBody">
+						<p>Обновление от 02.02.2017: Спешу вам сообщить, что начиная с 31 августа 2015 года поддержка доступа к google disk как web-сервису (описанного в данной статье) более не доступна: «Beginning August 31, 2015, web hosting in Google Drive for users and developers will be deprecated. Google Apps customers can continue to use this feature for a period of one year until August 31, 2016, when serving content via googledrive.com/host/doc id will be discontinued.»</p>
+						<p>Всем привет и сегодняшний мини-урок мне бы хотелось посвятить запуску нашей игры созданной с помощью RPG Maker MV в браузере.</p>
+					</div>
+					<div class="postEnd">
+						<div class="postEndLineStart"></div>
+						<div class="postEndCont"><a href="#">Далее…</a></div>
+						<div class="postEndLineFinish"></div>
+					</div>
+				</div>
+			</div>
+						
+			<div class="post">
+				<div class="postHeader">
+					<div class="postStar"><i class="fa fa-star-o" aria-hidden="true"></i></div>
+					<div class="postDate">3 декабря 2017</div>
+					<div class="postTitle">[RMMV] Запускаем проект в браузере</div>
+				</div>
+				<div class="postContent">
+					<div class="postImage">
+						<img src="images.posts/test.jpg" />
+					</div>
+					<div class="postBody">
+						<p>Обновление от 02.02.2017: Спешу вам сообщить, что начиная с 31 августа 2015 года поддержка доступа к google disk как web-сервису (описанного в данной статье) более не доступна: «Beginning August 31, 2015, web hosting in Google Drive for users and developers will be deprecated. Google Apps customers can continue to use this feature for a period of one year until August 31, 2016, when serving content via googledrive.com/host/doc id will be discontinued.»</p>
+						<p>Всем привет и сегодняшний мини-урок мне бы хотелось посвятить запуску нашей игры созданной с помощью RPG Maker MV в браузере.</p>
+					</div>
+					<div class="postEnd">
+						<div class="postEndLineStart"></div>
+						<div class="postEndCont"><a href="#">Далее…</a></div>
+						<div class="postEndLineFinish"></div>
+					</div>
+				</div>
+			</div>
+
+			<div class="post">
+				<div class="postHeader">
+					<div class="postStar"><i class="fa fa-star-o" aria-hidden="true"></i></div>
+					<div class="postDate">3 декабря 2017</div>
+					<div class="postTitle">[RMMV] Запускаем проект в браузере</div>
+				</div>
+				<div class="postContent">
+					<div class="postImage">
+						<img src="images.posts/test.jpg" />
+					</div>
+					<div class="postBody">
+						<p>Обновление от 02.02.2017: Спешу вам сообщить, что начиная с 31 августа 2015 года поддержка доступа к google disk как web-сервису (описанного в данной статье) более не доступна: «Beginning August 31, 2015, web hosting in Google Drive for users and developers will be deprecated. Google Apps customers can continue to use this feature for a period of one year until August 31, 2016, when serving content via googledrive.com/host/doc id will be discontinued.»</p>
+						<p>Всем привет и сегодняшний мини-урок мне бы хотелось посвятить запуску нашей игры созданной с помощью RPG Maker MV в браузере.</p>
+					</div>
+					<div class="postEnd">
+						<div class="postEndLineStart"></div>
+						<div class="postEndCont"><a href="#">Далее…</a></div>
+						<div class="postEndLineFinish"></div>
+					</div>
+				</div>
+			</div>
+			
+
+
+		</div>
+
+	</div>
+	<div class="centerEnd"><div></div></div>
+	<div class="footer">2014, 2017 &copy; Mur Laboratory</div>
+</body>
 </html>

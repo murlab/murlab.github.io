@@ -1,15 +1,23 @@
-@import url(https://fonts.googleapis.com/css?family=Lato:700);
+@import url(https://fonts.googleapis.com/css?family=Ubuntu+Mono);
+@import url(https://fonts.googleapis.com/css?family=Rubik);
 
 body {
 	margin: 0;
 	padding: 0;
-	font-family: "Helvetica Neue", Arial, sans-serif;
+	font-family: Rubik, sans-serif;
+	/*font-family: Ubuntu, 'Helvetica Neue', Arial, sans-serif;*/
 	/*font-family: 'Lato', Arial, sans-serif;*/
 	font-size: 18px;
+	line-height: 26px;
 	background-color: #5a6988;
 	background: url(../images/body_left_bg.jpg) no-repeat, 
 				url(../images/body_right_bg.jpg) 100% 0 no-repeat;
 	background-attachment: fixed;
+}
+
+code {
+	font-size: 18px;
+	font-family: 'Ubuntu Mono', monospace;
 }
 
 img {
@@ -19,6 +27,14 @@ img {
     display: block;
     margin: 0px;
     padding: 0px;
+}
+
+a {
+	color: #fff;
+}
+
+a:hover {
+	color: orange;
 }
 
 .center, .centerEnd {
@@ -222,7 +238,7 @@ img {
 }
 #popupMenuInput{ display:none; }
 #popupMenuInput:checked ~ ul.menu{
-	max-height: 300px;
+	max-height: 500px;
 	transition: max-height 0.5s ease-in;
 }
 ul.menu{
@@ -256,13 +272,14 @@ ul.menu li a:hover{
 	background: linear-gradient(to right, #384154, rgba(0,0,0,0));
 	border-radius: 10px 0 0 10px;
 	height: 40px;
+	line-height: 18px;
 }
 .postStar {
 	color: #ff959a;
-	font-size: 30px;
+	font-size: 24px;
 	float: left;
 	border-right: 3px solid #48556e;
-	padding: 3px 4px 0 7px;
+	padding: 6px 4px 0 7px;
 	width: 30px;
 	height: 40px;
 	margin: 0;
@@ -286,6 +303,13 @@ ul.menu li a:hover{
 	overflow: hidden;
 	text-overflow: ellipsis;
 }
+.postTitle a {
+	color: #fff;
+	text-decoration: none;
+}
+.postTitle a:hover {
+	color: orange;
+}
 .postContent {
 	margin: 0 auto;
 }
@@ -307,6 +331,7 @@ ul.menu li a:hover{
 .postBody {
 	color: #fff;
 	margin: -10px 6px 0 44px;
+	width: 850px;
 }
 .postEnd {
 	clear: both;
@@ -350,10 +375,58 @@ ul.menu li a:hover{
 	text-shadow: 0.5px 0.5px 1px rgba(0,0,0,0.8);
 }
 
+.postTags {
+	clear: both;
+	font-size: 16px;
+}
+.postTag {
+	float: left;
+	margin-right: 10px;
+}
+
+.postsNavigator {
+	width: 100%;
+	text-align: center;
+	font-family: 'Upheaval Pro';
+	font-size: 20px;
+	color: #fff;
+}
+
+.postsNavigatorDisabled {
+	color: #384154;
+}
+
+.listHeader {
+	font-size: 20px;
+	color: #9bd1ff;
+	background: linear-gradient(to right, #384154, rgba(0,0,0,0));
+	padding: 3px 0 0 5px;
+	height: 30px;
+	font-weight: bold;
+}
+.listItem {
+	margin-left: 20px;
+}
+.listItem i {
+	width: 32px;
+	float: left;
+	padding-top: 3px;
+	text-align: center;
+}
+.imgLeft {
+	float: left;
+	padding: 10px 15px 0px 5px;
+}
+.imgRight {
+	float: right;
+	padding: 10px 5px 0px 15px;
+}
+
 @media (max-width: 720px) {
 	.postBody {
 		color: #fff;
 		margin: -10px 0 0 0;
+		width: 100%;
 	}
 	.postEndLineFinish {
 		width: 175px;
@@ -364,6 +437,7 @@ ul.menu li a:hover{
 	.postBody {
 		color: #fff;
 		margin: -10px 0 0 0;
+		width: 100%;
 	}
 	.postEndLineFinish {
 		width: 135px;
@@ -371,9 +445,19 @@ ul.menu li a:hover{
 	.postImage::after {
 		background: none;
 	}
+	.imgLeft, .imgRight {
+		padding: 0;
+		float: none;
+		margin: 0 auto;
+	}
 }
 
 @media (max-width: 767px) {
+	.postBody {
+		color: #fff;
+		margin: 0;
+		width: 100%;
+	}
 	.topMenuItem {
 		display: none;
 	}
@@ -383,5 +467,6 @@ ul.menu li a:hover{
 	.postBody {
 		color: #fff;
 		margin: -10px 0 0 0;
+		width: 100%;
 	}
 }

@@ -10,9 +10,12 @@ body {
 	font-size: 18px;
 	line-height: 26px;
 	background-color: #5a6988;
-	background: url(../images/body_left_bg.jpg) no-repeat, 
-				url(../images/body_right_bg.jpg) 100% 0 no-repeat;
+	background-image: url("../images/body_left_bg.jpg"), url("../images/body_right_bg.jpg");
+	background-repeat: no-repeat, no-repeat;
+	background-position-x: 0%, 100%;
+	background-position-y: 0%, 0px;
 	background-attachment: fixed;
+	overflow-x: hidden;
 }
 
 code {
@@ -228,7 +231,7 @@ a:hover {
 #popupMenuLabel:hover,
 #popupMenuInput:checked ~ #popupMenuLabel{
 	color: orange;
-	background: rgba(0, 0, 0, 0.5);
+	background: rgba(55, 65, 84, 0.9);
 }
 
 #popupMenuInput:checked ~ #popupMenuLabel:after{
@@ -247,7 +250,7 @@ ul.menu{
 	margin: 0;
 	overflow: hidden;
 	list-style-type:none;
-	background: rgba(0, 0, 0, 0.5);
+	background: rgba(55, 65, 84, 0.9);
 	transition: max-height 0.5s ease-out;
 	position: absolute;
 	min-width:100%;
@@ -468,5 +471,13 @@ ul.menu li a:hover{
 		color: #fff;
 		margin: -10px 0 0 0;
 		width: 100%;
+	}
+}
+
+@media (min-width: 1921px) {
+	body {
+		background-image: url("../images/body_4k_uhd.jpg");
+		background-position-x: 50%;
+		background-position-y: 0;
 	}
 }

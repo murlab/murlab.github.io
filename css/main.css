@@ -424,6 +424,11 @@ ul.menu li a:hover{
 	float: right;
 	padding: 10px 5px 0px 15px;
 }
+.imgCenter {
+	padding: 0;
+	float: none;
+	margin: 0 auto;
+}
 
 @media (max-width: 720px) {
 	.postBody {

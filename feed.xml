@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.6.2">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" /><updated>2017-12-08T17:35:34+03:00</updated><id>/</id><title type="html">Mur Laboratory</title><subtitle>Обожаю сладкое, аниме и игры. Так же пытаюсь делать свои с помощью RPG Maker и Godot. Иногда рисую, да,… (ღ˘⌣˘ღ)</subtitle><entry><title type="html">Godot the begining</title><link href="/blog/Godot%20the%20begining/" rel="alternate" type="text/html" title="Godot the begining" /><published>2017-12-08T13:00:00+03:00</published><updated>2017-12-08T13:00:00+03:00</updated><id>/blog/Godot%20the%20begining</id><content type="html" xml:base="/blog/Godot%20the%20begining/">&lt;p&gt;Где-то примерно в середине лета мне предложили изучить такую интересную штуку как «&lt;a href=&quot;https://godotengine.org/&quot;&gt;Godot Engine&lt;/a&gt;», тем более, что она доступна бесплатно и есть даже в &lt;a href=&quot;http://store.steampowered.com/app/404790/Godot_Engine/&quot;&gt;Steam&lt;/a&gt;.&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.6.2">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" /><updated>2017-12-10T22:21:10+03:00</updated><id>/</id><title type="html">Mur Laboratory</title><subtitle>Обожаю сладкое, аниме и игры. Так же пытаюсь делать свои с помощью RPG Maker и Godot. Иногда рисую, да,… (ღ˘⌣˘ღ)</subtitle><entry><title type="html">Godot the begining</title><link href="/blog/Godot%20the%20begining/" rel="alternate" type="text/html" title="Godot the begining" /><published>2017-12-08T13:00:00+03:00</published><updated>2017-12-08T13:00:00+03:00</updated><id>/blog/Godot%20the%20begining</id><content type="html" xml:base="/blog/Godot%20the%20begining/">&lt;p&gt;Где-то примерно в середине лета мне предложили изучить такую интересную штуку как «&lt;a href=&quot;https://godotengine.org/&quot;&gt;Godot Engine&lt;/a&gt;», тем более, что она доступна бесплатно и есть даже в &lt;a href=&quot;http://store.steampowered.com/app/404790/Godot_Engine/&quot;&gt;Steam&lt;/a&gt;.&lt;/p&gt;
 
 &lt;p&gt;В отличии от того же RPG Maker, Godot это уже серьёзная система или как говорят «движок». Он разрабатывается сообществом Godot Engine Community и использовался внутри некоторых компаний Латинской Америки.&lt;/p&gt;
 
@@ -26,7 +26,7 @@
 
 &lt;p&gt;&lt;img src=&quot;/images.posts/2017-12-08/Godot the begining/the_one_prototype.png&quot; class=&quot;imgCenter&quot; /&gt;&lt;/p&gt;
 
-&lt;p&gt;К сожалению, в сети не так много русскоязычной информации на тему Godot, поэтому пришлось штудировать уроки на &lt;a href=&quot;https://www.youtube.com/watch?v=UWB-HVFxEpU&amp;amp;list=PLS9MbmO_ssyAXRl-_ktrebQBFxjSQt7UX&quot;&gt;youtube&lt;/a&gt;. Впрочем, если вы неплохо понимаете английский и тем более программируете, это не плохо поможет в предмете вопроса.&lt;/p&gt;
+&lt;p&gt;К сожалению, в сети не так много русскоязычной информации на тему Godot, поэтому пришлось штудировать уроки на англоязычном &lt;a href=&quot;https://www.youtube.com/watch?v=UWB-HVFxEpU&amp;amp;list=PLS9MbmO_ssyAXRl-_ktrebQBFxjSQt7UX&quot;&gt;youtube&lt;/a&gt;. Впрочем, если вы неплохо понимаете английский и тем более программируете, это быстро  поможет разобраться в предмете вопроса.&lt;/p&gt;
 
 &lt;p&gt;Первая «бродилка» получилась достаточно быстро. Единственным неприятным моментом, стал встроенный редактор тайлов и собственно сам редактор карты. Плюс, по умолчанию, godot сглаживает загружаемую графику и весь мой pixelart, как говорится, «поплыл».  К счастью этот режим оказался отключаемым:&lt;/p&gt;
 
@@ -40,7 +40,7 @@
 &lt;iframe src=&quot;https://player.vimeo.com/video/224664631&quot; width=&quot;850&quot; height=&quot;498&quot; frameborder=&quot;0&quot; webkitallowfullscreen=&quot;&quot; mozallowfullscreen=&quot;&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
 &lt;p&gt;После реализации сообщений, встал вопрос о том, что надо как реализовать взаимодействие с окружающими нас предметами. Мне захотелось немного расширить банальную систему «тыкнись — получи сообщение» как в RPG Maker.&lt;/p&gt;
 
-&lt;p&gt;То, что &lt;a href=&quot;https://vimeo.com/224771248&quot;&gt;получилось в итоге&lt;/a&gt; уже более походило на систему в квестовых играх. По задумке, взаимодействовать с любым предметом можно четырьмя способами: говорить(спросить), ударить(пнуть), осмотреть и сделать(взаимодействие).&lt;/p&gt;
+&lt;p&gt;То, что &lt;a href=&quot;https://vimeo.com/224771248&quot;&gt;получилось в итоге&lt;/a&gt; уже более менее походило на систему в квестовых играх. По задумке, взаимодействовать с любым предметом можно четырьмя способами: говорить(спросить), ударить(пнуть), осмотреть и сделать(взаимодействие).&lt;/p&gt;
 
 &lt;p&gt;Далее был добавлен ещё один компонент «eventbox», по аналогии с «event» в RPG Maker. У него так же появилось несколько «шагов», по которым можно двигаться, и проект стал вырисовываться уже в более-менее что-то интересное:&lt;/p&gt;
 
@@ -69,7 +69,7 @@
 
 &lt;p&gt;&lt;img src=&quot;/images.posts/2017-12-08/Godot the begining/player.png&quot; class=&quot;imgRight&quot; /&gt;Поэтому пришлось искать альтернативу. Взор упал на вариант слямзить кадры из RPG Maker XP.&lt;/p&gt;
 
-&lt;p&gt;К сожалению реализация анимации в 4 кадра не сильно помогла. Там были всё же «чибики», хотя немного перерисовал персонажа, удалось добиться более-менее вменяемой внешности.&lt;/p&gt;
+&lt;p&gt;К сожалению реализация анимации в 4 кадра не сильно помогла. Там были всё же «чибики», хотя немного перерисовав персонажа, мне удалось добиться более-менее вменяемой внешности.&lt;/p&gt;
 
 &lt;p&gt;Но тут встал другой вопрос, с анимацией ног во время перемещения вверх и вниз. Стало понятно, почему авторы RPG Maker склонялись к идее «чибиков». Рисовать при этом меньше, ног практически не видно и перемещение не выглядит столь корявым.&lt;/p&gt;
 

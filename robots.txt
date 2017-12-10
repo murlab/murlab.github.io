@@ -1,1 +1,1 @@
-Sitemap: /sitemap.xml
+Sitemap: https://murlab.github.io/sitemap.xml

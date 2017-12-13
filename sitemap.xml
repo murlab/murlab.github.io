@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url>
+<loc>https://murlab.github.io/blog/Vsem%20privet!/</loc>
+<lastmod>2015-11-05T23:59:59+03:00</lastmod>
+</url>
+<url>
 <loc>https://murlab.github.io/blog/Let's%20GO!!/</loc>
 <lastmod>2017-12-06T23:59:59+03:00</lastmod>
 </url>
@@ -52,6 +56,15 @@
 <loc>https://murlab.github.io/godot/1/</loc>
 </url>
 <url>
+<loc>https://murlab.github.io/archive/1/</loc>
+</url>
+<url>
+<loc>https://murlab.github.io/tags/archive/</loc>
+</url>
+<url>
+<loc>https://murlab.github.io/tags/story/</loc>
+</url>
+<url>
 <loc>https://murlab.github.io/tags/web/</loc>
 </url>
 <url>
@@ -71,9 +84,6 @@
 </url>
 <url>
 <loc>https://murlab.github.io/tags/the%20one%20prototype/</loc>
-</url>
-<url>
-<loc>https://murlab.github.io/tags/story/</loc>
 </url>
 <url>
 <loc>https://murlab.github.io/tags/octobit/</loc>

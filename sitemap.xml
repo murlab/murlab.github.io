@@ -2,7 +2,11 @@
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url>
 <loc>https://murlab.github.io/blog/Vsem%20privet!/</loc>
-<lastmod>2015-11-05T23:59:59+03:00</lastmod>
+<lastmod>2015-11-05T00:00:00+03:00</lastmod>
+</url>
+<url>
+<loc>https://murlab.github.io/blog/Pishem%20svoj%20pervyj%20plagin%20dla%20RPG%20Maker%20MV/</loc>
+<lastmod>2015-11-05T01:00:00+03:00</lastmod>
 </url>
 <url>
 <loc>https://murlab.github.io/blog/Let's%20GO!!/</loc>
@@ -53,6 +57,9 @@
 <loc>https://murlab.github.io/graphics/1/</loc>
 </url>
 <url>
+<loc>https://murlab.github.io/rpg_maker/1/</loc>
+</url>
+<url>
 <loc>https://murlab.github.io/godot/1/</loc>
 </url>
 <url>
@@ -63,6 +70,12 @@
 </url>
 <url>
 <loc>https://murlab.github.io/tags/story/</loc>
+</url>
+<url>
+<loc>https://murlab.github.io/tags/rpg%20maker%20mv/</loc>
+</url>
+<url>
+<loc>https://murlab.github.io/tags/plugins/</loc>
 </url>
 <url>
 <loc>https://murlab.github.io/tags/web/</loc>

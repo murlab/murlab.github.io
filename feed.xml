@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.6.2">Jekyll</generator><link href="https://murlab.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://murlab.github.io/" rel="alternate" type="text/html" /><updated>2017-12-13T15:45:07+03:00</updated><id>https://murlab.github.io/</id><title type="html">Mur Laboratory</title><subtitle>Обожаю сладкое, аниме и игры. Так же пытаюсь делать свои с помощью RPG Maker и Godot. Иногда рисую, да,… (ღ˘⌣˘ღ)</subtitle><entry><title type="html">October, Inktober, 8bit… Octobit!</title><link href="https://murlab.github.io/blog/October,%20Inktober,%208bit...%20Octobit!/" rel="alternate" type="text/html" title="October, Inktober, 8bit... Octobit!" /><published>2017-12-11T16:28:28+03:00</published><updated>2017-12-11T16:28:28+03:00</updated><id>https://murlab.github.io/blog/October,%20Inktober,%208bit...%20Octobit!</id><content type="html" xml:base="https://murlab.github.io/blog/October,%20Inktober,%208bit...%20Octobit!/">&lt;p&gt;Иногда на меня находит, и я люблю порисовать. Этой осенью так совпало, мне захотелось, а тут подоспел некоторый челендж или «вызов» (соревнование по русски).&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.6.2">Jekyll</generator><link href="https://murlab.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://murlab.github.io/" rel="alternate" type="text/html" /><updated>2017-12-13T23:26:16+03:00</updated><id>https://murlab.github.io/</id><title type="html">Mur Laboratory</title><subtitle>Обожаю сладкое, аниме и игры. Так же пытаюсь делать свои с помощью RPG Maker и Godot. Иногда рисую, да,… (ღ˘⌣˘ღ)</subtitle><entry><title type="html">October, Inktober, 8bit… Octobit!</title><link href="https://murlab.github.io/blog/October,%20Inktober,%208bit...%20Octobit!/" rel="alternate" type="text/html" title="October, Inktober, 8bit... Octobit!" /><published>2017-12-11T16:28:28+03:00</published><updated>2017-12-11T16:28:28+03:00</updated><id>https://murlab.github.io/blog/October,%20Inktober,%208bit...%20Octobit!</id><content type="html" xml:base="https://murlab.github.io/blog/October,%20Inktober,%208bit...%20Octobit!/">&lt;p&gt;Иногда на меня находит, и я люблю порисовать. Этой осенью так совпало, мне захотелось, а тут подоспел некоторый челендж или «вызов» (соревнование по русски).&lt;/p&gt;
 
 &lt;p&gt;Не для кого не секрет, что художник птица гордая, пока не пн,… гхм о чём это я. Ах да, оказывается уже не первый год, каждый октябрь происходит такое широкомасштабное мероприятие, как «&lt;a href=&quot;https://twitter.com/inktober&quot;&gt;Inktober&lt;/a&gt;».&lt;/p&gt;
 
@@ -259,7 +259,263 @@ end
 
 &lt;p&gt;Так же в нём есть ссылка на раздел с материалами для скачивания. Есть ещё раздел тегов, и список материалов с этими метками. Ну и конечно куда же современному сайту без RSS-ленты, конечно же не без помощи Jekyll. В общем много чего ещё интересного. Подписывайтесь и оставляйте отзывы.&lt;/p&gt;
 
-&lt;p&gt;Не прощаюсь, ещё увидимся.&lt;/p&gt;</content><author><name></name></author><category term="web" /><category term="blog" /><summary type="html">Как говаривал не безызвестный Чебурашка, «Мы строили, строили и наконец построили ;)</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://murlab.github.io/Let's%20GO!!/github_logo.png" /></entry><entry><title type="html">Всем привет!</title><link href="https://murlab.github.io/blog/Vsem%20privet!/" rel="alternate" type="text/html" title="Всем привет!" /><published>2015-11-05T23:59:59+03:00</published><updated>2015-11-05T23:59:59+03:00</updated><id>https://murlab.github.io/blog/Vsem%20privet!</id><content type="html" xml:base="https://murlab.github.io/blog/Vsem%20privet!/">&lt;p&gt;Всем привет и добро пожаловать в мой блог, посвященный редактору rpg maker и в частности разработке моей игрушки «Приключения нэки: кошачья деревня».&lt;/p&gt;
+&lt;p&gt;Не прощаюсь, ещё увидимся.&lt;/p&gt;</content><author><name></name></author><category term="web" /><category term="blog" /><summary type="html">Как говаривал не безызвестный Чебурашка, «Мы строили, строили и наконец построили ;)</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://murlab.github.io/Let's%20GO!!/github_logo.png" /></entry><entry><title type="html">Пишем свой первый плагин для RPG Maker MV</title><link href="https://murlab.github.io/blog/Pishem%20svoj%20pervyj%20plagin%20dla%20RPG%20Maker%20MV/" rel="alternate" type="text/html" title="Пишем свой первый плагин для RPG Maker MV" /><published>2015-11-05T01:00:00+03:00</published><updated>2015-11-05T01:00:00+03:00</updated><id>https://murlab.github.io/blog/%5BRMMV%5D%20Pishem%20svoj%20pervyj%20plagin</id><content type="html" xml:base="https://murlab.github.io/blog/Pishem%20svoj%20pervyj%20plagin%20dla%20RPG%20Maker%20MV/">&lt;p&gt;Всем доброй ночи.&lt;/p&gt;
+
+&lt;p&gt;Изначально урок писался для &lt;a href=&quot;http://rpgmaker.ru/forum/fakultet-skriptov/60680-rmmv-pishem-svoj-pervyj-plagin/&quot;&gt;светлой&lt;/a&gt;, но теперь думаю буду публиковать новые уроки сначала здесь.&lt;/p&gt;
+
+&lt;p&gt;Сегодня мой день был потрачен не зря, ибо мне удалось написать свой первый небольшой плагин для нового RPG Maker MV. Сразу скажу, что ни разу не профессионал, занимаюсь в свободное от кухни время и только-только разбираюсь во всём это безобразии&lt;/p&gt;
+
+&lt;!--break--&gt;
+
+&lt;p&gt;Хотя есть некоторый опыт скриптоковыряния VX Ace, что конечно же мне помог и тут. В любом случае спешу поделится своими изысканиями и надеюсь они будут ещё полезны кому-нибудь.&lt;/p&gt;
+
+&lt;p&gt;Начать мне хотелось бы с редактора. Как вы уже, наверное, заметили, в отличии от VX Ace в MV своего редактора нет. Скрипты лежат в открытом виде и можете спокойно их редактировать в любом текстовом редакторе. В одном из видеоуроков человек порекомендовал brackets. Опыта у меня не много в подобного рода редакторах, но мне понравился. Особенно очень удобно, когда начинаешь что-то писать, а тебе бац и сразу подсказки. Мелочь, а приятно. При желании можно выбрать удобную цветовую тему. Так что можете тоже попробовать &lt;a href=&quot;http://brackets.io/&quot;&gt;совершенно бесплатно&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images.posts/2015-11-05/Pishem svoj pervyj plagin dla RPG Maker MV/brackets.png&quot; class=&quot;imgCenter&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Для начала о том, что мы будем сегодня делать. Этот простой плагин рисует на экране небольшое окошко с иконкой и цифрой. Данные берутся из переменных (Variables) RPG Maker. А с помощью ключа (switch) можно включить или спрятать отображение данного окна. Теперь для чего? Например, NPC даёт герою задание, что нужно собрать 20 шишек. Понятно, что задание не сильно увеселительное, но можно игроку немного скрасить жизнь. Отображая, например, цифрами, сколько ему ещё осталось мучится. Выглядит это примерно так:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images.posts/2015-11-05/Pishem svoj pervyj plagin dla RPG Maker MV/screenshot_01.png&quot; class=&quot;imgCenter&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Для того, чтобы пользователь мог выбрать произвольные ячейки (Variables) и ключ (Switch) для отображения, мы выведем эти параметры в настройки нашего плагина. В принципе можно вынести и размер окна, и его положение на экране, но мне бы пока не хотелось так всё сразу запутывать.&lt;/p&gt;
+
+&lt;p&gt;Итак, создадим новый файл ItemOnMap.js в папке нашего проекта, а именно js\plugins. Этого уже достаточно, чтобы он уже появился в списке доступных плагинов, однако всё же стоит добавить его описание:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&quot;javascript&quot;&gt;//=============================================================================
+// ItemOnMap.js
+//=============================================================================
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Здесь название нашего файла. Не могу сказать, что это нужно наверняка, но во всех плагинах под MV примерно такое-же оформление. Возможно система поэтому определяет, что это именно наш плагин, а ни чей-нибудь ещё.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&quot;javascript&quot;&gt;/*:
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Открываем комментарий и описываем различные параметры:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&quot;javascript&quot;&gt;* @plugindesc отображает на экране количество предметов в ячейке
+* @author Mur
+*
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Далее указывается описание плагина (@plugindesc) и собственно кто автор (@author)&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&quot;javascript&quot;&gt;* @param enableSwitchId
+* @desc показать/скрыть (номер ключа)
+* @default 1
+*
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Затем следуют перечисления параметров нашего плагина. Тут надо быть очень внимательными, ибо эти название затем используются в скрипте. И если что-то напутать, ничего не получится. Один параметр состоит из трёх частей, собственно его названия @param (на английском языке и честно не знаю, можно ли писать на русском), описание данного параметра @desc (не знаю почему, но описание на русском не отображается) и значение по умолчанию @default. Данный параметр указывает какой ключ (switch) будет разрешать или запрещать отображение данного окошка.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&quot;javascript&quot;&gt;* @param itemVarId
+* @desc Иконка предмета (номер переменной)
+* @default 1
+*
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Здесь указывает номер переменной (Variable) в которой хранится номер предмета, который должен собирать наш главный герой. Иконка этого предмета и отображается в нашем окошке.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&quot;javascript&quot;&gt;* @param countVarId
+* @desc Количество предметов (номер переменной)
+* @default 2
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Ну и завершает это всё последний параметр, который так же указывает на номер переменной (Variable) в которой хранится количество собранных предметов.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&quot;javascript&quot;&gt;*/&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Закрываем комментарий и далее следует уже наш скрипт самого плагина.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&quot;javascript&quot;&gt;(function() {&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Такой строчкой начинаются почти все плагины, которая собственно и сообщает системе, что сейчас мы будет творить!&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&quot;javascript&quot;&gt;var parameters = PluginManager.parameters('ItemOnMap');
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Для начала нам нужно добраться до настроек нашего плагина. Не знаю, как это всё связано, но обратите внимание, что наш файл, первый кусочек и здесь название плагина везде одинаковое, в данном случае это «ItemOnMap».&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&quot;javascript&quot;&gt;var enableSwitchId = Number(parameters['enableSwitchId']);
+var itemVarId = Number(parameters['itemVarId']);
+var countVarId = Number(parameters['countVarId']);
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Здесь мы получаем значение наших параметров. Честно не знаю, зачем тут написано Number, но в других скриптах сделано так же, так что видимо так надо.&lt;/p&gt;
+
+&lt;p&gt;А так это выглядит, когда мы подключаем наш плагин:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images.posts/2015-11-05/Pishem svoj pervyj plagin dla RPG Maker MV/params.png&quot; class=&quot;imgCenter&quot; /&gt;&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&quot;javascript&quot;&gt;//Обновление всех окон
+var _Scene_Map_createAllWindows = Scene_Map.prototype.createAllWindows;
+Scene_Map.prototype.createAllWindows = function() {
+	_Scene_Map_createAllWindows.call(this);
+	this._itemOnMap = new ItemOnMap(10,10, 120, 60);
+	this.addWindow(this._itemOnMap);
+};
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Вот тут очень важный и сложный момент. Для того, чтобы наше окно постоянно отображалось. Нам нужно втиснутся в основную функцию создания всех окон (createAllWindows). Если вы писали скрипты (или хотя бы пытались что-то изменить в чужих, как я, например) под VX Ace, то наверняка заметили схожий приём. Когда главная функция системы подменялась на нашу, а потом вызывалась внутри с такими же параметрами. Ну не суть важно, я думаю если кому интересно он спросит у знатоков, а тут просто для пояснения.&lt;/p&gt;
+
+&lt;p&gt;Сначала создаём «копию» основной функции системы:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&quot;javascript&quot;&gt;var _Scene_Map_createAllWindows = Scene_Map.prototype.createAllWindows;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Затем заменяем её уже своей функцией:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&quot;javascript&quot;&gt;Scene_Map.prototype.createAllWindows = function() {
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;внутри которой вызываем настоящую, что бы ничего не поломалось:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&quot;javascript&quot;&gt;	_Scene_Map_createAllWindows.call(this);
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;И затем уже добавляем создание нашего окошка:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&quot;javascript&quot;&gt;	this._itemOnMap = new ItemOnMap(10,10, 120, 60);
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Первые два числа — это координаты где на экране будет наше окно, а два другие его соответственно ширина и высота.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&quot;javascript&quot;&gt;	this.addWindow(this._itemOnMap);
+}
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Затем это окно добавляется в систему и далее собственно уже функции нашего окна:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&quot;javascript&quot;&gt;function ItemOnMap() {
+	this.initialize.apply(this, arguments);
+}
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Честно скажу, назначение этого кусочка мне до конца не ясно. Однако сразу скажу, что без него не работает и кроме того опять же очень важно название — «ItemOnMap»!! Оно идёт везде одинаковое, ошибётесь на 1 букву будут ошибки.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&quot;javascript&quot;&gt;ItemOnMap.prototype = Object.create(Window_Base.prototype);
+ItemOnMap.prototype.constructor = ItemOnMap;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Дальше, если я правильно понимаю, копируются все параметры, свойства и собственно функции отрисовки системного окна в наш ItemOnMap. Дальше мы можем в нём менять всё что душе угодно, не боясь, что это отобразиться свойствах всех остальных окошек.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&quot;javascript&quot;&gt;ItemOnMap.prototype.standardPadding = function() {
+	return 0;
+};
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Например, вот, по умолчанию отступ у всех окон 18px. Для того что бы наш текст и иконка были видны его стоит задать равным 0.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&quot;javascript&quot;&gt;ItemOnMap.prototype.initialize = function(x, y, width, height) {
+Window_Base.prototype.initialize.call(this, x, y, width, height);
+	this._id = 1;
+};
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Далее, как я понимаю идёт инициализация нашего окна, с такими же параметрами как у главного.&lt;/p&gt;
+
+&lt;p&gt;Ну и самое интересное. Окно появилось, и остаётся только вывести в него информацию:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&quot;javascript&quot;&gt;ItemOnMap.prototype.update = function() {
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Для этого необходимо в функции update написать то, что мы хотим вывести в нашем окне.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&quot;javascript&quot;&gt;	this.contents.clear();
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Для начала его надо очистить, если этого не сделать всё будет накладываться друг на дружку и в конце концов будет выглядеть ужасно.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&quot;javascript&quot;&gt;	if ($gameSwitches.value(enableSwitchId)) {
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Далее мы проверяем, разрешено ли показывать наше окно, если да, то:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&quot;javascript&quot;&gt;		this.show();
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Покажем окно&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&quot;javascript&quot;&gt;		this.resetTextColor();
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Установим настройки (цвет, размер) текста по умолчанию&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&quot;javascript&quot;&gt;		var itemId = $gameVariables.value(itemVarId);
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Берём номер предмета, который нужно отобразить:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&quot;javascript&quot;&gt;		if (itemId == 0) {
+			itemId = 1;
+		}
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Проверяем, что бы он не был равен 0, иначе будет ошибка.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&quot;javascript&quot;&gt;		this.drawIcon($dataItems[itemId].iconIndex, 15, 15);
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Рисуем нашу иконку. $dataItems[itemId].iconIndex номер иконки предмета, и две последующие цифры это координаты x,y внутри нашего окна.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&quot;javascript&quot;&gt;		this.drawTextEx(&quot;:&quot; + $gameVariables.value(countVarId), 52, 15);
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Далее выводим наше число из переменной, и опять же два последующих числа это координаты x,y внутри нашего окна, но только уже для вывода текста.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&quot;javascript&quot;&gt;	} else {
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Если же показывать окно нельзя, то&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&quot;javascript&quot;&gt;		this.hide();
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Скроем его и закончим данную функцию.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&quot;javascript&quot;&gt;	}
+}
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Собственно, на этом всё, остаётся только не забыть закончить главную функцию плагина:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&quot;javascript&quot;&gt;})();
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Как видите ничего сложного почти нет. Хотя по правде говоря было очень непросто сходу разобраться со всем этим, и, если бы не потраченные дни предварительного разбирания и ковыряния VX Ace, мне бы не удалось это всё сделать так «быстро». Однако надо сказать огромное спасибо авторам, что так же как в VX Ace, RMMV название функций и переменных очень схожи, что конечно хоть и не сильно, но всё же упрощает написание плагинов под RMMV.&lt;/p&gt;
+
+&lt;p&gt;Если вдруг будут какие-то вопросы, постараюсь в меру своих сил ответить.&lt;/p&gt;
+
+&lt;p&gt;p.s. огромное спасибо всем, кто мне помогал и помогает разбираться с премудростями RPG Maker, как здесь на форуме, так и в нашем горячо любимом чатике. Как видите мои глупые вопросы наконец вылились во что-то если не серьёзное, так во что-то не плохое это точно.&lt;/p&gt;
+
+&lt;p&gt; Небольшое дополнение:&lt;/p&gt;
+&lt;div class=&quot;hline&quot;&gt;&lt;/div&gt;
+
+&lt;p&gt;Если необходимо, что бы окно так же отображалось во время боя, то для этого достаточно перед строчкой «function ItemOnMap() {»&lt;/p&gt;
+
+&lt;p&gt;Добавить, по аналогии с «_Scene_Map_createAllWindows»:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&quot;javascript&quot;&gt;//Обновление окон во время битвы
+var _Scene_Battle_createAllWindows = Scene_Battle.prototype.createAllWindows;
+Scene_Battle.prototype.createAllWindows = function() {
+	_Scene_Battle_createAllWindows.call(this);
+	this._itemOnMap = new ItemOnMap(10,10, 120, 60);
+	this.addWindow(this._itemOnMap);
+};
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Правда появятся небольшие проблемы:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images.posts/2015-11-05/Pishem svoj pervyj plagin dla RPG Maker MV/items_on_map.png&quot; class=&quot;imgCenter&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Наше окошко будет перекрывать системные сообщения о битве. Поэтому нужно указать где-то другое место.&lt;/p&gt;
+
+&lt;p&gt; Ссылки по теме:&lt;/p&gt;
+&lt;div class=&quot;hline&quot;&gt;&lt;/div&gt;
+&lt;ul&gt;
+  &lt;li&gt;Готовый &lt;a href=&quot;https://yadi.sk/d/j7MrpQHK3GZNun&quot;&gt;пример проекта&lt;/a&gt; с использованием вышеописанного плагина.&lt;/li&gt;
+  &lt;li&gt;Свежая версия скрипта &lt;a href=&quot;https://github.com/murlab/rpg-maker-mv-plugins/blob/master/examples/ItemOnMap.js&quot;&gt;ItemOnMap.js&lt;/a&gt; всегда доступна на github в разделе &lt;a href=&quot;https://github.com/murlab/rpg-maker-mv-plugins/blob/master/examples/&quot;&gt;примеров&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</content><author><name></name></author><category term="archive" /><category term="rpg maker mv" /><category term="plugins" /><category term="story" /><summary type="html">Всем доброй ночи.</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://murlab.github.io/Pishem%20svoj%20pervyj%20plagin%20dla%20RPG%20Maker%20MV/plugin_title.png" /></entry><entry><title type="html">Всем привет!</title><link href="https://murlab.github.io/blog/Vsem%20privet!/" rel="alternate" type="text/html" title="Всем привет!" /><published>2015-11-05T00:00:00+03:00</published><updated>2015-11-05T00:00:00+03:00</updated><id>https://murlab.github.io/blog/Vsem%20privet!</id><content type="html" xml:base="https://murlab.github.io/blog/Vsem%20privet!/">&lt;p&gt;Всем привет и добро пожаловать в мой блог, посвященный редактору rpg maker и в частности разработке моей игрушки «Приключения нэки: кошачья деревня».&lt;/p&gt;
 
 &lt;p&gt;Честно говоря, идея создать свой блог возникла спонтанно, после прочтения одной заметки о том, как создатели игры «&lt;a href=&quot;http://message-quest.com/&quot;&gt;Message Quest&lt;/a&gt;» проходили Greenlight.&lt;/p&gt;
 

@@ -1,4 +1,17 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.6.2">Jekyll</generator><link href="https://murlab.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://murlab.github.io/" rel="alternate" type="text/html" /><updated>2017-12-16T01:21:25+03:00</updated><id>https://murlab.github.io/</id><title type="html">Mur Laboratory</title><subtitle>Обожаю сладкое, аниме и игры. Так же пытаюсь делать свои с помощью RPG Maker и Godot. Иногда рисую, да,… (ღ˘⌣˘ღ)</subtitle><entry><title type="html">October, Inktober, 8bit… Octobit!</title><link href="https://murlab.github.io/blog/October,%20Inktober,%208bit...%20Octobit!/" rel="alternate" type="text/html" title="October, Inktober, 8bit... Octobit!" /><published>2017-12-11T16:28:28+03:00</published><updated>2017-12-11T16:28:28+03:00</updated><id>https://murlab.github.io/blog/October,%20Inktober,%208bit...%20Octobit!</id><content type="html" xml:base="https://murlab.github.io/blog/October,%20Inktober,%208bit...%20Octobit!/">&lt;p&gt;Иногда на меня находит, и я люблю порисовать. Этой осенью так совпало, мне захотелось, а тут подоспел некоторый челендж или «вызов» (соревнование по русски).&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.6.2">Jekyll</generator><link href="https://murlab.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://murlab.github.io/" rel="alternate" type="text/html" /><updated>2017-12-17T22:42:36+03:00</updated><id>https://murlab.github.io/</id><title type="html">Mur Laboratory</title><subtitle>Обожаю сладкое, аниме и игры. Так же пытаюсь делать свои с помощью RPG Maker и Godot. Иногда рисую, да,… (ღ˘⌣˘ღ)</subtitle><entry><title type="html">Архивация</title><link href="https://murlab.github.io/blog/Arhivacija/" rel="alternate" type="text/html" title="Архивация" /><published>2017-12-17T01:00:00+03:00</published><updated>2017-12-17T01:00:00+03:00</updated><id>https://murlab.github.io/blog/Arhivacija</id><content type="html" xml:base="https://murlab.github.io/blog/Arhivacija/">&lt;p&gt;Всем привет!&lt;/p&gt;
+
+&lt;p&gt;Итак, процесс архивации, или если быть точнее переезда завершен. В ходе переноса были подправленные некоторые ошибки, неточности и опечатки. Так, что здесь теперь более грамотная версия материала. Старый сайт я пока тоже удалять не стану.&lt;/p&gt;
+
+&lt;p&gt;Конечно записи за этот срок сильно устарели и по большей части представляют собой чисто историческую ценность, но тем не менее путь тоже тут побудут.&lt;/p&gt;
+
+&lt;p&gt;Если кому интересно, все старые записи можно найти в разделе «&lt;a href=&quot;/archive/&quot;&gt;Архив постов&lt;/a&gt;», ну или перейти прямо по ссылкам тут:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;/blog/Vsem%20privet!/&quot;&gt;Всем привет!&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;/blog/Pishem%20svoj%20pervyj%20plagin%20dla%20RPG%20Maker%20MV/&quot;&gt;Пишем свой первый плагин для RPG Maker MV&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;/blog/Pishem%20plagin%20dla%20otobrazhenia%20bolshih%20avatarok/&quot;&gt;Пишем плагин для отображения больших аватарок&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;/blog/Zapuskaem%20proekt%20v%20brauzere/&quot;&gt;Запускаем проект в браузере&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</content><author><name></name></author><category term="archive" /><summary type="html">Всем привет!</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://murlab.github.io/Arhivacija/book_title.png" /></entry><entry><title type="html">October, Inktober, 8bit… Octobit!</title><link href="https://murlab.github.io/blog/October,%20Inktober,%208bit...%20Octobit!/" rel="alternate" type="text/html" title="October, Inktober, 8bit... Octobit!" /><published>2017-12-11T16:28:28+03:00</published><updated>2017-12-11T16:28:28+03:00</updated><id>https://murlab.github.io/blog/October,%20Inktober,%208bit...%20Octobit!</id><content type="html" xml:base="https://murlab.github.io/blog/October,%20Inktober,%208bit...%20Octobit!/">&lt;p&gt;Иногда на меня находит, и я люблю порисовать. Этой осенью так совпало, мне захотелось, а тут подоспел некоторый челендж или «вызов» (соревнование по русски).&lt;/p&gt;
 
 &lt;p&gt;Не для кого не секрет, что художник птица гордая, пока не пн,… гхм о чём это я. Ах да, оказывается уже не первый год, каждый октябрь происходит такое широкомасштабное мероприятие, как «&lt;a href=&quot;https://twitter.com/inktober&quot;&gt;Inktober&lt;/a&gt;».&lt;/p&gt;
 
@@ -259,7 +272,102 @@ end
 
 &lt;p&gt;Так же в нём есть ссылка на раздел с материалами для скачивания. Есть ещё раздел тегов, и список материалов с этими метками. Ну и конечно куда же современному сайту без RSS-ленты, конечно же не без помощи Jekyll. В общем много чего ещё интересного. Подписывайтесь и оставляйте отзывы.&lt;/p&gt;
 
-&lt;p&gt;Не прощаюсь, ещё увидимся.&lt;/p&gt;</content><author><name></name></author><category term="web" /><category term="blog" /><summary type="html">Как говаривал не безызвестный Чебурашка, «Мы строили, строили и наконец построили ;)</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://murlab.github.io/Let's%20GO!!/github_logo.png" /></entry><entry><title type="html">Пишем плагин для отображения больших аватарок</title><link href="https://murlab.github.io/blog/Pishem%20plagin%20dla%20otobrazhenia%20bolshih%20avatarok/" rel="alternate" type="text/html" title="Пишем плагин для отображения больших аватарок" /><published>2015-11-05T02:00:00+03:00</published><updated>2015-11-05T02:00:00+03:00</updated><id>https://murlab.github.io/blog/Pishem%20plagin%20dla%20otobrazhenia%20bolshih%20avatarok</id><content type="html" xml:base="https://murlab.github.io/blog/Pishem%20plagin%20dla%20otobrazhenia%20bolshih%20avatarok/">&lt;p&gt;Всем привет!&lt;/p&gt;
+&lt;p&gt;Не прощаюсь, ещё увидимся.&lt;/p&gt;</content><author><name></name></author><category term="web" /><category term="blog" /><summary type="html">Как говаривал не безызвестный Чебурашка, «Мы строили, строили и наконец построили ;)</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://murlab.github.io/Let's%20GO!!/github_logo.png" /></entry><entry><title type="html">Запускаем проект в браузере</title><link href="https://murlab.github.io/blog/Zapuskaem%20proekt%20v%20brauzere/" rel="alternate" type="text/html" title="Запускаем проект в браузере" /><published>2015-11-06T01:00:00+03:00</published><updated>2015-11-06T01:00:00+03:00</updated><id>https://murlab.github.io/blog/Zapuskaem%20proekt%20v%20brauzere</id><content type="html" xml:base="https://murlab.github.io/blog/Zapuskaem%20proekt%20v%20brauzere/">&lt;p&gt;&lt;strong&gt;Обновление от 2 февраля 2017 года&lt;/strong&gt;:&lt;/p&gt;
+
+&lt;div class=&quot;warning&quot;&gt;&lt;i class=&quot;fa fa-exclamation-triangle&quot; aria-hidden=&quot;true&quot;&gt;&lt;/i&gt;
+Спешу вам сообщить, что, начиная с 31 августа 2015 года поддержка доступа к google disk как web-сервису (описанного в данной статье) более не доступна.&lt;/div&gt;
+
+&lt;p&gt;«&lt;em&gt;Beginning August 31, 2015, web hosting in Google Drive for users and developers will be deprecated. Google Apps customers can continue to use this feature for a period of one year until August 31, 2016, when serving content via googledrive.com/host/doc id will be discontinued.&lt;/em&gt;»&lt;/p&gt;
+
+&lt;!--break--&gt;
+
+&lt;p&gt;Всем привет!&lt;/p&gt;
+
+&lt;p&gt;Сегодняшний мини-урок мне бы хотелось посвятить запуску нашей игры, созданной с помощью RPG Maker MV в браузере.&lt;/p&gt;
+
+&lt;p&gt;Для чего это может понадобится? Ну помимо того, что вы можете просто показать друзьям, можно, например, сделать демоверсию и разместить у себя на сайте для привлечения внимания. Возможно вы захотите разместить игру во «ВКонтакте». Но самое интересное, если у вас есть команда поддержки (бетатестеры) они оперативно могут видеть новые версии, играть и сообщать о всех найденных ошибках и недочётах.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images.posts/2015-11-06/Zapuskaem proekt v brauzere/1.png&quot; class=&quot;imgCenter&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Но как нам это сделать? Ведь в документации RPG Maker MV говорится о сложных манипуляциях с установкой и запуском локального сервера, или же для размещения в сети, потребуется свой. На самом деле не всё так страшно как кажется на первый взгляд, и ничего ставить не придётся. Собственно, об этом мне бы и хотелось сегодня поговорить.&lt;/p&gt;
+
+&lt;p&gt;Не так давно, один знакомый поделился ссылкой на интересную статью, о том, как разместить свою игру на HTML5 во «Вконтакте». Прочитав её, мне пришла мысль, а применимо ли это к нашему проекту? И как вы уже догадались у меня всё получилось, с чем я и спешу поделится с вами.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images.posts/2015-11-06/Zapuskaem proekt v brauzere/2.jpg&quot; class=&quot;imgCenter&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Как вы уже, наверное, заметили, проект для RMMV представляет собой кучу различных файлов в текстовом виде. Не буду углубляться в подробности, но нас интересует главный файл index.html Но если мы попытаемся его открыть в браузере, то получим сообщение об ошибке.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images.posts/2015-11-06/Zapuskaem proekt v brauzere/3.jpg&quot; class=&quot;imgCenter&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;К сожалению, библиотеки RPG Maker MV написаны таким образом, что не могут работать локально, так что же делать? Умные люди уже всё придумали за нас и нам на помощь спешит,… нет не мистер Пропер :) а гугл драйв.&lt;/p&gt;
+
+&lt;p&gt;Если вы ещё не зарегистрированы в таких сервисах гугл, gmail или youtube настоятельно рекомендую это сделать, а всем остальным перейти непосредственно к настройкам в &lt;a href=&quot;https://drive.google.com/&quot;&gt;google drive&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Для того что бы наш проект был доступен всем в интернете нам необходимо создать папку и выставить к ней доступ.&lt;/p&gt;
+
+&lt;p&gt;Создадим папку «www». В принципе вы можете назвать её как угодно, на дальнейших настройках это никак не скажется. Выбираем папку нажимаем пиктограмму:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images.posts/2015-11-06/Zapuskaem proekt v brauzere/4.jpg&quot; class=&quot;imgCenter&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images.posts/2015-11-06/Zapuskaem proekt v brauzere/5.jpg&quot; class=&quot;imgCenter&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;В открывшемся окошке мы видим строчку, от которой нам понадобится подчёркнутая часть из букв и цифр, поэтому её лучше куда-нибудь скопировать, а пока открываем настройки дальше, нажав «расширенные»:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images.posts/2015-11-06/Zapuskaem proekt v brauzere/6.jpg&quot; class=&quot;imgCenter&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Здесь мы видим всю туже строку, но напротив «Документ доступен для…» нажимаем «Изменить»:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images.posts/2015-11-06/Zapuskaem proekt v brauzere/7.jpg&quot; class=&quot;imgCenter&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;И теперь уже точно выбираем, что —наш документ— наша папка будет доступна всем в интернете. Это очень важный момент, если где-то ошибиться и неправильно настроить доступ мы получим ошибки или вообще просто чёрный экран без каких-либо сообщений. Сохраняем и приступаем к подготовке нашего проекта для загрузки.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images.posts/2015-11-06/Zapuskaem proekt v brauzere/8.jpg&quot; class=&quot;imgCenter&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Как видно из скриншота, наш тестовый проект (даже «пустой») изначально очень большой. Достаточно много файлов и папок. Конечно если у вас хороший и быстрый интернет и не сильно тревожит свободное место на гугл драйв, то последующие шаги вы можете смело пропустить. Но тем не менее, я предлагаю проект немного предварительно «почистить».&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images.posts/2015-11-06/Zapuskaem proekt v brauzere/9.jpg&quot; class=&quot;imgCenter&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Для этого скопируем нашу папку с проектом в отдельное место и откроем папку audio. В ней мы увидим ещё несколько папок: bgm, bgs, me и se. Зайдя в каждую мы увидим файлы звуков и музыки в двух форматах. Один из них это OGG, который используется в Windows, а также в web, а другой формат m4a. Файлы в формате m4a используются в компьютерах Apple, а также в iPhone. Поскольку наш проект будет только для интернета, то файлы звуков m4a мы смело удаляем.&lt;/p&gt;
+
+&lt;p&gt;В принципе, если вы не планируете выпускать игру для компьютеров Apple вы можете их удалить и из основного проекта. В любом случае они останутся в папке RPG Maker MV(&lt;strong&gt;*Steam\steamapps\common\RPG Maker MV\NewData*&lt;/strong&gt;), на основе которой создаются все новые проекты. Так же можно удалить файл «Game.rpgproject», который находится рядом с «index.html». Он используется для открытия проекта в самом редакторе RPG Maker. &lt;strong&gt;Не удаляйте его, если вы не делали копию данного проекта!!&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Если вы так уж сильно придирчиво относитесь к размеру и понимаете, что делаете, то можете смело удалить не используемые звуки и в формате OGG, а также некоторую графику из папки img. Но мы этого делать не будем и посмотрим на результат:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images.posts/2015-11-06/Zapuskaem proekt v brauzere/10.jpg&quot; class=&quot;imgCenter&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Хоть и незначительно, но проект стал поменьше и настало время загрузить наши файлы в Google Drive. Для этого заходим в нашу папку www в гугл драйв и закачиваем проект.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images.posts/2015-11-06/Zapuskaem proekt v brauzere/11.jpg&quot; class=&quot;imgCenter&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Если у вас браузер Google Chrome, то вы можете просто перетянуть все папки и файлы прямо из проводника. Если же нет, тогда можно либо перетягивать всё по одному файлу, либо установить программу для синхронизации Google Drive, а можно запаковать все файлы в архив и уже распаковать на сайте Google Drive с помощью сторонних сервисов, например, «CloudConvert»:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images.posts/2015-11-06/Zapuskaem proekt v brauzere/12.jpg&quot; class=&quot;imgCenter&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;После того, как все наши файлы будут закачаны или распакованы из архива, у нас должна получится вот такая картина:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images.posts/2015-11-06/Zapuskaem proekt v brauzere/13.jpg&quot; class=&quot;imgCenter&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Теперь настало время вспомнить про строчку, о которой говорилось в начале.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images.posts/2015-11-06/Zapuskaem proekt v brauzere/14.jpg&quot; class=&quot;imgCenter&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Для того, чтобы наша папка открылась как страничка, нужно взять и дописать после https:// путь к googledrive.com/host/ а затем уже наш буквенно-цифровой код. Полученный адрес и будет ссылаться на наш проект с игрой.&lt;/p&gt;
+
+&lt;p&gt;https://googledrive.com/host/0B-q89LL1IWimeDZoZnlUV0lkRDQ&lt;/p&gt;
+
+&lt;p&gt;Если вы сделали всё правильно, то через несколько секунд ваша игра должна загрузиться. Если же что-то пошло не так, попробуйте ещё раз пройтись по всем этапам: доступ к файлам, правильность расположения файлов и собственно наличие всех необходимых файлов проекта на своих местах.&lt;/p&gt;
+
+&lt;p&gt;Ссылкой можно поделится с друзьями или разместить игру во «ВКонтакте». Как это сделать можно узнать уже из инструкции в оригинальной статье (ссылка чуть ниже).&lt;/p&gt;
+
+&lt;p&gt;И да, вот ещё что. У вас, наверное, может возникнуть вопрос «не противоречит ли условиям использования Google Drive размещение контента с такой целью»? Спешу вас обрадовать, оказывается нет:&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;Skaner:
+Гугл положительно относится к такой возможности, более того, даже у них самих есть инструкция по запуску html файлов в общем доступе. ---Вырезка из технической поддержки---.
+
+Единственное, что, если ваша игра/приложение будет иметь большую популярность, и, как следствие — требовать больших мощностей из-за обилия запросов, лучше обзавестись собственным сервером с SSL.
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;На этом разрешите откланяться и пожелать удачи в ваших проектах! =^‿~=&lt;/p&gt;</content><author><name></name></author><category term="archive" /><category term="rpg maker mv" /><category term="story" /><category term="уроки" /><summary type="html">Обновление от 2 февраля 2017 года:</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://murlab.github.io/Zapuskaem%20proekt%20v%20brauzere/browser_title.png" /></entry><entry><title type="html">Пишем плагин для отображения больших аватарок</title><link href="https://murlab.github.io/blog/Pishem%20plagin%20dla%20otobrazhenia%20bolshih%20avatarok/" rel="alternate" type="text/html" title="Пишем плагин для отображения больших аватарок" /><published>2015-11-05T02:00:00+03:00</published><updated>2015-11-05T02:00:00+03:00</updated><id>https://murlab.github.io/blog/Pishem%20plagin%20dla%20otobrazhenia%20bolshih%20avatarok</id><content type="html" xml:base="https://murlab.github.io/blog/Pishem%20plagin%20dla%20otobrazhenia%20bolshih%20avatarok/">&lt;p&gt;Всем привет!&lt;/p&gt;
 
 &lt;p&gt;С вами опять я, и мои очумелые ручки вновь не дают мне покоя. Ну и собственно по этой причине я спешу поделиться с вами своим новыми изысканиями.&lt;/p&gt;
 

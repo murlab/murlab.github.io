@@ -40,6 +40,19 @@ a:hover {
 	color: orange;
 }
 
+#dsq-combo-widget.blue #dsq-combo-content .dsq-combo-box {
+	background: #586887!important;
+}
+#dsq-combo-widget.blue #dsq-combo-tabs li.dsq-active {
+	background: #586887!important;
+}
+#dsq-combo-widget.blue #dsq-combo-tabs li {
+	background: #374154!important;
+}
+#dsq-combo-widget #dsq-combo-content {
+    color: #fff!important;
+}
+
 .warning {
 	color: wheat;
 	background-color: red;

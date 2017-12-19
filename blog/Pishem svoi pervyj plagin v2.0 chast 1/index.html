@@ -1,0 +1,323 @@
+<!DOCTYPE html> <html lang="en"> <head> <meta charset="utf-8"> <meta http-equiv="X-UA-Compatible" content="IE=edge"> <meta name="viewport" content="width=device-width, initial-scale=1"> <title>Пишем свой первый плагин v2.0 Часть 1</title> <meta name="description" content="Немного обновлённая и исправленная версия со «Светлой Академии»."> <link rel="canonical" href="https://murlab.github.io/blog/Pishem%20svoi%20pervyj%20plagin%20v2.0%20chast%201/"> <link rel="alternate" type="application/rss+xml" title="Mur Laboratory" href="/feed.xml"> <link rel="shortcut icon" type="image/x-icon" href="/favicon.ico" /> <link rel="icon" type="image/png" href="/favicon.png" /> <link rel="stylesheet" type="text/css" href="/css/font-awesome.css" /> <link rel="stylesheet" type="text/css" href="/css/main.css" /> <script type="text/javascript" src="/js/main.js"></script> <link rel="stylesheet" href="/css/highlight/monokai-sublime.css"> <script src="/js/highlight.pack.js"></script> <script>hljs.initHighlightingOnLoad();</script> </head> <body onload="init();"> <div class="center"> <div class="header"> <div class="topLogo"></div> <div class="topMenuAdd"> <a href="/files/" class="topMenuItem" title="Файлы для скачивания"><i class="fa fa-download" aria-hidden="true"></i></a> <a href="/feed.xml" class="topMenuItem" title="Подписаться на RSS"><i class="fa fa-rss" aria-hidden="true"></i></a> </div> </div> <div id="navbar" class="topMenu"> <div class="topMenuLeft"></div> <div class="topMenuCenter"> <span class="topMenuSpace">&nbsp;</span> <span><a href="/blog/" class="topMenuItem active"><i class="fa fa-paw" aria-hidden="true"></i><br>Блог</a></span> <span><a href="/graphics/" class="topMenuItem"><i class="fa fa-pencil" aria-hidden="true"></i><br>Графика</a></span> <span><a href="/misc/" class="topMenuItem"><i class="fa fa-code" aria-hidden="true"></i><br>Разное</a></span> <span><a href="/rpg_maker/" class="topMenuItem"><i class="fa fa-diamond" aria-hidden="true"></i><br>RPG Maker</a></span> <span><a href="/godot/" class="topMenuItem"><i class="fa fa-cogs" aria-hidden="true"></i><br>Godot</a></span> <span><a href="/about/" class="topMenuItem"><i class="fa fa-github-alt" aria-hidden="true"></i><br>Мур?</a></span> </div> <div class="topMenuRight"></div> <a href="/"><div class="topMenuAvatar"></div></a> <div class="popupMenu"> <input id="popupMenuInput" type="checkbox" name="menu"/> <label id="popupMenuLabel" for="popupMenuInput"><span class="fa fa-bars topMenuIcon" aria-hidden="true"></span></label> <ul class="menu"> <li><a href="/blog/" class="popupMenuItem active"><i class="fa fa-paw" aria-hidden="true"></i>Блог</a></li> <li><a href="/graphics/" class="popupMenuItem"><i class="fa fa-pencil" aria-hidden="true"></i>Графика</a></li> <li><a href="/misc/" class="popupMenuItem"><i class="fa fa-code" aria-hidden="true"></i>Разное</a></li> <li><a href="/rpg_maker/" class="popupMenuItem"><i class="fa fa-diamond" aria-hidden="true"></i>RPG Maker</a></li> <li><a href="/godot/" class="popupMenuItem"><i class="fa fa-cogs" aria-hidden="true"></i>Godot</a></li> <li><a href="/about/" class="popupMenuItem"><i class="fa fa-github-alt" aria-hidden="true"></i>Мур?</a></li> <li><div class="popupMenuLine"></div></li> <li><a href="/comments/" class="popupMenuItem"><i class="fa fa-comments-o" aria-hidden="true"></i> Новые комментарии</a></li> <li><a href="https://murlab.disqus.com/latest.rss" class="popupMenuItem"><i class="fa fa-rss" aria-hidden="true"></i> RSS комментариев</a></li> <li><div class="popupMenuLine"></div></li> <li><a href="/archive/" class="popupMenuItem"><i class="fa fa-archive" aria-hidden="true"></i> Архив постов</a></li> <li><div class="popupMenuLine"></div></li> <li><a href="/files/" class="popupMenuItem"><i class="fa fa-cloud-download" aria-hidden="true"></i> Cкачать файлы</a></li> <li><div class="popupMenuLine"></div></li> <li><a href="/tags/" class="popupMenuItem"><i class="fa fa-tags" aria-hidden="true"></i> Все тэги</a></li> <li><a href="/feed.xml" class="popupMenuItem"><i class="fa fa-rss" aria-hidden="true"></i> RSS лента</a></li> </ul> </div> </div> <div class="content"> <div class="post"> <div class="postHeader"> <div class="postStar"><i class="fa fa-flask" aria-hidden="true"></i></div> <div class="postDate"> 19 Декабря 2017 </div> <div class="postTitle">Пишем свой первый плагин v2.0 Часть 1</div> </div> <div class="postContent"> <div class="postImage"> <img src="/images.posts/2017-12-19/Pishem svoi pervyj plagin v2.0 chast 1/code_title.png" /> </div> <div class="postBody"> <div class="dictum">Немного обновлённая и исправленная версия со «Светлой Академии».</div> <p>Как быстро летит время, казалось бы, только вчера вышел RPG Maker MV, а уже пролетело 2 года. За это время много что изменилось, выходили новые версии самого редактора, поменялось много чего в самом движке MV, а главное за эти два года мои личные знания тоже изменились от «ну эт вот тут такая штука» до «класс наследует свойства родителя».</p> <p>Перечитав свой первый урок «<a href="/blog/Pishem%20svoj%20pervyj%20plagin%20dla%20RPG%20Maker%20MV/">Пишем свой первый плагин</a>», мне стало немного стыдно. Многое написано слишком уж по-детски, а многие вопросы вообще были не освещены или описаны в стиле «ну эт вот тут так надо». Спустя некоторое время мне захотелось немного переработать написанный материал. Но не пугайтесь, я не буду заменять всё слишком заумными словами, а просто постараюсь выражаться более грамотно, ну и по возможности более подробно.</p> <p>Начну, пожалуй, с редакторов. В своё время мне понравился редактор «<a href="http://brackets.io/">Brackets</a>». Не скажу, что он плох, но бывает немного порой медлительным. Как альтернативу стоит упомянуть как минимум «<a href="https://code.visualstudio.com/">Visual Studio Code</a>» и «<a href="https://www.sublimetext.com/">Sublime Text</a>». Не буду на них особо заострять внимание, скажу лишь то, что в «Visual Studio Code» очень большая база всевозможных плагинов и дополнений (выпадающие подсказки, отладка итд), а «Sublime Text» на сегодняшний день однозначно самый быстрый редактор, с не менее большими возможностями.</p> <p>При желании я думаю вы и сами с ними разберётесь, в крайнем случае можно писать скрипты и в обычном блокноте.</p> <p>Но вернёмся к RPG Maker MV. Как пример мы будем рассматривать всё тот же плагин отображения предметов на экране «ItemsOnMap». С недавних пор в MV немного изменилось окно отображения параметров плагинов, и мы рассмотрим это более подробно всё.</p> <p>Начнём с самого простого, с оформления нашего нового скрипта. Для этого создадим новый файл «MUR_ItemsOnMap_2.js» в папке нашего проекта «js/plugins/MUR_ItemsOnMap_2.js» с таким вот минимальным кодом:</p><pre><code class="javascript">//=============================================================================
+// MUR Items On Map v2.0
+//=============================================================================
+/*:
+ * @plugindesc Show Items On Map v2.0
+ * @author Mur
+ *
+*/
+ 
+(function() {
+ 
+})();
+</code></pre><p>Этого вполне достаточно, чтобы наш плагин вот так отображался:</p> <p><img src="/images.posts/2017-12-19/Pishem svoi pervyj plagin v2.0 chast 1/plugin_01.png" class="imgCenter" /></p> <p>Пройдёмся более детально по частям:</p><pre><code class="javascript">//=============================================================================
+// MUR Items On Map v2.0
+//=============================================================================
+</code></pre><p>Данная конструкция может дублировать название имени файла скрипта для удобства отображения. Вы в праве написать там свой текст, название или как-то оформить по-другому, а можете вообще ничего не писать, это никак не повлияет на дальнейшую работу скрипта.</p><pre><code class="javascript">/*:
+ * @plugindesc Show Items On Map v2.0
+ * @author Mur
+ *
+*/
+</code></pre><p>Эта часть очень важная и в ней описывается название плагина, его автор, различные параметры и прочая информация которая отображается в окне при подключении плагина. Более подробно мы рассмотрим чуть ниже.</p><pre><code class="javascript">(function() {
+ 
+})();
+</code></pre><p>Здесь в дальнейшем будет расположен код нашего плагина. Обрамление function необходимо для того, чтобы ограничить область видимости нашего скрипта. То есть все переменные и функции, описанные здесь не будут доступны в других плагинах, а при совпадении названий, они не будут заменены значениями других переменных и функциями, описанными в других плагинах. Однако есть ситуации, когда этим правилом можно пренебречь, но в данном примере мы этого рассматривать не будем.</p> <p>Но вернёмся к описанию плагина. У нас имеется два поля @plugindesc и @author. Как не трудно догадаться, первое это описание нашего плагина, а второе указание его автора. Вы может там написать абсолютно любой текст, на любом языке, при условии, что ваш файл сохранён в кодировке UTF-8 (современные редакторы предлагают это делать про умолчание). Однако есть немного не приятный момент. Дело в том, что зарубежные пользователи скорее всего не смогут понять, о чём речь. Для того, чтобы сделать наш плагин интернациональными, по крайней мере ту часть которая отвечает за описание, мы несколько усложним описание плагина. А именно сделаем две секции описаний, на английском языке и на русском:</p><pre><code class="javascript">//=============================================================================
+// MUR Items On Map v2.0
+//=============================================================================
+/*:en
+ * @plugindesc Show Items On Map v2.0
+ * @author Mur
+ *
+*/
+/*:ru
+ * @plugindesc Показать предметы на карте v2.0
+ * @author Mur
+ *
+*/
+ 
+(function() {
+ 
+})();
+</code></pre><p>Теперь, если мы запустим английскую версию RPG Maker MV, то получим описание как на скриншоте выше, а если запустим русскую версию, то соответственно описание будет на русском языке:</p> <p><img src="/images.posts/2017-12-19/Pishem svoi pervyj plagin v2.0 chast 1/plugin_02.png" class="imgCenter" /></p> <p>Теперь рассмотрим ещё одну часть описания плагина, а именно «Help», или как в русской версии указано «Помощь». Для того что бы разместить в информацию в этом блоке достаточно добавить в наш скрипт ещё одно поле @help:</p><pre><code class="javascript">/*:ru
+ * @plugindesc Показать предметы на карте v2.0
+ * @author Mur
+ * @help это пример описания помощи по настройке нашего скрипта «Show Items On Map»
+ * Это вторая строка описания
+ * Это третья строка описания
+ * Это четвёртая строка описания
+ * Это пятая строка описания
+ *
+*/
+</code></pre><p><img src="/images.posts/2017-12-19/Pishem svoi pervyj plagin v2.0 chast 1/plugin_03.png" class="imgCenter" /></p> <p>Ограничений на количество строк помощи нет, и если их будет достаточно много, сбоку просто появится полоса прокрутки(scrollbar).</p> <p>С разделом «Помощь» разобрались и теперь самое время перейти к параметрам плагина. Но для начала я напомню для тех, кто не в курсе, что в составе RPG Maker MV есть такая очень важная и очень удобная штука — отладчик. Вызывается он нажатием клавиши F8 во время запуска игры из редактора.</p> <p>Более подробно отладчик мы рассмотрим в другой раз, а сейчас мне бы хотелось остановится на вкладке «Console». Сюда будут сыпаться всякого рода ошибки, если они будут, а также можно сюда выводить отладочную информацию. Например, если в основную функцию мы добавим такой код,</p><pre><code class="javascript">(function() {
+    console.log("Hello world!");
+})();
+</code></pre><p>то в закладке «Console» мы увидим своё сообщение:</p> <p><img src="/images.posts/2017-12-19/Pishem svoi pervyj plagin v2.0 chast 1/plugin_04A.png" class="imgCenter" /></p> <p>А если попробуем вызвать несуществующую функцию, например «abyrvalg()»:</p><pre><code class="javascript">(function() {
+    abyrvalg();
+})();
+</code></pre><p>то получим соответствующее сообщение об ошибке:</p> <p><img src="/images.posts/2017-12-19/Pishem svoi pervyj plagin v2.0 chast 1/plugin_04B.png" class="imgCenter" /></p> <p>В правой части указано имя файла из которого произошел вызов (или случилась ошибка), а после двоеточия указан номер строки, в которой это случилось.</p> <p>Но вернёмся к настройкам плагина. В отличии от предыдущей версии, мы его немного усложним для программирования, но упростим настройку для пользователя. Поскольку наш плагин будет отображать количество предметов, которое есть в наличии у игрока, то логично будет запросить эти данные у системы (а точнее у инвентаря). Но в любом случае нам нужно вынести в настройки номер(идентификатор/ID) предмета данные о котором мы хотим отображать.</p> <p><img src="/images.posts/2017-12-19/Pishem svoi pervyj plagin v2.0 chast 1/database.png" class="imgCenter" /></p> <p>Номер предмета (или его ID) указан в рядом с названием предмета в «Базе данных» в закладке «Предметы». Дальше нам нужно сделать возможность включать и отключать отображение нашего окошка. Это можно сделать двумя способами: как и в предыдущей версии урока с помощью ключа(switch), а также с помощью вызова команды плагина. Мы рассмотрим оба способа, но пока зарезервируем в настройках параметр с номером ключа.</p> <p>Различные ситуации требуют различного положения окна на экране, для этого мы заведём ещё два параметра, это положение на экране по оси X и положение на экране по оси Y.</p> <p>Ну и последним параметром который мы зададим, отображать ли наше окошко во время диалогов. Например, если мы зададим координаты отображения в нижней части экрана, то велика возможность наложения окна сообщений и окна с нашими данными.</p> <p>Итого у нас получилось параметров:</p> <p>itemID — номер предмета в базе данных showSwitchID — номер переключателя, разрешающего отображение positionX — положение окна на экране по оси X positionY — положение окна на экране по оси Y enableWhileMessage — показывать ли при отображении окна сообщений</p> <p>По сути нам нет необходимости состыковывать слова в одно(enableShowWhileMessage) или писать через символ подчёркивания (enable_show_while_message). Мы можем писать через пробел, и система это аккуратно скушает и не запутается. По сути, наверное, даже можно написать на русском языке, но опять же встаёт вопрос с зарубежными пользователями. Поэтому я предлагаю писать названия на английском, а уже в разделе «Помощь» давать пояснения.</p> <p>Для того, чтобы описать какой-либо параметр используются три ключевых слова, так же начинающихся с символа @: это @param — наше название параметра, @default — значение по умолчанию, а также параметр @desc (описание), содержмое которого теперь отображается в окне где задаётся значения переменной. Так же можно описать подробности в секции @help.</p> <p>Собрав всё воедино, получим такой код заголовка:</p><pre><code class="javascript">/*:ru
+ * @plugindesc Показать предметы на карте v2.0
+ * @author Mur
+ * @help Item ID — номер предмета в базе данных
+ * Show switch ID — номер переключателя, разрешающего отображение
+ * Position X — положение окна на экране по оси X
+ * Position Y — положение окна на экране по оси Y
+ * Enabled while message — показывать ли при отображении окна сообщений
+ *
+ * @param Item ID
+ * @desc номер предмета в базе данных (по умолчанию 1)
+ * @default 1
+ *
+ * @param Show switch ID
+ * @desc номер переключателя, разрешающего отображение (по умолчанию 1)
+ * @default 1
+ *
+ * @param Position X
+ * @desc положение окна на экране по оси X (по умолчанию 10)
+ * @default 10
+ *
+ * @param Position Y
+ * @desc положение окна на экране по оси Y (по умолчанию 10)
+ * @default 10
+ *
+ * @param Enabled while message
+ * @desc message — показывать ли при отображении окна сообщений (по умолчанию true)
+ * @default true
+*/
+</code></pre><p>А при настройке плагина это будет выглядеть вот так:</p> <p><img src="/images.posts/2017-12-19/Pishem svoi pervyj plagin v2.0 chast 1/plugin_06.png" class="imgCenter" /></p> <p>Тоже самое нужно повторить, но уже для англоязычной секции (*:en).</p> <p>Для того, чтобы в нашем коде получить доступ к параметрам плагина, мы должны обратится к менеджеру плагинов и в качестве параметра передать имя файла плагина, но безе расширения js:</p><pre><code class="javascript">var params = PluginManager.parameters('MUR_ItemsOnMap_2');
+</code></pre><p>Далее, уже у массива params мы можем запросить интересующие значение:</p><pre><code class="javascript">var itemId = params['Item ID'];
+</code></pre><p>Но есть один нюанс. Все значения представляют из себя строку текста и для того, чтобы получить число или логический тип, нам придётся сделать дополнительное преобразования. Например, для того, чтобы наша переменная содержала число, а не строку, необходимо вызвать функцию Number. И в качестве параметров передать строку:</p><pre><code class="javascript">var itemId = Number(params['Item ID']);
+var showSwitchID = Number(params['Show switch ID']);
+var positionX = Number(params['Position X']);
+var positionY = Number(params['Position Y']);
+</code></pre><p>Для того, чтобы получить логическое значение мы сравним строку на наличие слова true (истина) и если оно указано, то наша переменная получит логическое значение — true:</p><pre><code class="javascript">var enableWhileMessage = params['Enabled while message'].toUpperCase()=="TRUE"?true:false;
+</code></pre><p>Какая страшная и непонятная конструкция скажете вы и будете правы, но давайте рассмотрим её подробнее:</p> <p>В JavaScript со строкой можно делать различные преобразования: разрезать, заменять части и другие операции. В данном примере метод «.toUpperCase()» делает все буквы большими. Например, если мы присвоим значение переменной a,</p><pre><code class="javascript">var a = "abc";
+</code></pre><p>а затем вызовем метод «.toUpperCase()»,</p><pre><code class="javascript">var b = a.toUpperCase();
+</code></pre><p>то значение переменной b станет “ABC”.</p> <p>Теперь для чего нам это нужно? Дело в том, что мы не знаем, как пользователь напишет значение, он может написать «true», а может и «TRUE», а может и вообще «tRuE» и в том, и в другом, и в третьем случае это будет подразумеваться одно и тоже, но строки будут не равны. Именно для этого мы приводим к единому виду «TRUE».</p> <p>Что же касается второй «страшной» конструкции, это сокращённая форма условия «If». Её можно записать в виде:</p><pre><code class="javascript">var enableWhileMessage;
+if (params['Enabled while message'].toUpperCase() == "TRUE") {
+	enableWhileMessage = true;
+} else {
+	enableWhileMessage = false;
+}
+</code></pre><p>Согласитесь, очень громоздкая конструкция для задания значения одной переменной. Поэтому её часто заменяют такой:</p> <p>переменная = условие истины ? значение если истина : значение если ложно</p> <p>Теперь, для отладки, мы можем вывести в «Console» наши значения переменных и проверить, что всё в порядке:</p><pre><code class="javascript">//=============================================================================
+// MUR Items On Map v2.0
+//=============================================================================
+/*:
+ * @plugindesc Показать предметы на карте v2.0
+ * @author Mur
+ * @help Item ID — номер предмета в базе данных
+ * Show switch ID — номер переключателя, разрешающего отображение
+ * Position X — положение окна на экране по оси X
+ * Position Y — положение окна на экране по оси Y
+ * Enabled while message — показывать ли при отображении окна сообщений
+ *
+ * @param Item ID
+ * @desc номер предмета в базе данных (по умолчанию 1)
+ * @default 1
+ *
+ * @param Show switch ID
+ * @desc номер переключателя, разрешающего отображение (по умолчанию 1)
+ * @default 1
+ *
+ * @param Position X
+ * @desc положение окна на экране по оси X (по умолчанию 10)
+ * @default 10
+ *
+ * @param Position Y
+ * @desc положение окна на экране по оси Y (по умолчанию 10)
+ * @default 10
+ *
+ * @param Enabled while message
+ * @desc message — показывать ли при отображении окна сообщений (по умолчанию true)
+ * @default true 
+*/
+ 
+(function() {
+    var params = PluginManager.parameters('MUR_ItemsOnMap_2');
+ 
+    var itemId = Number(params["Item ID"]);
+    var showSwitchID = Number(params['Show switch ID']);
+    var positionX = Number(params['Position X']);
+    var positionY = Number(params['Position Y']);
+ 
+    var enableWhileMessage = params['Enabled while message'].toUpperCase()=="TRUE"?true:false;
+ 
+    console.log("itemId=" + itemId);
+    console.log("showSwitchID=" + showSwitchID);
+    console.log("positionX=" + positionX);
+    console.log("positionY=" + positionY);
+    console.log("enableWhileMessage=" + enableWhileMessage);
+})();
+</code></pre><p>Я намеренно здесь сокращу только русскоязычную часть, дабы не удлинять и без того очень длинную статью.</p> <p>Убедившись, что у нас всё отлично работает и мы забираем значения настроек правильно, мы неожиданно можем столкнуться с некоторыми трудностями. К сожалению программисты зачастую бывают очень ленивы и забывают, что пользоваться плодами их творчества зачастую будут люди далёкие от программирования. Кроме того, никто не застрахован от ошибок, очепяток итд.</p> <p>Что будет если мы вместо позиции X, равной 10, напишем в настройках плагина какую-нибудь белиберду в виде текста «АБЫРВАЛГ!». Вы думаете хоть кто-нибудь проверяет в своих плагинах, а что собственно туда вводят пользователи? Конечно нет! И, как и следовало ожидать, наш плагин получит ошибочное значение NaN (Not A Number - не является числом) и при дальнейшей попытке использовать значение переменной positionX вылетит с ошибкой, а бедный пользователь будет возмущаться, что ваш плагин не работает.</p> <p>Как же в такой ситуации быть?</p> <p>Понятно, что всех критических ситуаций не учесть, но в данном случае можно проверить значения переменных на отсутствие значение NaN и вывести предупреждающее окно. Об этом мы поговорим во второй части, а пока ограничимся предупреждением в окно консоли:</p><pre><code class="javascript">    if (isNaN(itemId) || isNaN(showSwitchID) || isNaN(positionX) || isNaN(positionY)) {
+        console.error('MUR Items On Map: Не верно заданы параметры плагина');
+    }
+</code></pre><p>Уже закончив статью и перечитывая материал ещё раз, меня заинтересовала вкладка «Текст» в окне, где задаётся значение параметра.</p> <p><img src="/images.posts/2017-12-19/Pishem svoi pervyj plagin v2.0 chast 1/plugin_06.png" class="imgCenter" /></p> <p>Мой пытливый ум сразу же решил проверить, а не может ли быть в этом месте другой тип? Например, числовой? И как показала практика достаточно задать дополнительное поле вида «@type number», чтобы стало возможным задавать цифровое значение.</p> <p>Но на этом моя тушка не успокоилась и стала экспериментировать ещё. Опытным путём выяснилось, что, если задать тип «@type boolean» можно будет задать значения в виде радиобатонов (Да/Нет). Но и это ещё не всё! Если задать, например, «@type item», то будет выпадающий список с предметами, где результатом будет ID выбранного предмета. А если задать «@type switch», то по клику откроется окошко со списком ключей и можно задать номер ключа.</p> <p>Как теперь это выглядит в коде:</p><pre><code class="javascript">/*:
+ * @plugindesc Показать предметы на карте v2.0
+ * @author Mur
+ * @help Item ID — номер предмета в базе данных
+ * Show switch ID — номер переключателя, разрешающего отображение
+ * Position X — положение окна на экране по оси X
+ * Position Y — положение окна на экране по оси Y
+ * Enabled while message — показывать ли при отображении окна сообщений
+ *
+ * @param Item ID
+ * @desc номер предмета в базе данных (по умолчанию 1)
+ * @default 1
+ * @type item
+ *
+ * @param Show switch ID
+ * @desc номер переключателя, разрешающего отображение (по умолчанию 1)
+ * @default 1
+ * @type switch
+ *
+ * @param Position X
+ * @desc положение окна на экране по оси X (по умолчанию 10)
+ * @default 10
+ * @type number
+ *
+ * @param Position Y
+ * @desc положение окна на экране по оси Y (по умолчанию 10)
+ * @default 10
+ * @type number
+ *
+ * @param Enabled while message
+ * @desc показывать ли при отображении окна сообщений (по умолчанию true)
+ * @default true
+ * @type boolean
+*/
+</code></pre><p>И как это выглядит визуально:</p> <p><img src="/images.posts/2017-12-19/Pishem svoi pervyj plagin v2.0 chast 1/types.png" class="imgCenter" /></p> <p>Более подробное изучение данного вопроса выявило, что, начиная с версии 1.5.0 появились дополнительные ключевые слова в параметрах.</p> <p>Если у вашего плагина слишком много параметров, то их можно сгруппировать, объединив командой @parent. В нашем примере мы можем объединить X и Y позицию на экране. Для этого немного изменим структуру параметров:</p><pre><code class="javascript"> * @param Position
+ *
+ * @param X
+ * @parent Position
+ * @desc положение окна на экране по оси X (по умолчанию 10)
+ * @default 10
+ * @type number
+ *
+ * @param Y
+ * @parent Position
+ * @desc положение окна на экране по оси Y (по умолчанию 10)
+ * @default 10
+ * @type number
+</code></pre><p>Хочу так же обратить ваше внимание, что в этом случае немного измениться и код доступа к этим параметрам:</p><pre><code class="javascript">    var positionX = Number(params['Position']['X']);
+    var positionY = Number(params['Position']['Y']);
+</code></pre><p>Так же появилась ещё одна не менее важная конструкция это @text. Она позволяет выводить вместо названия параметра на английском языке произвольный текст. Например,:</p><pre><code class="javascript"> * @param Position
+ * @text Положение окна на экране
+ *
+ * @param X
+ * @parent Position
+ * @text Координата X
+ * @desc положение окна на экране по оси X (по умолчанию 10)
+ * @default 10
+ * @type number
+ *
+ * @param Y
+ * @parent Position
+ * @text Координата Y
+ * @desc положение окна на экране по оси Y (по умолчанию 10)
+ * @default 10
+ * @type number
+</code></pre><p>Теперь вместо «Position» у нас будет выводится «Положение окна на экране», а вместо «X» — «Координата X». Примечательно, что для каждого языка можно задать свой текст и у нас решается проблема перевода названий параметров на другие языки.</p> <p>Про параметр @type было уже сказано выше, дополню лишь, что могут быть ещё и другие типы:</p> <p>Например, с помощью «@type note», можно задать много строчный текст. Если указать @type как number, то можно дополнительно ограничить максимальное и минимальное значение, с помощью конструкций @max и @min. А с помощью конструкции @decimals можно указать количество цифр после запятой(точки), если необходимо задать более число с плавающей точкой;</p> <p>С помощью «@type file» можно сделать возможным выбор файла на диске, причём в параметре @dir можно указать путь где его искать. Например, «@dir audio/bgm/» позволит выбрать аудио файл в папке «audio/bgm/». Так же есть ещё один дополнительный параметр @require. Если его значение установлено в 1, то при экспорте проекта, выбранный файл будет так же включён.</p> <p>Помимо ранее рассмотренных @type switch и @type item, есть ещё возможность задать следующие:</p> <ul> <li><strong>@type animation</strong> — выбрать анимацию, в значении будет ID (номер);</li> <li><strong>@type actor</strong> — выбрать актёра(персонажа), в значении будет ID (номер);</li> <li><strong>@type class</strong> — выбрать класс, в значении будет ID (номер);</li> <li><strong>@type skill</strong> — выбрать навык, в значении будет ID (номер);</li> <li><strong>@type item</strong> — выбрать предмет, в значении будет ID (номер);</li> <li><strong>@type weapon</strong> — выбрать оружие, в значении будет ID (номер);</li> <li><strong>@type armor</strong> — выбрать броню, в значении будет ID (номер);</li> <li><strong>@type enemy</strong> — выбрать противника, в значении будет ID (номер);</li> <li><strong>@type troop</strong> — выбрать сцена боя, в значении будет ID (номер);</li> <li><strong>@type state</strong> — выбрать состояние, в значении будет ID (номер);</li> <li><strong>@type tileset</strong> — выбрать набор тайлов, в значении будет ID (номер);</li> <li><strong>@type common_event</strong> — выбрать общее событие, в значении будет ID (номер);</li> <li><strong>@type switch</strong> — выбрать переключатель, в значении будет ID (номер);</li> <li><strong>@type variable</strong> — выбрать переменную, в значении будет ID (номер);</li> </ul> <p>Так же в этих параметрах можно указать «@require 1» и тогда при экспорте проекта данный ресурс будет учтён.</p> <p>При указании типа @type boolean, так же можно ещё переопределить название пунктов с помощью @on и @off. Например, в нашем случае можно локализовать так:</p><pre><code class="javascript"> * @param Enabled while message
+ * @text показывать ли окно
+ * @desc показывать ли при отображении окна сообщений (по умолчанию true)
+ * @default true
+ * @type boolean
+ * @on отображать всегда
+ * @off скрыто при сообщениях
+</code></pre><p>Так же можно создать и более сложные конструкции, например, с помощью «@type select», «@option» и «@value», можно создать выпадающий список:</p><pre><code class="javascript"> * @type select
+ * @option XP
+ * @value 1.0
+ * @option VX
+ * @value 2.0
+ * @option VX Ace
+ * @value 2.1
+ * @option MV
+ * @value 3.0
+</code></pre><p>В @option задаётся название которое будет отображаться в списке, а в @value указывается значение которые сохранится в параметрах, при выборе этого пункта.</p> <p>Если есть необходимость задать значение как в текстовом виде, так и выбрать готовое значение из списка, пригодится конструкция в виде «@type combo» и «@option»:</p><pre><code class="javascript"> * @type combo
+ * @option XP
+ * @option VX
+ * @option VX Ace
+ * @option MV
+</code></pre><p>Конструкция такая же, как и в случае с @type select.</p> <p>Если необходимо указать или выбрать несколько значений параметра, то можно указать список(List) в виде:</p> <ul> <li><strong>@type text[]</strong> — массив строк</li> <li><strong>@type note[]</strong> — массив много строчных значений</li> <li><strong>@type number[]</strong> — массив чисел</li> <li><strong>@type variable[]</strong> — массив переменных</li> <li><strong>@type item[]</strong> — массив предметов</li> <li><strong>@type combo[]</strong> — массив выпадающих списков</li> <li><strong>@type file[]</strong> — массив файлов</li> <li><strong>@type</strong> <strong>struct</strong>&lt;<strong>Anything&gt;[]</strong> — массив произвольных структур</li> </ul> <p>Так же стоит учитывать, что при получении значения такого параметра, на выходе будет уже не строка, а массив нескольких значений.</p> <p>Ну и последнее это возможность создавать свои, произвольные структуры:</p><pre><code class="javascript">/*~struct~ItemAward:
+ * @param Item
+ * @type item
+ *
+ * @param Count
+ * @type number
+ * @min 1
+ * @max 99
+ * @default 1
+ */
+</code></pre><p>Последние конструкции здесь приведены больше как пример возможностей и требуют в будущем отдельного рассмотрения.</p> <p>Ну в заключении как теперь выглядит финальная, на данном этапе, версия плагина:</p><pre><code class="javascript">//=============================================================================
+// MUR Items On Map v2.0
+//=============================================================================
+/*:
+ * @plugindesc Показать предметы на карте v2.0
+ * @author Mur
+ * @help Item ID — номер предмета в базе данных
+ * Show switch ID — номер переключателя, разрешающего отображение
+ * Position X — положение окна на экране по оси X
+ * Position Y — положение окна на экране по оси Y
+ * Enabled while message — показывать ли при отображении окна сообщений
+ *
+ * @param Item ID
+ * @text Номер предмета
+ * @desc номер предмета в базе данных (по умолчанию 1)
+ * @default 1
+ * @type item
+ *
+ * @param Show switch ID
+ * @text Номер переключателя
+ * @desc номер переключателя, разрешающего отображение (по умолчанию 1)
+ * @default 1
+ * @type switch
+ *
+ * @param Position
+ * @text Положение окна на экране
+ *
+ * @param X
+ * @parent Position
+ * @text Координата X
+ * @desc положение окна на экране по оси X (по умолчанию 10)
+ * @default 10
+ * @min 0
+ * @max 800
+ * @type number
+ *
+ * @param Y
+ * @parent Position
+ * @text Координата Y
+ * @desc положение окна на экране по оси Y (по умолчанию 10)
+ * @default 10
+ * @type number
+ *
+ * @param Enabled while message
+ * @text показывать ли окно
+ * @desc показывать ли при отображении окна сообщений (по умолчанию true)
+ * @default true
+ * @type boolean
+ * @on отображать всегда
+ * @off скрыто при сообщениях
+ *
+*/
+ 
+(function() {
+    var params = PluginManager.parameters('MUR_ItemsOnMap_2');
+ 
+    var itemId = Number(params["Item ID"]);
+    var showSwitchID = Number(params['Show switch ID']);
+    var positionX = Number(params['Position']['X']);
+    var positionY = Number(params['Position']['Y']);
+ 
+    var enableWhileMessage = params['Enabled while message'].toUpperCase()=="TRUE"?true:false;
+ 
+    if (isNaN(itemId) || isNaN(showSwitchID) || isNaN(positionX) || isNaN(positionY)) {
+        console.error('MUR Items On Map: Не верно заданы параметры плагина');
+    } else {
+        console.log("itemId=" + itemId);
+        console.log("showSwitchID=" + showSwitchID);
+        console.log("positionX=" + positionX);
+        console.log("positionY=" + positionY);
+        console.log("enableWhileMessage=" + enableWhileMessage);
+    }
+ 
+})();
+</code></pre><p>И как это выглядит визуально:</p> <p><img src="/images.posts/2017-12-19/Pishem svoi pervyj plagin v2.0 chast 1/f1.png" class="imgCenter" /></p> <p>В заключении хочу обратить ваше внимание, что не смотря на возможность как-то «облагородить» вводимые пользователем данные, всё так же осталась актуальна проблема ввода некорректных данных на вкладке «Текст». Например можно всё так же в координатах задать текстовое значение, а при получении данных получить ошибку в виде NaN(Not A Number).</p> <p>Из-за большого объёма, обилия примеров и ограниченности форума на количество картинок в одном посте, обзор кодовой части я перенесу во вторую часть.</p> <div class="dictum">…продолжение следует.</div> <p>p.s. Надеюсь вас не слишком утомила данная «простыня».</p> <div class="postTags"> <div class="postTag"><span class="likebtn-wrapper" data-theme="custom" data-btn_size="20" data-icon_l="str1" data-icon_l_c="#8f828a" data-icon_l_c_v="#eb9421" data-label_c_v="#ffffff" data-counter_l_c="#9bd1ff" data-bg_c="#48556e" data-bg_c_v="#48556e" data-brdr_c="#384154" data-f_family="Tahoma" data-counter_fs="b" data-lang="ru" data-ef_voting="grow" data-show_like_label="false" data-dislike_enabled="false" data-counter_zero_show="true" data-popup_position="right" data-share_enabled="false" data-share_size="small" data-loader_show="true" data-i18n_popup_text="Спасибо за «спасибо»! (:"></span> <script>(function(d,e,s){if(d.getElementById("likebtn_wjs"))return;a=d.createElement(e);m=d.getElementsByTagName(e)[0];a.async=1;a.id="likebtn_wjs";a.src=s;m.parentNode.insertBefore(a, m)})(document,"script","//w.likebtn.com/js/w/widget.js");</script>&nbsp;&nbsp;|&nbsp;</div> <div class="postTag"><i class="fa fa-tag" aria-hidden="true"></i> <a href="/tags/rpg maker mv/">rpg maker mv</a></div> <div class="postTag"><i class="fa fa-tag" aria-hidden="true"></i> <a href="/tags/plugins/">plugins</a></div> <div class="postTag"><i class="fa fa-tag" aria-hidden="true"></i> <a href="/tags/story/">story</a></div> <div class="postTag"><i class="fa fa-tag" aria-hidden="true"></i> <a href="/tags/uroki/">уроки</a></div> </div> </div> <div class="postEnd"> <div class="postEndLineStart"></div> <div class="postEndCont"><a href="javascript:history.back();"><< Назад</a></div> <div class="postEndLineFinish"></div> </div> </div> <div id="disqus_thread"></div> <script> (function() { var d = document, s = d.createElement('script'); s.src = 'https://murlab.disqus.com/embed.js'; s.setAttribute('data-timestamp', +new Date()); (d.head || d.body).appendChild(s); })(); </script> <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript" rel="nofollow">comments powered by Disqus.</a></noscript> </div> <div class="centerClean"></div> </div> </div> <div class="centerEnd"><div></div></div> <div class="footer">2014, 2017 &copy; Mur Laboratory</div> <script async src="https://www.googletagmanager.com/gtag/js?id=UA-111024724-1"></script> <script> window.dataLayer = window.dataLayer || []; function gtag(){dataLayer.push(arguments);} gtag('js', new Date()); gtag('config', 'UA-111024724-1'); </script> </body> </html>

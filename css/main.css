@@ -40,6 +40,16 @@ a:hover {
 	color: orange;
 }
 
+.dictum {
+	clear: both;
+	float: right;
+	color: wheat;
+	width: 320px;
+	text-align: right;
+	font-style: italic;
+	margin: 16px 0;
+}
+
 #dsq-combo-widget.blue #dsq-combo-content .dsq-combo-box {
 	background: #586887!important;
 }
@@ -372,8 +382,11 @@ ul.menu li a:hover{
 }
 .postBody {
 	color: #fff;
-	margin: -10px 6px 0 44px;
+	margin: 0 6px 0 44px;
 	width: 850px;
+}
+.postBody > p {
+	clear: both;
 }
 .postEnd {
 	clear: both;

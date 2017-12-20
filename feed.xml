@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.6.2">Jekyll</generator><link href="https://murlab.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://murlab.github.io/" rel="alternate" type="text/html" /><updated>2017-12-20T00:18:36+03:00</updated><id>https://murlab.github.io/</id><title type="html">Mur Laboratory</title><subtitle>Обожаю сладкое, аниме и игры. Так же пытаюсь делать свои с помощью RPG Maker и Godot. Иногда рисую, да,… (ღ˘⌣˘ღ)</subtitle><entry><title type="html">Пишем свой первый плагин v2.0 Часть 1</title><link href="https://murlab.github.io/blog/Pishem%20svoi%20pervyj%20plagin%20v2.0%20chast%201/" rel="alternate" type="text/html" title="Пишем свой первый плагин v2.0 Часть 1" /><published>2017-12-19T01:00:00+03:00</published><updated>2017-12-19T01:00:00+03:00</updated><id>https://murlab.github.io/blog/Pishem%20svoi%20pervyj%20plagin%20v2.0%20chast%201</id><content type="html" xml:base="https://murlab.github.io/blog/Pishem%20svoi%20pervyj%20plagin%20v2.0%20chast%201/">&lt;div class=&quot;dictum&quot;&gt;Немного обновлённая и исправленная версия со «Светлой Академии».&lt;/div&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.6.2">Jekyll</generator><link href="https://murlab.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://murlab.github.io/" rel="alternate" type="text/html" /><updated>2017-12-20T15:24:14+03:00</updated><id>https://murlab.github.io/</id><title type="html">Mur Laboratory</title><subtitle>Обожаю сладкое, аниме и игры. Так же пытаюсь делать свои с помощью RPG Maker и Godot. Иногда рисую, да,… (ღ˘⌣˘ღ)</subtitle><entry><title type="html">Пишем свой первый плагин v2.0 Часть 1</title><link href="https://murlab.github.io/blog/Pishem%20svoi%20pervyj%20plagin%20v2.0%20chast%201/" rel="alternate" type="text/html" title="Пишем свой первый плагин v2.0 Часть 1" /><published>2017-12-19T01:00:00+03:00</published><updated>2017-12-19T01:00:00+03:00</updated><id>https://murlab.github.io/blog/Pishem%20svoi%20pervyj%20plagin%20v2.0%20chast%201</id><content type="html" xml:base="https://murlab.github.io/blog/Pishem%20svoi%20pervyj%20plagin%20v2.0%20chast%201/">&lt;div class=&quot;dictum&quot;&gt;Немного обновлённая и исправленная версия со «Светлой Академии».&lt;/div&gt;
 
 &lt;p&gt;Как быстро летит время, казалось бы, только вчера вышел RPG Maker MV, а уже пролетело 2 года. За это время много что изменилось, выходили новые версии самого редактора, поменялось много чего в самом движке MV, а главное за эти два года мои личные знания тоже изменились от «ну эт вот тут такая штука» до «класс наследует свойства родителя».&lt;/p&gt;
 
@@ -81,7 +81,7 @@
 
 &lt;p&gt;&lt;img src=&quot;/images.posts/2017-12-19/Pishem svoi pervyj plagin v2.0 chast 1/plugin_02.png&quot; class=&quot;imgCenter&quot; /&gt;&lt;/p&gt;
 
-&lt;p&gt;Теперь рассмотрим ещё одну часть описания плагина, а именно «Help», или как в русской версии указано «Помощь». Для того что бы разместить в информацию в этом блоке достаточно добавить в наш скрипт ещё одно поле @help:&lt;/p&gt;
+&lt;p&gt;Теперь рассмотрим ещё одну часть описания плагина, а именно «Help», или как в русской версии указано «Справка». Для того что бы разместить в информацию в этом блоке достаточно добавить в наш скрипт ещё одно поле @help:&lt;/p&gt;
 
 &lt;pre&gt;&lt;code class=&quot;javascript&quot;&gt;/*:ru
  * @plugindesc Показать предметы на карте v2.0
@@ -99,7 +99,7 @@
 
 &lt;p&gt;Ограничений на количество строк помощи нет, и если их будет достаточно много, сбоку просто появится полоса прокрутки(scrollbar).&lt;/p&gt;
 
-&lt;p&gt;С разделом «Помощь» разобрались и теперь самое время перейти к параметрам плагина. Но для начала я напомню для тех, кто не в курсе, что в составе RPG Maker MV есть такая очень важная и очень удобная штука — отладчик. Вызывается он нажатием клавиши F8 во время запуска игры из редактора.&lt;/p&gt;
+&lt;p&gt;С разделом «Справка» разобрались и теперь самое время перейти к параметрам плагина. Но для начала я напомню для тех, кто не в курсе, что в составе RPG Maker MV есть такая очень важная и очень удобная штука — отладчик. Вызывается он нажатием клавиши F8 во время запуска игры из редактора.&lt;/p&gt;
 
 &lt;p&gt;Более подробно отладчик мы рассмотрим в другой раз, а сейчас мне бы хотелось остановится на вкладке «Console». Сюда будут сыпаться всякого рода ошибки, если они будут, а также можно сюда выводить отладочную информацию. Например, если в основную функцию мы добавим такой код,&lt;/p&gt;
 
@@ -143,7 +143,7 @@ positionX — положение окна на экране по оси X
 positionY — положение окна на экране по оси Y
 enableWhileMessage — показывать ли при отображении окна сообщений&lt;/p&gt;
 
-&lt;p&gt;По сути нам нет необходимости состыковывать слова в одно(enableShowWhileMessage) или писать через символ подчёркивания (enable_show_while_message). Мы можем писать через пробел, и система это аккуратно скушает и не запутается. По сути, наверное, даже можно написать на русском языке, но опять же встаёт вопрос с зарубежными пользователями. Поэтому я предлагаю писать названия на английском, а уже в разделе «Помощь» давать пояснения.&lt;/p&gt;
+&lt;p&gt;По сути нам нет необходимости состыковывать слова в одно(enableShowWhileMessage) или писать через символ подчёркивания (enable_show_while_message). Мы можем писать через пробел, и система это аккуратно скушает и не запутается. По сути, наверное, даже можно написать на русском языке, но опять же встаёт вопрос с зарубежными пользователями. Поэтому я предлагаю писать названия на английском, а уже в разделе «Справка» давать пояснения.&lt;/p&gt;
 
 &lt;p&gt;Для того, чтобы описать какой-либо параметр используются три ключевых слова, так же начинающихся с символа @: это @param — наше название параметра, @default — значение по умолчанию, а также параметр @desc (описание), содержмое которого теперь отображается в окне где задаётся значения переменной. Так же можно описать подробности в секции @help.&lt;/p&gt;
 

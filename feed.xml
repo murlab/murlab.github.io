@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.6.2">Jekyll</generator><link href="https://murlab.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://murlab.github.io/" rel="alternate" type="text/html" /><updated>2017-12-23T09:38:26+03:00</updated><id>https://murlab.github.io/</id><title type="html">Mur Laboratory</title><subtitle>Обожаю сладкое, аниме и игры. Так же пытаюсь делать свои с помощью RPG Maker и Godot. Иногда рисую, да,… (ღ˘⌣˘ღ)</subtitle><entry><title type="html">Пишем свой первый плагин v2.0 Часть 1</title><link href="https://murlab.github.io/blog/Pishem%20svoi%20pervyj%20plagin%20v2.0%20chast%201/" rel="alternate" type="text/html" title="Пишем свой первый плагин v2.0 Часть 1" /><published>2017-12-19T01:00:00+03:00</published><updated>2017-12-19T01:00:00+03:00</updated><id>https://murlab.github.io/blog/Pishem%20svoi%20pervyj%20plagin%20v2.0%20chast%201</id><content type="html" xml:base="https://murlab.github.io/blog/Pishem%20svoi%20pervyj%20plagin%20v2.0%20chast%201/">&lt;div class=&quot;dictum&quot;&gt;Немного обновлённая и исправленная версия со «Светлой Академии».&lt;/div&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.6.2">Jekyll</generator><link href="https://murlab.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://murlab.github.io/" rel="alternate" type="text/html" /><updated>2017-12-23T12:10:18+03:00</updated><id>https://murlab.github.io/</id><title type="html">Mur Laboratory</title><subtitle>Обожаю сладкое, аниме и игры. Так же пытаюсь делать свои с помощью RPG Maker и Godot. Иногда рисую, да,… (ღ˘⌣˘ღ)</subtitle><entry><title type="html">Пишем свой первый плагин v2.0 Часть 1</title><link href="https://murlab.github.io/blog/Pishem%20svoi%20pervyj%20plagin%20v2.0%20chast%201/" rel="alternate" type="text/html" title="Пишем свой первый плагин v2.0 Часть 1" /><published>2017-12-19T01:00:00+03:00</published><updated>2017-12-19T01:00:00+03:00</updated><id>https://murlab.github.io/blog/Pishem%20svoi%20pervyj%20plagin%20v2.0%20chast%201</id><content type="html" xml:base="https://murlab.github.io/blog/Pishem%20svoi%20pervyj%20plagin%20v2.0%20chast%201/">&lt;div class=&quot;dictum&quot;&gt;Немного обновлённая и исправленная версия со «Светлой Академии».&lt;/div&gt;
 
 &lt;p&gt;Как быстро летит время, казалось бы, только вчера вышел RPG Maker MV, а уже пролетело 2 года. За это время много что изменилось, выходили новые версии самого редактора, поменялось много чего в самом движке MV, а главное за эти два года мои личные знания тоже изменились от «ну эт вот тут такая штука» до «класс наследует свойства родителя».&lt;/p&gt;
 
@@ -8,7 +8,7 @@
 
 &lt;p&gt;Начну, пожалуй, с редакторов. В своё время мне понравился редактор «&lt;a href=&quot;http://brackets.io/&quot;&gt;Brackets&lt;/a&gt;». Не скажу, что он плох, но бывает немного порой медлительным. Как альтернативу стоит упомянуть как минимум «&lt;a href=&quot;https://code.visualstudio.com/&quot;&gt;Visual Studio Code&lt;/a&gt;» и «&lt;a href=&quot;https://www.sublimetext.com/&quot;&gt;Sublime Text&lt;/a&gt;». Не буду на них особо заострять внимание, скажу лишь то, что в «Visual Studio Code» очень большая база всевозможных плагинов и дополнений (выпадающие подсказки, отладка итд), а «Sublime Text» на сегодняшний день однозначно самый быстрый редактор, с не менее большими возможностями.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;/images.posts/2017-12-19/Pishem svoi pervyj plagin v2.0 chast 1/editors.png&quot; class=&quot;imgCenter&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/images.posts/2017.12/19 - Pishem svoi pervyj plagin v2.0 chast 1/editors.png&quot; class=&quot;imgCenter&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;При желании я думаю вы и сами с ними разберётесь, в крайнем случае можно писать скрипты и в обычном блокноте.&lt;/p&gt;
 
@@ -32,7 +32,7 @@
 
 &lt;p&gt;Этого вполне достаточно, чтобы наш плагин вот так отображался:&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;/images.posts/2017-12-19/Pishem svoi pervyj plagin v2.0 chast 1/plugin_01.png&quot; class=&quot;imgCenter&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/images.posts/2017.12/19 - Pishem svoi pervyj plagin v2.0 chast 1/plugin_01.png&quot; class=&quot;imgCenter&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;Пройдёмся более детально по частям:&lt;/p&gt;
 
@@ -82,7 +82,7 @@
 
 &lt;p&gt;Теперь, если мы запустим английскую версию RPG Maker MV, то получим описание как на скриншоте выше, а если запустим русскую версию, то соответственно описание будет на русском языке:&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;/images.posts/2017-12-19/Pishem svoi pervyj plagin v2.0 chast 1/plugin_02.png&quot; class=&quot;imgCenter&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/images.posts/2017.12/19 - Pishem svoi pervyj plagin v2.0 chast 1/plugin_02.png&quot; class=&quot;imgCenter&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;Рассмотрим ещё одну часть описания плагина, а именно «Help», или как в русской версии указано «Справка». Для того что бы разместить в информацию в этом блоке достаточно добавить в наш скрипт ещё одно поле @help:&lt;/p&gt;
 
@@ -98,7 +98,7 @@
 */
 &lt;/code&gt;&lt;/pre&gt;
 
-&lt;p&gt;&lt;img src=&quot;/images.posts/2017-12-19/Pishem svoi pervyj plagin v2.0 chast 1/plugin_03.png&quot; class=&quot;imgCenter&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/images.posts/2017.12/19 - Pishem svoi pervyj plagin v2.0 chast 1/plugin_03.png&quot; class=&quot;imgCenter&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;Ограничений на количество строк справки нет, и, если их будет достаточно много, сбоку просто появится полоса прокрутки(scrollbar).&lt;/p&gt;
 
@@ -113,7 +113,7 @@
 
 &lt;p&gt;то в закладке «Console» мы увидим своё сообщение:&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;/images.posts/2017-12-19/Pishem svoi pervyj plagin v2.0 chast 1/plugin_04A.png&quot; class=&quot;imgCenter&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/images.posts/2017.12/19 - Pishem svoi pervyj plagin v2.0 chast 1/plugin_04A.png&quot; class=&quot;imgCenter&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;А если попробуем вызвать несуществующую функцию, например «abyrvalg()»:&lt;/p&gt;
 
@@ -124,13 +124,13 @@
 
 &lt;p&gt;то получим соответствующее сообщение об ошибке:&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;/images.posts/2017-12-19/Pishem svoi pervyj plagin v2.0 chast 1/plugin_04B.png&quot; class=&quot;imgCenter&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/images.posts/2017.12/19 - Pishem svoi pervyj plagin v2.0 chast 1/plugin_04B.png&quot; class=&quot;imgCenter&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;В правой части указано имя файла из которого произошел вызов (или случилась ошибка) «MUR_ItemsOnMap_2.js», а после двоеточия указан номер строки, в которой это случилось.&lt;/p&gt;
 
 &lt;p&gt;Но вернёмся к настройкам плагина. В отличии от предыдущей версии, мы его немного усложним для программирования, но упростим настройку для пользователя. Поскольку наш плагин будет отображать количество предметов, которое есть в наличии у игрока, то логично будет запросить эти данные у системы (а точнее у инвентаря). Но в любом случае нам нужно вынести в настройки номер(идентификатор/ID) предмета данные о котором мы хотим отображать.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;/images.posts/2017-12-19/Pishem svoi pervyj plagin v2.0 chast 1/database.png&quot; class=&quot;imgCenter&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/images.posts/2017.12/19 - Pishem svoi pervyj plagin v2.0 chast 1/database.png&quot; class=&quot;imgCenter&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;Номер предмета (или его ID) указан в рядом с названием предмета в «Базе данных» (вызывается нажатием клавиши F9) в закладке «Предметы». Дальше нам нужно сделать возможность включать и отключать отображение нашего окошка. Это можно сделать двумя способами: как и в предыдущей версии урока с помощью ключа(switch), а также с помощью вызова команды плагина. В дальнейшем мы рассмотрим оба способа, но пока зарезервируем в настройках параметр с номером ключа.&lt;/p&gt;
 
@@ -140,7 +140,7 @@
 
 &lt;p&gt;Пример как это было в предыдущей версии плагина, вывод во время битвы:&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;/images.posts/2017-12-19/Pishem svoi pervyj plagin v2.0 chast 1/glitch.png&quot; class=&quot;imgCenter&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/images.posts/2017.12/19 - Pishem svoi pervyj plagin v2.0 chast 1/glitch.png&quot; class=&quot;imgCenter&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;Итого у нас получилось параметров:&lt;/p&gt;
 
@@ -191,7 +191,7 @@
 
 &lt;p&gt;А при настройке плагина это будет выглядеть вот так:&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;/images.posts/2017-12-19/Pishem svoi pervyj plagin v2.0 chast 1/plugin_06.png&quot; class=&quot;imgCenter&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/images.posts/2017.12/19 - Pishem svoi pervyj plagin v2.0 chast 1/plugin_06.png&quot; class=&quot;imgCenter&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;Тоже самое нужно повторить, но уже для англоязычной секции (*:en).&lt;/p&gt;
 
@@ -314,7 +314,7 @@ if (params['Enabled while message'].toUpperCase() == &quot;TRUE&quot;) {
 
 &lt;p&gt;Я намеренно сокращу код, оставив только русскоязычную часть, дабы не удлинять и без того очень длинную статью.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;/images.posts/2017-12-19/Pishem svoi pervyj plagin v2.0 chast 1/console_out.png&quot; class=&quot;imgCenter&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/images.posts/2017.12/19 - Pishem svoi pervyj plagin v2.0 chast 1/console_out.png&quot; class=&quot;imgCenter&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;Убедившись, что у нас всё отлично работает и мы забираем значения настроек правильно, мы неожиданно можем столкнуться с некоторыми трудностями. К сожалению программисты зачастую бывают очень ленивы и забывают, что пользоваться плодами их творчества будут люди далёкие от программирования. Кроме того, никто не застрахован от ошибок, очепяток итд.&lt;/p&gt;
 
@@ -324,7 +324,7 @@ if (params['Enabled while message'].toUpperCase() == &quot;TRUE&quot;) {
 
 &lt;p&gt;Понятно, что всех критических ситуаций не учесть, но в данном случае можно хотя бы проверить значения переменных на отсутствие значение NaN и вывести предупреждение на экран:&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;/images.posts/2017-12-19/Pishem svoi pervyj plagin v2.0 chast 1/plugin_params_error.png&quot; class=&quot;imgCenter&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/images.posts/2017.12/19 - Pishem svoi pervyj plagin v2.0 chast 1/plugin_params_error.png&quot; class=&quot;imgCenter&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;Как это сделать мы поговорим во второй части, а пока ограничимся предупреждением в окне Console:&lt;/p&gt;
 
@@ -333,13 +333,13 @@ if (params['Enabled while message'].toUpperCase() == &quot;TRUE&quot;) {
     }
 &lt;/code&gt;&lt;/pre&gt;
 
-&lt;p&gt;&lt;img src=&quot;/images.posts/2017-12-19/Pishem svoi pervyj plagin v2.0 chast 1/plugin_params_error2.png&quot; class=&quot;imgCenter&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/images.posts/2017.12/19 - Pishem svoi pervyj plagin v2.0 chast 1/plugin_params_error2.png&quot; class=&quot;imgCenter&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;…&lt;/p&gt;
 
 &lt;p&gt;Уже практически закончив статью и перечитывая материал ещё раз, меня заинтересовала вкладка «Текст» в окне, где задаётся значение параметра.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;/images.posts/2017-12-19/Pishem svoi pervyj plagin v2.0 chast 1/plugin_06.png&quot; class=&quot;imgCenter&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/images.posts/2017.12/19 - Pishem svoi pervyj plagin v2.0 chast 1/plugin_06.png&quot; class=&quot;imgCenter&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;Мой пытливый ум сразу же решил проверить, а не может ли быть в этом месте другой тип? Например, числовой? И как показала практика достаточно задать дополнительное поле вида «@type number», чтобы стало возможным задавать цифровое значение.&lt;/p&gt;
 
@@ -385,7 +385,7 @@ if (params['Enabled while message'].toUpperCase() == &quot;TRUE&quot;) {
 
 &lt;p&gt;И как это выглядит визуально (в редакторе):&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;/images.posts/2017-12-19/Pishem svoi pervyj plagin v2.0 chast 1/types.png&quot; class=&quot;imgCenter&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/images.posts/2017.12/19 - Pishem svoi pervyj plagin v2.0 chast 1/types.png&quot; class=&quot;imgCenter&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;Более подробное изучение данного вопроса выявило, что, начиная с версии RPG Maker MV 1.5.0 появились дополнительные ключевые слова в параметрах.&lt;/p&gt;
 
@@ -456,7 +456,7 @@ if (params['Enabled while message'].toUpperCase() == &quot;TRUE&quot;) {
 
 &lt;p&gt;И как это выглядит в редакторе:&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;/images.posts/2017-12-19/Pishem svoi pervyj plagin v2.0 chast 1/float_example.png&quot; class=&quot;imgCenter&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/images.posts/2017.12/19 - Pishem svoi pervyj plagin v2.0 chast 1/float_example.png&quot; class=&quot;imgCenter&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;Причём самое интересное, что с помощью стрелочек изменяется только целая часть. Дробную же надо вводить вручную.&lt;/p&gt;
 
@@ -474,7 +474,7 @@ if (params['Enabled while message'].toUpperCase() == &quot;TRUE&quot;) {
 
 &lt;p&gt;И как это выглядит в редакторе:&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;/images.posts/2017-12-19/Pishem svoi pervyj plagin v2.0 chast 1/file_example.png&quot; class=&quot;imgCenter&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/images.posts/2017.12/19 - Pishem svoi pervyj plagin v2.0 chast 1/file_example.png&quot; class=&quot;imgCenter&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;Помимо ранее рассмотренных @type switch и @type item, есть ещё возможность задать следующие:&lt;/p&gt;
 
@@ -527,7 +527,7 @@ if (params['Enabled while message'].toUpperCase() == &quot;TRUE&quot;) {
 
 &lt;p&gt;В @option задаётся название которое будет отображаться в списке, а в @value указывается значение которые сохранится в параметрах, при выборе этого пункта.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;/images.posts/2017-12-19/Pishem svoi pervyj plagin v2.0 chast 1/select_example.png&quot; class=&quot;imgCenter&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/images.posts/2017.12/19 - Pishem svoi pervyj plagin v2.0 chast 1/select_example.png&quot; class=&quot;imgCenter&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;Если есть необходимость задать значение как в текстовом виде, так и выбрать готовое значение из списка, пригодится конструкция в виде «@type combo» и «@option»:&lt;/p&gt;
 
@@ -542,7 +542,7 @@ if (params['Enabled while message'].toUpperCase() == &quot;TRUE&quot;) {
 
 &lt;p&gt;Конструкция такая же, как и в случае с @type select.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;/images.posts/2017-12-19/Pishem svoi pervyj plagin v2.0 chast 1/combo_example.png&quot; class=&quot;imgCenter&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/images.posts/2017.12/19 - Pishem svoi pervyj plagin v2.0 chast 1/combo_example.png&quot; class=&quot;imgCenter&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;Если необходимо указать или выбрать несколько значений параметра, то можно создать список (List) в виде:&lt;/p&gt;
 
@@ -570,7 +570,7 @@ if (params['Enabled while message'].toUpperCase() == &quot;TRUE&quot;) {
 
 &lt;p&gt;и как список строк выглядит в редакторе:&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;/images.posts/2017-12-19/Pishem svoi pervyj plagin v2.0 chast 1/text_list_example.png&quot; class=&quot;imgCenter&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/images.posts/2017.12/19 - Pishem svoi pervyj plagin v2.0 chast 1/text_list_example.png&quot; class=&quot;imgCenter&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;Ну и последнее, это возможность создавать свои, произвольные структуры:&lt;/p&gt;
 
@@ -668,7 +668,7 @@ if (params['Enabled while message'].toUpperCase() == &quot;TRUE&quot;) {
 
 &lt;p&gt;И как это выглядит визуально:&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;/images.posts/2017-12-19/Pishem svoi pervyj plagin v2.0 chast 1/f1.png&quot; class=&quot;imgCenter&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/images.posts/2017.12/19 - Pishem svoi pervyj plagin v2.0 chast 1/f1.png&quot; class=&quot;imgCenter&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;В заключении хочу обратить ваше внимание, что, не смотря на возможность как-то «облагородить» вводимые пользователем данные, всё так же осталась актуальна проблема ввода некорректных данных на вкладке «Текст». Например можно всё так же в координатах задать текстовое значение, а при получении данных получить ошибку в виде NaN(Not A Number).&lt;/p&gt;
 
@@ -678,7 +678,7 @@ if (params['Enabled while message'].toUpperCase() == &quot;TRUE&quot;) {
 
 &lt;div class=&quot;dictum&quot;&gt;…продолжение следует.&lt;/div&gt;
 
-&lt;p&gt;p.s. Надеюсь вас не слишком утомила данная «простыня».&lt;/p&gt;</content><author><name></name></author><category term="rpg maker mv" /><category term="plugins" /><category term="story" /><category term="уроки" /><summary type="html">Немного обновлённая и исправленная версия со «Светлой Академии».</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://murlab.github.io/Pishem%20svoi%20pervyj%20plagin%20v2.0%20chast%201/code_title.png" /></entry><entry><title type="html">Архивация</title><link href="https://murlab.github.io/blog/Arhivacija/" rel="alternate" type="text/html" title="Архивация" /><published>2017-12-17T01:00:00+03:00</published><updated>2017-12-17T01:00:00+03:00</updated><id>https://murlab.github.io/blog/Arhivacija</id><content type="html" xml:base="https://murlab.github.io/blog/Arhivacija/">&lt;p&gt;Всем привет!&lt;/p&gt;
+&lt;p&gt;p.s. Надеюсь вас не слишком утомила данная «простыня».&lt;/p&gt;</content><author><name></name></author><category term="rpg maker mv" /><category term="plugins" /><category term="story" /><category term="уроки" /><summary type="html">Немного обновлённая и исправленная версия со «Светлой Академии».</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://murlab.github.io/19%20-%20Pishem%20svoi%20pervyj%20plagin%20v2.0%20chast%201/code_title.png" /></entry><entry><title type="html">Архивация</title><link href="https://murlab.github.io/blog/Arhivacija/" rel="alternate" type="text/html" title="Архивация" /><published>2017-12-17T01:00:00+03:00</published><updated>2017-12-17T01:00:00+03:00</updated><id>https://murlab.github.io/blog/Arhivacija</id><content type="html" xml:base="https://murlab.github.io/blog/Arhivacija/">&lt;p&gt;Всем привет!&lt;/p&gt;
 
 &lt;p&gt;Итак, процесс архивации, или если быть точнее переезда завершен. В ходе переноса были подправленные некоторые ошибки, неточности и опечатки. Так, что здесь теперь более грамотная версия материала. Старый сайт я пока тоже удалять не стану.&lt;/p&gt;
 
@@ -693,23 +693,23 @@ if (params['Enabled while message'].toUpperCase() == &quot;TRUE&quot;) {
   &lt;li&gt;&lt;a href=&quot;/blog/Pishem%20svoj%20pervyj%20plagin%20dla%20RPG%20Maker%20MV/&quot;&gt;Пишем свой первый плагин для RPG Maker MV&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;&lt;a href=&quot;/blog/Pishem%20plagin%20dla%20otobrazhenia%20bolshih%20avatarok/&quot;&gt;Пишем плагин для отображения больших аватарок&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;&lt;a href=&quot;/blog/Zapuskaem%20proekt%20v%20brauzere/&quot;&gt;Запускаем проект в браузере&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;</content><author><name></name></author><category term="archive" /><summary type="html">Всем привет!</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://murlab.github.io/Arhivacija/book_title.png" /></entry><entry><title type="html">October, Inktober, 8bit… Octobit!</title><link href="https://murlab.github.io/blog/October,%20Inktober,%208bit...%20Octobit!/" rel="alternate" type="text/html" title="October, Inktober, 8bit... Octobit!" /><published>2017-12-11T16:28:28+03:00</published><updated>2017-12-11T16:28:28+03:00</updated><id>https://murlab.github.io/blog/October,%20Inktober,%208bit...%20Octobit!</id><content type="html" xml:base="https://murlab.github.io/blog/October,%20Inktober,%208bit...%20Octobit!/">&lt;p&gt;Иногда на меня находит, и я люблю порисовать. Этой осенью так совпало, мне захотелось, а тут подоспел некоторый челендж или «вызов» (соревнование по русски).&lt;/p&gt;
+&lt;/ul&gt;</content><author><name></name></author><category term="archive" /><summary type="html">Всем привет!</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://murlab.github.io/17%20-%20Arhivacija/book_title.png" /></entry><entry><title type="html">October, Inktober, 8bit… Octobit!</title><link href="https://murlab.github.io/blog/October,%20Inktober,%208bit...%20Octobit!/" rel="alternate" type="text/html" title="October, Inktober, 8bit... Octobit!" /><published>2017-12-11T16:28:28+03:00</published><updated>2017-12-11T16:28:28+03:00</updated><id>https://murlab.github.io/blog/October,%20Inktober,%208bit...%20Octobit!</id><content type="html" xml:base="https://murlab.github.io/blog/October,%20Inktober,%208bit...%20Octobit!/">&lt;p&gt;Иногда на меня находит, и я люблю порисовать. Этой осенью так совпало, мне захотелось, а тут подоспел некоторый челендж или «вызов» (соревнование по русски).&lt;/p&gt;
 
 &lt;p&gt;Не для кого не секрет, что художник птица гордая, пока не пн,… гхм о чём это я. Ах да, оказывается уже не первый год, каждый октябрь происходит такое широкомасштабное мероприятие, как «&lt;a href=&quot;https://twitter.com/inktober&quot;&gt;Inktober&lt;/a&gt;».&lt;/p&gt;
 
 &lt;!--break--&gt;
 
-&lt;p&gt;&lt;img src=&quot;/images.posts/2017-12-11/October, Inktober, 8bit... Octobit!/Inktober.png&quot; class=&quot;imgLeft&quot; /&gt;Придумал его в 2009 году такой крутой дядька как &lt;a href=&quot;http://mrjakeparker.com/&quot;&gt;Джейк Паркер&lt;/a&gt;, а интернет его быстренько подхватил, и буквально за несколько лет оно стало массовым мероприятием. Само слово «Inktober», это вариация на тему октябрь (october) + собственно чернила (Ink).&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/images.posts/2017.12/11 - October, Inktober, 8bit... Octobit!/Inktober.png&quot; class=&quot;imgLeft&quot; /&gt;Придумал его в 2009 году такой крутой дядька как &lt;a href=&quot;http://mrjakeparker.com/&quot;&gt;Джейк Паркер&lt;/a&gt;, а интернет его быстренько подхватил, и буквально за несколько лет оно стало массовым мероприятием. Само слово «Inktober», это вариация на тему октябрь (october) + собственно чернила (Ink).&lt;/p&gt;
 
 &lt;p&gt;Основная идея «Inktober» это рисовать каждый день по одной картинке. Не важно, что это будет просто набросок, или что-то более серьёзное, главное рисовать, не останавливаясь и так сказать улучшать свои навыки.&lt;/p&gt;
 
 &lt;p&gt;Для многих стало настоящим мучением, что же нарисовать? И что бы облегчить муки выбора, а заодно поощрить дух соревнования, стали предлагать задания (темы) на каждый день. Конечно авторы могут и не прислушиваться к заданной теме и творить что им заблагорассудится, но порой весьма очень интересно увидеть, как разные авторы видят одну и туже тему.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;/images.posts/2017-12-11/October, Inktober, 8bit... Octobit!/BrunoMoraes.png&quot; class=&quot;imgRight&quot; /&gt;На ряду с обычным «Inktober», где принято рисовать в классическом стиле (карандаши, кисти, маркеры итд) на бумаге, появилась отдельная ветка «&lt;a href=&quot;https://twitter.com/search?q=%23octobit&amp;amp;src=typd&quot;&gt;Octobit&lt;/a&gt;» за авторством &lt;a href=&quot;https://twitter.com/brunopixels&quot;&gt;Бруно Мораес&lt;/a&gt; из далёкой Бразилии. Как не трудно догадаться из названия основная тема картинок в данной категории — 8бит. Или точнее всё-таки будет сказать графика, созданная на компьютере в стиле pixelart. По сути ограничений в 8 бит по цветовой палитре здесь нет, так что это скорее уже дань памяти. Так же как и в случае с «Inktober», «Octobit» это тоже вариация октября и восемь и бит, такой вот немного замудрёный ребус (:&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/images.posts/2017.12/11 - October, Inktober, 8bit... Octobit!/BrunoMoraes.png&quot; class=&quot;imgRight&quot; /&gt;На ряду с обычным «Inktober», где принято рисовать в классическом стиле (карандаши, кисти, маркеры итд) на бумаге, появилась отдельная ветка «&lt;a href=&quot;https://twitter.com/search?q=%23octobit&amp;amp;src=typd&quot;&gt;Octobit&lt;/a&gt;» за авторством &lt;a href=&quot;https://twitter.com/brunopixels&quot;&gt;Бруно Мораес&lt;/a&gt; из далёкой Бразилии. Как не трудно догадаться из названия основная тема картинок в данной категории — 8бит. Или точнее всё-таки будет сказать графика, созданная на компьютере в стиле pixelart. По сути ограничений в 8 бит по цветовой палитре здесь нет, так что это скорее уже дань памяти. Так же как и в случае с «Inktober», «Octobit» это тоже вариация октября и восемь и бит, такой вот немного замудрёный ребус (:&lt;/p&gt;
 
 &lt;p&gt;В этом году Бруно так же предложил свой список список тем. Причём самое интересное, темы разделены как бы на «мило» и «немило». Можно выбрать то, что вам ближе по духу, а можно попробовать и совместить две темы в одной картинке.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;/images.posts/2017-12-11/October, Inktober, 8bit... Octobit!/Octobit.png&quot; class=&quot;imgCenter&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/images.posts/2017.12/11 - October, Inktober, 8bit... Octobit!/Octobit.png&quot; class=&quot;imgCenter&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;Так же, как и «Inktober», «Octobit» длился 31 день и состоял из следующих тем (отдельное спасибо за подготовленный перевод Dmy со светлой):&lt;/p&gt;
 
@@ -754,37 +754,37 @@ if (params['Enabled while message'].toUpperCase() == &quot;TRUE&quot;) {
 
 &lt;p&gt;&lt;strong&gt;День первый, «Клоун»:&lt;/strong&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;/images.posts/2017-12-11/October, Inktober, 8bit... Octobit!/octobit_01A.gif&quot; class=&quot;imgCenter&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/images.posts/2017.12/11 - October, Inktober, 8bit... Octobit!/octobit_01A.gif&quot; class=&quot;imgCenter&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;Вообще, мне клоуны не нравятся, да и собственно никогда не нравились. Даже в детстве мне сложно было понять радость от разукрашенных физиономий, безразмерных ботинок и взъерошенных рыжих волос, а что уж говорить про сегодняшний день. Поэтому мне было достаточно сложно выбрать, что же нарисовать. Многие конечно же кинулись сразу рисовать в пику популярности фильма «Оно». Но мне почему-то сразу вспомнился Красти из Симпсонов. Эдакий «хитро-жёлтый» предприниматель. Вечно пытается всех надурить, пренеприятнейший характер и собственно само олицетворения клоуна в моём отношении к этой братии. Возможно в жизни они и не плохие ребята, но вот у меня такое восприятие.&lt;/p&gt;
 
 &lt;p&gt;&lt;strong&gt;День второй, «Космонавт / инопланетянин»:&lt;/strong&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;/images.posts/2017-12-11/October, Inktober, 8bit... Octobit!/octobit_02.gif&quot; class=&quot;imgCenter&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/images.posts/2017.12/11 - October, Inktober, 8bit... Octobit!/octobit_02.gif&quot; class=&quot;imgCenter&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;Ну тут уже моя душа как говорится понеслась в рай (: Мне захотелось совместить, как говорится два в одном. Идея картинки была придумана практически сразу. Прообраз астронавта был взят с плакатов 60х годов, о покорении космоса, а дальше захотелось добавить «сложную» ситуацию, но всё-таки с хеппи-эндом (:  В результате чего получилась такая вот неожиданная встреча, мол мы хорошие, вон цветочек принесли, хоть и тентакли XD&lt;/p&gt;
 
 &lt;p&gt;&lt;strong&gt;День третий, « Жертва / хищник»:&lt;/strong&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;/images.posts/2017-12-11/October, Inktober, 8bit... Octobit!/octobit_03.gif&quot; class=&quot;imgCenter&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/images.posts/2017.12/11 - October, Inktober, 8bit... Octobit!/octobit_03.gif&quot; class=&quot;imgCenter&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;Идея опять совместить два в одно пришла случайно. Изначально была просто задумка нарисовать ужасную акулу, мол бойтесь. Но к сожалению, или к радости, очень долго никак не получался хвост. То он тонкий, то неестественно выгнут, в результате чего пришлось брать фото настоящей акулы и просто обрисовывать контуры &amp;gt;_&amp;lt;’ И уже в процессе обрисовки, мне вдруг пришла интересная идея, запихнуть акулу в аквариум, получилась такая картинка-вопрос, мол жертва или же хищник?&lt;/p&gt;
 
 &lt;p&gt;&lt;strong&gt;День четвёртый, «Свежее / гнилое»:&lt;/strong&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;/images.posts/2017-12-11/October, Inktober, 8bit... Octobit!/octobit_04.gif&quot; class=&quot;imgCenter&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/images.posts/2017.12/11 - October, Inktober, 8bit... Octobit!/octobit_04.gif&quot; class=&quot;imgCenter&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;И снова я извращаюсь с идей два в одном. Идея долго не приходила, рисовать что-то банально свежее не хотелось, а уж тратить кучу времени на попытку реализовать что-то гнилое, мне тоже показалось ещё то сомнительное удовольствие. И тут уже разглядывая яблоко с коричневым бочком, мне пришла в голову сумасшедшая идея. А что если нарисовать яблоко в такой цветовой гамме, что сразу и не понять, то ли оно свежее, то ли уже сгнившее. Что получилось в итоге вы видите (:&lt;/p&gt;
 
 &lt;p&gt;&lt;strong&gt;День пятый, «Максимум четыре ноги / слишком много ног»:&lt;/strong&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;/images.posts/2017-12-11/October, Inktober, 8bit... Octobit!/octobit_05.gif&quot; class=&quot;imgCenter&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/images.posts/2017.12/11 - October, Inktober, 8bit... Octobit!/octobit_05.gif&quot; class=&quot;imgCenter&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;Тут у меня сомнений уже не было что рисовать. Конечно же слишком много ног, но во главе с тем, у кого ног было поменьше. Особо рассказывать об идеи тут нечего, единственное, что скажу, что я не то что бы боюсь, но скажем так не люблю пауков, поэтому при каждом удобном случает с ними контактирую, беру на руки, воспитываю так сказать в себе силу воли, хотя сердце в этот момент в пятках XD&lt;/p&gt;
 
 &lt;p&gt;Шестой день к сожалению, не задался. Возможно когда-нибудь у меня будет ещё настроение и время и я наверстаю упущенный октябрь 2017, но, а пока на этом всё!&lt;/p&gt;
 
-&lt;p&gt;Всем всего, ещё увидимся ;)&lt;/p&gt;</content><author><name></name></author><category term="octobit" /><category term="inktober" /><category term="8bit" /><category term="pixelart" /><category term="story" /><summary type="html">Иногда на меня находит, и я люблю порисовать. Этой осенью так совпало, мне захотелось, а тут подоспел некоторый челендж или «вызов» (соревнование по русски).</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://murlab.github.io/October,%20Inktober,%208bit...%20Octobit!/octobit_title.png" /></entry><entry><title type="html">Godot the begining</title><link href="https://murlab.github.io/blog/Godot%20the%20begining/" rel="alternate" type="text/html" title="Godot the begining" /><published>2017-12-08T13:00:00+03:00</published><updated>2017-12-08T13:00:00+03:00</updated><id>https://murlab.github.io/blog/Godot%20the%20begining</id><content type="html" xml:base="https://murlab.github.io/blog/Godot%20the%20begining/">&lt;p&gt;Где-то примерно в середине лета мне предложили изучить такую интересную штуку как «&lt;a href=&quot;https://godotengine.org/&quot;&gt;Godot Engine&lt;/a&gt;», тем более, что она доступна бесплатно и есть даже в &lt;a href=&quot;http://store.steampowered.com/app/404790/Godot_Engine/&quot;&gt;Steam&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Всем всего, ещё увидимся ;)&lt;/p&gt;</content><author><name></name></author><category term="octobit" /><category term="inktober" /><category term="8bit" /><category term="pixelart" /><category term="story" /><summary type="html">Иногда на меня находит, и я люблю порисовать. Этой осенью так совпало, мне захотелось, а тут подоспел некоторый челендж или «вызов» (соревнование по русски).</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://murlab.github.io/11%20-%20October,%20Inktober,%208bit...%20Octobit!/octobit_title.png" /></entry><entry><title type="html">Godot the begining</title><link href="https://murlab.github.io/blog/Godot%20the%20begining/" rel="alternate" type="text/html" title="Godot the begining" /><published>2017-12-08T13:00:00+03:00</published><updated>2017-12-08T13:00:00+03:00</updated><id>https://murlab.github.io/blog/Godot%20the%20begining</id><content type="html" xml:base="https://murlab.github.io/blog/Godot%20the%20begining/">&lt;p&gt;Где-то примерно в середине лета мне предложили изучить такую интересную штуку как «&lt;a href=&quot;https://godotengine.org/&quot;&gt;Godot Engine&lt;/a&gt;», тем более, что она доступна бесплатно и есть даже в &lt;a href=&quot;http://store.steampowered.com/app/404790/Godot_Engine/&quot;&gt;Steam&lt;/a&gt;.&lt;/p&gt;
 
 &lt;p&gt;В отличии от того же RPG Maker, Godot это уже серьёзная система или как говорят «движок». Он разрабатывается сообществом Godot Engine Community и использовался внутри некоторых компаний Латинской Америки.&lt;/p&gt;
 
@@ -794,7 +794,7 @@ if (params['Enabled while message'].toUpperCase() == &quot;TRUE&quot;) {
 
 &lt;p&gt;Godot можно смело назвать конструктором конструкторов. Это своего рода коробка с кубиками Lego, с той лишь разницей, что в Lego у вас много разных кубиков, но у всех жестко заданы свойства (форма, размер, количество соединительных элементов, цвет итд). В Godot вы вольны создавать свои собственные «кубики» с какими угодно свойствами и параметрами. И самое главное, что из нескольких «кубиков» вы можете создавать новые, задавать им новые свойства, объединять или удалять, в общем всё как в настоящем программировании.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;/images.posts/2017-12-08/Godot the begining/neko_love_godot.png&quot; class=&quot;imgLeft&quot; /&gt; В Godot отличный скриптовый язык (&lt;a href=&quot;http://docs.godotengine.org/en/stable/learning/scripting/gdscript/gdscript_basics.html&quot;&gt;GDScript&lt;/a&gt;) с большими возможностями, который очень похож по синтаксису на Python. Конечно, если вы раньше никогда не занимались программированием, вам будет немного труднее разобраться, возможно стоит начать с чего-то попроще, например, с RPG Maker. Но если вы владеете хотя бы базовыми знаниями, то вы без труда (в большинстве случаев) быстро получите желаемый результат.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/images.posts/2017.12/08 - Godot the begining/neko_love_godot.png&quot; class=&quot;imgLeft&quot; /&gt; В Godot отличный скриптовый язык (&lt;a href=&quot;http://docs.godotengine.org/en/stable/learning/scripting/gdscript/gdscript_basics.html&quot;&gt;GDScript&lt;/a&gt;) с большими возможностями, который очень похож по синтаксису на Python. Конечно, если вы раньше никогда не занимались программированием, вам будет немного труднее разобраться, возможно стоит начать с чего-то попроще, например, с RPG Maker. Но если вы владеете хотя бы базовыми знаниями, то вы без труда (в большинстве случаев) быстро получите желаемый результат.&lt;/p&gt;
 
 &lt;p&gt;В системе достаточно много готовых «кубиков» таких как спрайт, полигональный объект, камера итд. Но кроме этого есть так называемые модули «физических свойств». Например, можно «наделить» свой «кубик» физическими свойствами, и он будет автоматически падать вниз, до тех пор, пока не встретится с другим объектом, у которого указано, что он является поверхностью. Таким образом отпадает необходимость в проверке столкновений, система делает это автоматически.&lt;/p&gt;
 
@@ -802,7 +802,7 @@ if (params['Enabled while message'].toUpperCase() == &quot;TRUE&quot;) {
 
 &lt;p&gt;Но вернёмся к середине лета. Особых идей у меня не было, но лапы уже чесались и изучать систему с чего-то начинать надо. В этот момент на «&lt;a href=&quot;http://rpgmaker.su/&quot;&gt;нейтральной полосе&lt;/a&gt;» проходил конкурс и одной из номинантов была игра «&lt;a href=&quot;http://rpgmaker.su/f102/[rtp]-the-one-3511/&quot;&gt;The One&lt;/a&gt;» от Лис.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;/images.posts/2017-12-08/Godot the begining/the_one.png&quot; class=&quot;imgCenter&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/images.posts/2017.12/08 - Godot the begining/the_one.png&quot; class=&quot;imgCenter&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;Игра представляла из себя квест-бродилку, с изучением комнат, предметов, поиском ответов и небольшими головоломками. События происходят в некой сумрачной «лаборатории», из-за чего многие приписали игрушке «хоррор», хотя сама автор так и не считает.&lt;/p&gt;
 
@@ -810,7 +810,7 @@ if (params['Enabled while message'].toUpperCase() == &quot;TRUE&quot;) {
 
 &lt;p&gt;Игру захотелось сделать в минималистичном стиле pixelart. В результате чего появилась идея «The One: Prototype».&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;/images.posts/2017-12-08/Godot the begining/the_one_prototype.png&quot; class=&quot;imgCenter&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/images.posts/2017.12/08 - Godot the begining/the_one_prototype.png&quot; class=&quot;imgCenter&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;К сожалению, в сети не так много русскоязычной информации на тему Godot, поэтому пришлось штудировать уроки на англоязычном &lt;a href=&quot;https://www.youtube.com/watch?v=UWB-HVFxEpU&amp;amp;list=PLS9MbmO_ssyAXRl-_ktrebQBFxjSQt7UX&quot;&gt;youtube&lt;/a&gt;. Впрочем, если вы неплохо понимаете английский и тем более программируете, это быстро  поможет разобраться в предмете вопроса.&lt;/p&gt;
 
@@ -833,7 +833,7 @@ if (params['Enabled while message'].toUpperCase() == &quot;TRUE&quot;) {
 &lt;iframe src=&quot;https://player.vimeo.com/video/224862187&quot; width=&quot;850&quot; height=&quot;498&quot; frameborder=&quot;0&quot; webkitallowfullscreen=&quot;&quot; mozallowfullscreen=&quot;&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
 &lt;p&gt;Следующим шагом стал компонент выбора варианта ответов. С одной стороны, мне хотелось чего-то оригинального, а с другой мне нравилась система в играх BioWare.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;/images.posts/2017-12-08/Godot the begining/mass_effect_select.png&quot; class=&quot;imgCenter&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/images.posts/2017.12/08 - Godot the begining/mass_effect_select.png&quot; class=&quot;imgCenter&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;В результате чего была честно слямзена идея из &lt;a href=&quot;http://store.steampowered.com/app/17460/&quot;&gt;Mass Effect&lt;/a&gt; и адаптирована под pixelart стиль.&lt;/p&gt;
 
@@ -849,11 +849,11 @@ if (params['Enabled while message'].toUpperCase() == &quot;TRUE&quot;) {
 &lt;iframe src=&quot;https://player.vimeo.com/video/225681952&quot; width=&quot;850&quot; height=&quot;498&quot; frameborder=&quot;0&quot; webkitallowfullscreen=&quot;&quot; mozallowfullscreen=&quot;&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
 &lt;p&gt;На данном этапе разработки стала «проблемой» анимация, а точнее корявая её реализация.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;/images.posts/2017-12-08/Godot the begining/the_one_gg.png&quot; class=&quot;imgLeft&quot; /&gt; Как видно из видеороликов, в качестве гг использовался «чибик» с анимацией из RPG Maker MV. Кадров всего три, и достаточно выглядят грустно.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/images.posts/2017.12/08 - Godot the begining/the_one_gg.png&quot; class=&quot;imgLeft&quot; /&gt; Как видно из видеороликов, в качестве гг использовался «чибик» с анимацией из RPG Maker MV. Кадров всего три, и достаточно выглядят грустно.&lt;/p&gt;
 
 &lt;p&gt;И как оказалось, не просто подобрать временную задержку, что бы получилось более-менее вменяемое передвижение.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;/images.posts/2017-12-08/Godot the begining/player.png&quot; class=&quot;imgRight&quot; /&gt;Поэтому пришлось искать альтернативу. Взор упал на вариант слямзить кадры из RPG Maker XP.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/images.posts/2017.12/08 - Godot the begining/player.png&quot; class=&quot;imgRight&quot; /&gt;Поэтому пришлось искать альтернативу. Взор упал на вариант слямзить кадры из RPG Maker XP.&lt;/p&gt;
 
 &lt;p&gt;К сожалению реализация анимации в 4 кадра не сильно помогла. Там были всё же «чибики», хотя немного перерисовав персонажа, мне удалось добиться более-менее вменяемой внешности.&lt;/p&gt;
 
@@ -863,13 +863,13 @@ if (params['Enabled while message'].toUpperCase() == &quot;TRUE&quot;) {
 
 &lt;p&gt;И как говорится «душа понеслась в рай», мне срочно захотелось попробовать вариант с изометрической проекцией:&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;/images.posts/2017-12-08/Godot the begining/the_one_prototype_iso.png&quot; class=&quot;imgCenter&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/images.posts/2017.12/08 - Godot the begining/the_one_prototype_iso.png&quot; class=&quot;imgCenter&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;На практике оказалось не всё так радужно как хотелось. Как таковой реализации изометрии в godot нет. Есть возможность несколько сместить чередование столбцов тайлов, таким образом, чтобы получилось подобие изометрии.&lt;/p&gt;
 
 &lt;p&gt;Попытка реализация изометрии сильно поумерила пыл, и интерес несколько угас. Спустя время была ещё одна попытка разобраться с изометрией. Правда уже несколько в другом проект, и на этот раз используя не карту тайлов, а картинку в виде подложки, просто отмечая непроходимые места:&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;/images.posts/2017-12-08/Godot the begining/loa_godot.jpg&quot; class=&quot;imgCenter&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/images.posts/2017.12/08 - Godot the begining/loa_godot.jpg&quot; class=&quot;imgCenter&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;К сожалению, на данный момент в силу жизненных вопросов изучение godot несколько приостановлено. Но я не отчаиваюсь и постараюсь всё-таки закончить начатое дело и поделится опытом создания на страницах блога.&lt;/p&gt;
 
@@ -881,7 +881,7 @@ if (params['Enabled while message'].toUpperCase() == &quot;TRUE&quot;) {
 &lt;ul&gt;
   &lt;li&gt;&lt;a href=&quot;https://www.virustotal.com/#/file/91237b44e723b053b5ec8d0b4f304c418acd0ad1c70ef2a2c0cdd015a4cc890d/&quot;&gt;the_one_pro_alpha_1.exe&lt;/a&gt; ~16Mb&lt;/li&gt;
   &lt;li&gt;&lt;a href=&quot;https://www.virustotal.com/#/file/5167a0b2e29c89f764d6aa0ce0a0207cf202d3fb2b6dc7585047f64fc397bd2d&quot;&gt;the_one_pro_title_test.exe&lt;/a&gt; ~16Mb&lt;/li&gt;
-&lt;/ul&gt;</content><author><name></name></author><category term="godot engine" /><category term="lis" /><category term="the one" /><category term="pixelart" /><category term="the one prototype" /><category term="story" /><summary type="html">Где-то примерно в середине лета мне предложили изучить такую интересную штуку как «Godot Engine», тем более, что она доступна бесплатно и есть даже в Steam.</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://murlab.github.io/Godot%20the%20begining/godot_title.png" /></entry><entry><title type="html">Let’s GO!!</title><link href="https://murlab.github.io/blog/Let's%20GO!!/" rel="alternate" type="text/html" title="Let's GO!!" /><published>2017-12-06T23:59:59+03:00</published><updated>2017-12-06T23:59:59+03:00</updated><id>https://murlab.github.io/blog/Let's%20GO!!</id><content type="html" xml:base="https://murlab.github.io/blog/Let's%20GO!!/">&lt;p&gt;Как говаривал не безызвестный Чебурашка, «Мы строили, строили и наконец построили ;)&lt;/p&gt;
+&lt;/ul&gt;</content><author><name></name></author><category term="godot engine" /><category term="lis" /><category term="the one" /><category term="pixelart" /><category term="the one prototype" /><category term="story" /><summary type="html">Где-то примерно в середине лета мне предложили изучить такую интересную штуку как «Godot Engine», тем более, что она доступна бесплатно и есть даже в Steam.</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://murlab.github.io/08%20-%20Godot%20the%20begining/godot_title.png" /></entry><entry><title type="html">Let’s GO!!</title><link href="https://murlab.github.io/blog/Let's%20GO!!/" rel="alternate" type="text/html" title="Let's GO!!" /><published>2017-12-06T23:59:59+03:00</published><updated>2017-12-06T23:59:59+03:00</updated><id>https://murlab.github.io/blog/Let's%20GO!!</id><content type="html" xml:base="https://murlab.github.io/blog/Let's%20GO!!/">&lt;p&gt;Как говаривал не безызвестный Чебурашка, «Мы строили, строили и наконец построили ;)&lt;/p&gt;
 
 &lt;p&gt;Блуждая по интернету, я периодически задумываюсь о том, что очень классно было бы где-нибудь наконец осесть, да и записать все свои мысли.&lt;/p&gt;
 
@@ -895,12 +895,12 @@ if (params['Enabled while message'].toUpperCase() == &quot;TRUE&quot;) {
 &lt;p&gt;Но были и положительные моменты. Например, на сайте wordpress до сих пор появляются свежие комментарии с благодарностями, следовательно, материал востребован, и я двигаюсь в нужном направлении.
 И вот в одном из комментариев, мне подсказали идею, которая вылилась в размещении всего этого безобразия на &lt;a href=&quot;https://pages.github.com&quot;&gt;pages.github.com&lt;/a&gt;.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;/images.posts/2017-12-06/Let's GO!!/professortocat.png&quot; class=&quot;imgLeft&quot; /&gt;Чем же меня так заинтересовал именно этот сайт?&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/images.posts/2017.12/06 - Let's GO!!/professortocat.png&quot; class=&quot;imgLeft&quot; /&gt;Чем же меня так заинтересовал именно этот сайт?&lt;/p&gt;
 
 &lt;p&gt;Ну само собой понятно, что он бесплатный, причём что важно без приставки «условно», он правда бесплатный. То есть на сайте нет ни встраиваемой рекламы, ни жучков, ни какой-либо другой гадости. Потому что на сайте вы размещаете чисто странички html. Как вы их создали у себя на компьютере, так они и будут выглядеть.
 Возможно, многие выскажут своё «Фе!», но положа руку на сердце, скажите, а оправдано ли, что при каждом обращении на сайт страница создаётся заново? Так ли это прямо необходимо? Если это какой-нибудь форум, чат или сайт с динамической информацией, как например сервис по состоянию серверов «&lt;a href=&quot;https://steamstat.us/&quot;&gt;Steam Status&lt;/a&gt;», возможно. Но если это нечасто обновляемый ресурс, то думаю, что такой уж острой необходимости в этом нет. А вот скорость загрузки таких страничек намного выше. «Но позвольте, а как же блог или магазин, я что буду каждую страничку создавать вручную?» А вот тут на помощь приходит такая крутая штука, как &lt;a href=&quot;https://jekyllrb.com/&quot;&gt;Jekyll&lt;/a&gt;. Её написали те же ребята, что и создали &lt;a href=&quot;https://github.com/&quot;&gt;github&lt;/a&gt;.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;/images.posts/2017-12-06/Let's GO!!/jekyll_logo.png&quot; class=&quot;imgRight&quot; /&gt;Jekyll это целый «комбайн», который является локальным сервером для тестирования. Он позволяет по шаблонам автоматически создавать новые страницы, вставлять внутрь шаблонов другие кусочки. Так же он поддерживает язык шаблонов &lt;a href=&quot;https://github.com/Shopify/liquid/wiki/liquid-for-designers&quot;&gt;Liquid&lt;/a&gt;, что раскрывает поистине широкие возможности для создания страниц.
+&lt;p&gt;&lt;img src=&quot;/images.posts/2017.12/06 - Let's GO!!/jekyll_logo.png&quot; class=&quot;imgRight&quot; /&gt;Jekyll это целый «комбайн», который является локальным сервером для тестирования. Он позволяет по шаблонам автоматически создавать новые страницы, вставлять внутрь шаблонов другие кусочки. Так же он поддерживает язык шаблонов &lt;a href=&quot;https://github.com/Shopify/liquid/wiki/liquid-for-designers&quot;&gt;Liquid&lt;/a&gt;, что раскрывает поистине широкие возможности для создания страниц.
 Сам Jekyll написан на Ruby. Если вам недостаточно возможностей Liquid, то можно создать свои плагины и генерировать вообще что душе угодно, ну конечно в пределах разумного ;)
 Если будет интересно, я могу рассказать более подробно об этой системе, те более, что мне удалось даже написать парочку своих плагинов.&lt;/p&gt;
 
@@ -931,22 +931,22 @@ end
 
 &lt;p&gt;Но вернёмся к github. Чистый html хорош ещё тем, что можно размещать web-версию проекта того же RPG Maker или любого другого конструктора и показывать работоспособность online. Раньше для этих целей приходилось городить целый огород, например, с тем же google disk. Но начиная с 2015 года, google прекратил предоставлять доступ и в любом случае пришлось бы искать что-то другое.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;/images.posts/2017-12-06/Let's GO!!/github_desktop.png&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/images.posts/2017.12/06 - Let's GO!!/github_desktop.png&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;Так же немаловажной причиной выбора &lt;a href=&quot;https://pages.github.com&quot;&gt;pages.github.com&lt;/a&gt;, стала интеграция его с сервисом контроля версий &lt;a href=&quot;https://github.io/&quot;&gt;github.io&lt;/a&gt;. Конечно, у людей далёких от программирования, могут возникнуть сложности. Однако всё не так страшно, как может показаться на первый взгляд. Существует очень удобная понятная программа &lt;a href=&quot;https://desktop.github.com/&quot;&gt;GitHub Desktop&lt;/a&gt; и при случае я постараюсь рассказать более подробно как ей пользоваться, как зарегистрироваться на сервисе и соответственно завести свою страничку.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;/images.posts/2017-12-06/Let's GO!!/saritocat.png&quot; class=&quot;imgLeft&quot; /&gt;Ну в завершении этой небольшой вводной заметки, собственно для чего это всё, и что ожидать тут в будущем?
+&lt;p&gt;&lt;img src=&quot;/images.posts/2017.12/06 - Let's GO!!/saritocat.png&quot; class=&quot;imgLeft&quot; /&gt;Ну в завершении этой небольшой вводной заметки, собственно для чего это всё, и что ожидать тут в будущем?
 Вообще изначально у меня была задумка просто создать игрушку с помощью RPG Maker. Затем аппетиты быстро начали расти, захотелось и того и сего, и всего побольше. Конечно для того же &lt;a href=&quot;http://www.rpgmakerweb.com/products/programs/rpg-maker-vx-ace&quot;&gt;RPG Maker VX Ace&lt;/a&gt; было написано не мало скриптов, которые позволяли реализовать задуманное, но часто случались ситуации, когда скрипты конфликтовали, когда что-то хотелось сделать немного по-другому или просто дополнить.&lt;/p&gt;
 
 &lt;p&gt;Так пришло осознание в необходимости самостоятельно разбираться в скриптах. В VX Ace они были написаны на Ruby. Честно скажу, не самый простой язык для знакомства с программированием. Было не просто, очень много чего не понятно, и чисто на упорстве и с помощью знакомых, удалось немного сдвинуться с мёртвой точки. Как пример моих многозначительных страданий первый и последний плагин «Ace Shop Options Add-on - Items States». Конечно были ещё всякие мелкие доделки, исправления итд. Возможно я о них ещё тоже расскажу.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;/images.posts/2017-12-06/Let's GO!!/yakuza.png&quot; class=&quot;imgRight&quot; /&gt;С появлением &lt;a href=&quot;http://www.rpgmakerweb.com/products/programs/rpg-maker-mv&quot;&gt;RPG Maker MV&lt;/a&gt;, появилась необходимость разбираться уже с JavaScript. JS в отличии от того же Ruby мне показался более дружелюбным, интуитивно понятным по синтаксису. С ним у нас можно сказать прямо любовь (: Написано не мало различных плагинов, о которых я конечно же ещё расскажу.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/images.posts/2017.12/06 - Let's GO!!/yakuza.png&quot; class=&quot;imgRight&quot; /&gt;С появлением &lt;a href=&quot;http://www.rpgmakerweb.com/products/programs/rpg-maker-mv&quot;&gt;RPG Maker MV&lt;/a&gt;, появилась необходимость разбираться уже с JavaScript. JS в отличии от того же Ruby мне показался более дружелюбным, интуитивно понятным по синтаксису. С ним у нас можно сказать прямо любовь (: Написано не мало различных плагинов, о которых я конечно же ещё расскажу.&lt;/p&gt;
 
 &lt;p&gt;Немногим позже мне понадобилось разобраться в одном скрипте на Python &amp;gt;_&amp;lt;’ так открылась ещё одна грань в моём изучении чего-то нового, непонятного, но ужасно интересного. В будущем мне это сильно пригодилось при изучении Godot, ведь его скрипты очень схожи по синтаксису с Python.&lt;/p&gt;
 
 &lt;p&gt;О &lt;a href=&quot;https://godotengine.org/&quot;&gt;Godot&lt;/a&gt; можно рассказывать много и бесконечно. Это как катаясь по кругу на пони, вдруг вырваться и носиться по полю. Да он не прост, и новичкам будет многое сложно и не понятно, но после RPG Maker, это действительно свобода действий. Осталось только понять, а чего собственно я хочу? (:&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;/images.posts/2017-12-06/Let's GO!!/kot_obormot.png&quot; class=&quot;imgLeft&quot; /&gt;Ну вот собственно и всё. Ах да, иногда на меня находит вдохновение, и я рисую. Собственно, это тоже будет по возможности пролетать тут, ну по крайней мере я на это надеюсь.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/images.posts/2017.12/06 - Let's GO!!/kot_obormot.png&quot; class=&quot;imgLeft&quot; /&gt;Ну вот собственно и всё. Ах да, иногда на меня находит вдохновение, и я рисую. Собственно, это тоже будет по возможности пролетать тут, ну по крайней мере я на это надеюсь.&lt;/p&gt;
 
 &lt;p&gt;Пару заметок по сайту. На панельку (ввверху) вытащены «основные» ссылки, на мой взгляд, на важные разделы. Записи в этих разделах будут отображаться и в основной ленте блога, просто они туда вынесены для быстрого доступа. Например, если выбрать «графика», то будут отфильтрованы посты на тему моих картинок, если «rpg maker», то всё что связано с ним итд.&lt;/p&gt;
 
@@ -954,7 +954,7 @@ end
 
 &lt;p&gt;Так же в нём есть ссылка на раздел с материалами для скачивания. Есть ещё раздел тегов, и список материалов с этими метками. Ну и конечно куда же современному сайту без RSS-ленты, конечно же не без помощи Jekyll. В общем много чего ещё интересного. Подписывайтесь и оставляйте отзывы.&lt;/p&gt;
 
-&lt;p&gt;Не прощаюсь, ещё увидимся.&lt;/p&gt;</content><author><name></name></author><category term="web" /><category term="blog" /><summary type="html">Как говаривал не безызвестный Чебурашка, «Мы строили, строили и наконец построили ;)</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://murlab.github.io/Let's%20GO!!/github_logo.png" /></entry><entry><title type="html">Запускаем проект в браузере</title><link href="https://murlab.github.io/blog/Zapuskaem%20proekt%20v%20brauzere/" rel="alternate" type="text/html" title="Запускаем проект в браузере" /><published>2015-11-06T01:00:00+03:00</published><updated>2015-11-06T01:00:00+03:00</updated><id>https://murlab.github.io/blog/Zapuskaem%20proekt%20v%20brauzere</id><content type="html" xml:base="https://murlab.github.io/blog/Zapuskaem%20proekt%20v%20brauzere/">&lt;p&gt;&lt;strong&gt;Обновление от 2 февраля 2017 года&lt;/strong&gt;:&lt;/p&gt;
+&lt;p&gt;Не прощаюсь, ещё увидимся.&lt;/p&gt;</content><author><name></name></author><category term="web" /><category term="blog" /><summary type="html">Как говаривал не безызвестный Чебурашка, «Мы строили, строили и наконец построили ;)</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://murlab.github.io/06%20-%20Let's%20GO!!/github_logo.png" /></entry><entry><title type="html">Запускаем проект в браузере</title><link href="https://murlab.github.io/blog/Zapuskaem%20proekt%20v%20brauzere/" rel="alternate" type="text/html" title="Запускаем проект в браузере" /><published>2015-11-06T01:00:00+03:00</published><updated>2015-11-06T01:00:00+03:00</updated><id>https://murlab.github.io/blog/Zapuskaem%20proekt%20v%20brauzere</id><content type="html" xml:base="https://murlab.github.io/blog/Zapuskaem%20proekt%20v%20brauzere/">&lt;p&gt;&lt;strong&gt;Обновление от 2 февраля 2017 года&lt;/strong&gt;:&lt;/p&gt;
 
 &lt;div class=&quot;warning&quot;&gt;&lt;i class=&quot;fa fa-exclamation-triangle&quot; aria-hidden=&quot;true&quot;&gt;&lt;/i&gt;
 Спешу вам сообщить, что, начиная с 31 августа 2015 года поддержка доступа к google disk как web-сервису (описанного в данной статье) более не доступна.&lt;/div&gt;
@@ -969,17 +969,17 @@ end
 
 &lt;p&gt;Для чего это может понадобится? Ну помимо того, что вы можете просто показать друзьям, можно, например, сделать демоверсию и разместить у себя на сайте для привлечения внимания. Возможно вы захотите разместить игру во «ВКонтакте». Но самое интересное, если у вас есть команда поддержки (бетатестеры) они оперативно могут видеть новые версии, играть и сообщать о всех найденных ошибках и недочётах.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;/images.posts/2015-11-06/Zapuskaem proekt v brauzere/1.png&quot; class=&quot;imgCenter&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/images.posts/2015.11/06 - Zapuskaem proekt v brauzere/1.png&quot; class=&quot;imgCenter&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;Но как нам это сделать? Ведь в документации RPG Maker MV говорится о сложных манипуляциях с установкой и запуском локального сервера, или же для размещения в сети, потребуется свой. На самом деле не всё так страшно как кажется на первый взгляд, и ничего ставить не придётся. Собственно, об этом мне бы и хотелось сегодня поговорить.&lt;/p&gt;
 
 &lt;p&gt;Не так давно, один знакомый поделился ссылкой на интересную статью, о том, как разместить свою игру на HTML5 во «Вконтакте». Прочитав её, мне пришла мысль, а применимо ли это к нашему проекту? И как вы уже догадались у меня всё получилось, с чем я и спешу поделится с вами.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;/images.posts/2015-11-06/Zapuskaem proekt v brauzere/2.jpg&quot; class=&quot;imgCenter&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/images.posts/2015.11/06 - Zapuskaem proekt v brauzere/2.jpg&quot; class=&quot;imgCenter&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;Как вы уже, наверное, заметили, проект для RMMV представляет собой кучу различных файлов в текстовом виде. Не буду углубляться в подробности, но нас интересует главный файл index.html Но если мы попытаемся его открыть в браузере, то получим сообщение об ошибке.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;/images.posts/2015-11-06/Zapuskaem proekt v brauzere/3.jpg&quot; class=&quot;imgCenter&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/images.posts/2015.11/06 - Zapuskaem proekt v brauzere/3.jpg&quot; class=&quot;imgCenter&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;К сожалению, библиотеки RPG Maker MV написаны таким образом, что не могут работать локально, так что же делать? Умные люди уже всё придумали за нас и нам на помощь спешит,… нет не мистер Пропер :) а гугл драйв.&lt;/p&gt;
 
@@ -989,25 +989,25 @@ end
 
 &lt;p&gt;Создадим папку «www». В принципе вы можете назвать её как угодно, на дальнейших настройках это никак не скажется. Выбираем папку нажимаем пиктограмму:&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;/images.posts/2015-11-06/Zapuskaem proekt v brauzere/4.jpg&quot; class=&quot;imgCenter&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/images.posts/2015.11/06 - Zapuskaem proekt v brauzere/4.jpg&quot; class=&quot;imgCenter&quot; /&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;/images.posts/2015-11-06/Zapuskaem proekt v brauzere/5.jpg&quot; class=&quot;imgCenter&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/images.posts/2015.11/06 - Zapuskaem proekt v brauzere/5.jpg&quot; class=&quot;imgCenter&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;В открывшемся окошке мы видим строчку, от которой нам понадобится подчёркнутая часть из букв и цифр, поэтому её лучше куда-нибудь скопировать, а пока открываем настройки дальше, нажав «расширенные»:&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;/images.posts/2015-11-06/Zapuskaem proekt v brauzere/6.jpg&quot; class=&quot;imgCenter&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/images.posts/2015.11/06 - Zapuskaem proekt v brauzere/6.jpg&quot; class=&quot;imgCenter&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;Здесь мы видим всю туже строку, но напротив «Документ доступен для…» нажимаем «Изменить»:&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;/images.posts/2015-11-06/Zapuskaem proekt v brauzere/7.jpg&quot; class=&quot;imgCenter&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/images.posts/2015.11/06 - Zapuskaem proekt v brauzere/7.jpg&quot; class=&quot;imgCenter&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;И теперь уже точно выбираем, что —наш документ— наша папка будет доступна всем в интернете. Это очень важный момент, если где-то ошибиться и неправильно настроить доступ мы получим ошибки или вообще просто чёрный экран без каких-либо сообщений. Сохраняем и приступаем к подготовке нашего проекта для загрузки.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;/images.posts/2015-11-06/Zapuskaem proekt v brauzere/8.jpg&quot; class=&quot;imgCenter&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/images.posts/2015.11/06 - Zapuskaem proekt v brauzere/8.jpg&quot; class=&quot;imgCenter&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;Как видно из скриншота, наш тестовый проект (даже «пустой») изначально очень большой. Достаточно много файлов и папок. Конечно если у вас хороший и быстрый интернет и не сильно тревожит свободное место на гугл драйв, то последующие шаги вы можете смело пропустить. Но тем не менее, я предлагаю проект немного предварительно «почистить».&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;/images.posts/2015-11-06/Zapuskaem proekt v brauzere/9.jpg&quot; class=&quot;imgCenter&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/images.posts/2015.11/06 - Zapuskaem proekt v brauzere/9.jpg&quot; class=&quot;imgCenter&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;Для этого скопируем нашу папку с проектом в отдельное место и откроем папку audio. В ней мы увидим ещё несколько папок: bgm, bgs, me и se. Зайдя в каждую мы увидим файлы звуков и музыки в двух форматах. Один из них это OGG, который используется в Windows, а также в web, а другой формат m4a. Файлы в формате m4a используются в компьютерах Apple, а также в iPhone. Поскольку наш проект будет только для интернета, то файлы звуков m4a мы смело удаляем.&lt;/p&gt;
 
@@ -1015,23 +1015,23 @@ end
 
 &lt;p&gt;Если вы так уж сильно придирчиво относитесь к размеру и понимаете, что делаете, то можете смело удалить не используемые звуки и в формате OGG, а также некоторую графику из папки img. Но мы этого делать не будем и посмотрим на результат:&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;/images.posts/2015-11-06/Zapuskaem proekt v brauzere/10.jpg&quot; class=&quot;imgCenter&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/images.posts/2015.11/06 - Zapuskaem proekt v brauzere/10.jpg&quot; class=&quot;imgCenter&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;Хоть и незначительно, но проект стал поменьше и настало время загрузить наши файлы в Google Drive. Для этого заходим в нашу папку www в гугл драйв и закачиваем проект.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;/images.posts/2015-11-06/Zapuskaem proekt v brauzere/11.jpg&quot; class=&quot;imgCenter&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/images.posts/2015.11/06 - Zapuskaem proekt v brauzere/11.jpg&quot; class=&quot;imgCenter&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;Если у вас браузер Google Chrome, то вы можете просто перетянуть все папки и файлы прямо из проводника. Если же нет, тогда можно либо перетягивать всё по одному файлу, либо установить программу для синхронизации Google Drive, а можно запаковать все файлы в архив и уже распаковать на сайте Google Drive с помощью сторонних сервисов, например, «CloudConvert»:&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;/images.posts/2015-11-06/Zapuskaem proekt v brauzere/12.jpg&quot; class=&quot;imgCenter&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/images.posts/2015.11/06 - Zapuskaem proekt v brauzere/12.jpg&quot; class=&quot;imgCenter&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;После того, как все наши файлы будут закачаны или распакованы из архива, у нас должна получится вот такая картина:&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;/images.posts/2015-11-06/Zapuskaem proekt v brauzere/13.jpg&quot; class=&quot;imgCenter&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/images.posts/2015.11/06 - Zapuskaem proekt v brauzere/13.jpg&quot; class=&quot;imgCenter&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;Теперь настало время вспомнить про строчку, о которой говорилось в начале.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;/images.posts/2015-11-06/Zapuskaem proekt v brauzere/14.jpg&quot; class=&quot;imgCenter&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/images.posts/2015.11/06 - Zapuskaem proekt v brauzere/14.jpg&quot; class=&quot;imgCenter&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;Для того, чтобы наша папка открылась как страничка, нужно взять и дописать после https:// путь к googledrive.com/host/ а затем уже наш буквенно-цифровой код. Полученный адрес и будет ссылаться на наш проект с игрой.&lt;/p&gt;
 
@@ -1049,7 +1049,7 @@ end
 Единственное, что, если ваша игра/приложение будет иметь большую популярность, и, как следствие — требовать больших мощностей из-за обилия запросов, лучше обзавестись собственным сервером с SSL.
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
-&lt;p&gt;На этом разрешите откланяться и пожелать удачи в ваших проектах! =^‿~=&lt;/p&gt;</content><author><name></name></author><category term="archive" /><category term="rpg maker mv" /><category term="story" /><category term="уроки" /><summary type="html">Обновление от 2 февраля 2017 года:</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://murlab.github.io/Zapuskaem%20proekt%20v%20brauzere/browser_title.png" /></entry><entry><title type="html">Пишем плагин для отображения больших аватарок</title><link href="https://murlab.github.io/blog/Pishem%20plagin%20dla%20otobrazhenia%20bolshih%20avatarok/" rel="alternate" type="text/html" title="Пишем плагин для отображения больших аватарок" /><published>2015-11-05T02:00:00+03:00</published><updated>2015-11-05T02:00:00+03:00</updated><id>https://murlab.github.io/blog/Pishem%20plagin%20dla%20otobrazhenia%20bolshih%20avatarok</id><content type="html" xml:base="https://murlab.github.io/blog/Pishem%20plagin%20dla%20otobrazhenia%20bolshih%20avatarok/">&lt;p&gt;Всем привет!&lt;/p&gt;
+&lt;p&gt;На этом разрешите откланяться и пожелать удачи в ваших проектах! =^‿~=&lt;/p&gt;</content><author><name></name></author><category term="archive" /><category term="rpg maker mv" /><category term="story" /><category term="уроки" /><summary type="html">Обновление от 2 февраля 2017 года:</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://murlab.github.io/06%20-%20Zapuskaem%20proekt%20v%20brauzere/browser_title.png" /></entry><entry><title type="html">Пишем плагин для отображения больших аватарок</title><link href="https://murlab.github.io/blog/Pishem%20plagin%20dla%20otobrazhenia%20bolshih%20avatarok/" rel="alternate" type="text/html" title="Пишем плагин для отображения больших аватарок" /><published>2015-11-05T02:00:00+03:00</published><updated>2015-11-05T02:00:00+03:00</updated><id>https://murlab.github.io/blog/Pishem%20plagin%20dla%20otobrazhenia%20bolshih%20avatarok</id><content type="html" xml:base="https://murlab.github.io/blog/Pishem%20plagin%20dla%20otobrazhenia%20bolshih%20avatarok/">&lt;p&gt;Всем привет!&lt;/p&gt;
 
 &lt;p&gt;С вами опять я, и мои очумелые ручки вновь не дают мне покоя. Ну и собственно по этой причине я спешу поделиться с вами своим новыми изысканиями.&lt;/p&gt;
 
@@ -1060,7 +1060,7 @@ end
 &lt;p&gt;Для начала общая идея, как я себе это представляю:
 В обычном редакторе текстовых диалогов, мы выбираем файл с группой аватаров, выбираем один из них и задаём текст сообщения. Всё как обычно.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;/images.posts/2015-11-05/Pishem plagin dla otobrazhenia bolshih avatarok/4.png&quot; class=&quot;imgCenter&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/images.posts/2015.11/05 - Pishem plagin dla otobrazhenia bolshih avatarok/4.png&quot; class=&quot;imgCenter&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;Затем, находим место где выводится на экран аватарка. Изменяем скрипт на то что нам нужно, а именно выбрать картинку из папки img\bigfaces\ загрузить её вместо стандартной и вуаля, всё готово. На практике оказалось не всё так просто. Дело в том, что размеры окна (в данном случае с текстом сообщения) жестко задают границы и если попробовать загрузить другую (большую) картинку, то всё что попадает за пределы окна попросту обрезается.&lt;/p&gt;
 
@@ -1072,7 +1072,7 @@ end
 
 &lt;p&gt;Начнём мы, как и в прошлый раз с описания нашего скрипта. На деталях я останавливаться уже не стану, скажу только, что нам понадобится одна переменная в настройках, а именно сколько отступить тексту с левого края. Картинки у нас большие и если оставить настройки по умолчанию, то текст будет накладываться поверх персонажа, что не всегда хорошо читается. Впрочем, кто-то может в этом узреть особенность дизайна.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;/images.posts/2015-11-05/Pishem plagin dla otobrazhenia bolshih avatarok/1.png&quot; class=&quot;imgCenter&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/images.posts/2015.11/05 - Pishem plagin dla otobrazhenia bolshih avatarok/1.png&quot; class=&quot;imgCenter&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;Начало нашего скрипта:&lt;/p&gt;
 
@@ -1136,7 +1136,7 @@ var sprPosX;
 
 &lt;p&gt;Далее мы загружаем картинку. ‘img/bigfaces/’ — место где лежат наши большие аватарки. &lt;strong&gt;&lt;em&gt;faceName&lt;/em&gt;&lt;/strong&gt; это название файла с 8ю маленькими аватарками, который мы использовали при составлении текста. Но в данном случае это будет ещё одна папка, где будут лежать наши 8 больших картинок с номерами от 1 до 8. &lt;strong&gt;&lt;em&gt;faceIndex+1&lt;/em&gt;&lt;/strong&gt; это собственно уже название нашей картинки которую мы хотим загрузить. +1 потому что счёт у них не с 1, а 0. и «.png» не нужно добавлять, так как система сама это сделает за нас.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;/images.posts/2015-11-05/Pishem plagin dla otobrazhenia bolshih avatarok/5.png&quot; class=&quot;imgCenter&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/images.posts/2015.11/05 - Pishem plagin dla otobrazhenia bolshih avatarok/5.png&quot; class=&quot;imgCenter&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;Как видно из рисунка, «Тест» название нашего проекта «img\bigfaces» это где хранятся наши картинки «Package1» одноимённое название файла с аватарами и дальше собственно от 1 до 8 картинки.&lt;/p&gt;
 
@@ -1217,15 +1217,15 @@ Window_Base.prototype.update = function() {
 
 &lt;p&gt;На этом всё, закрываем основную функцию нашего плагина и отправляемся тестировать.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;/images.posts/2015-11-05/Pishem plagin dla otobrazhenia bolshih avatarok/3.png&quot; class=&quot;imgCenter&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/images.posts/2015.11/05 - Pishem plagin dla otobrazhenia bolshih avatarok/3.png&quot; class=&quot;imgCenter&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;Стоит обратить внимание, что получившийся у нас плагин это всего лишь маленькая не законченная часть. Вывод аватара используется в совершенно неожиданных местах. И если, например, при отображении результатов битвы или списка персонажей в меню, это ещё не так фатально выглядит:&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;/images.posts/2015-11-05/Pishem plagin dla otobrazhenia bolshih avatarok/6.png&quot; class=&quot;imgCenter&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/images.posts/2015.11/05 - Pishem plagin dla otobrazhenia bolshih avatarok/6.png&quot; class=&quot;imgCenter&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;то при выборе, например, экипировки:&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;/images.posts/2015-11-05/Pishem plagin dla otobrazhenia bolshih avatarok/7.png&quot; class=&quot;imgCenter&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/images.posts/2015.11/05 - Pishem plagin dla otobrazhenia bolshih avatarok/7.png&quot; class=&quot;imgCenter&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;уже выглядит не столь оптимистично.&lt;/p&gt;
 
@@ -1256,7 +1256,7 @@ var faceIndex = $gameMessage.faceIndex();
 &lt;div class=&quot;hline&quot;&gt;&lt;/div&gt;
 &lt;ul&gt;
   &lt;li&gt;Свежая версия скрипта &lt;a href=&quot;https://github.com/murlab/rpg-maker-mv-plugins/blob/master/examples/BigAvatar.js&quot;&gt;BigAvatar.js&lt;/a&gt; всегда доступна на github в разделе &lt;a href=&quot;https://github.com/murlab/rpg-maker-mv-plugins/blob/master/examples/&quot;&gt;примеров&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;</content><author><name></name></author><category term="archive" /><category term="rpg maker mv" /><category term="plugins" /><category term="story" /><category term="уроки" /><summary type="html">Всем привет!</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://murlab.github.io/Pishem%20plagin%20dla%20otobrazhenia%20bolshih%20avatarok/avatars_title.png" /></entry><entry><title type="html">Пишем свой первый плагин для RPG Maker MV</title><link href="https://murlab.github.io/blog/Pishem%20svoj%20pervyj%20plagin%20dla%20RPG%20Maker%20MV/" rel="alternate" type="text/html" title="Пишем свой первый плагин для RPG Maker MV" /><published>2015-11-05T01:00:00+03:00</published><updated>2015-11-05T01:00:00+03:00</updated><id>https://murlab.github.io/blog/Pishem%20svoj%20pervyj%20plagin</id><content type="html" xml:base="https://murlab.github.io/blog/Pishem%20svoj%20pervyj%20plagin%20dla%20RPG%20Maker%20MV/">&lt;p&gt;Всем доброй ночи.&lt;/p&gt;
+&lt;/ul&gt;</content><author><name></name></author><category term="archive" /><category term="rpg maker mv" /><category term="plugins" /><category term="story" /><category term="уроки" /><summary type="html">Всем привет!</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://murlab.github.io/05%20-%20Pishem%20plagin%20dla%20otobrazhenia%20bolshih%20avatarok/avatars_title.png" /></entry><entry><title type="html">Пишем свой первый плагин для RPG Maker MV</title><link href="https://murlab.github.io/blog/Pishem%20svoj%20pervyj%20plagin%20dla%20RPG%20Maker%20MV/" rel="alternate" type="text/html" title="Пишем свой первый плагин для RPG Maker MV" /><published>2015-11-05T01:00:00+03:00</published><updated>2015-11-05T01:00:00+03:00</updated><id>https://murlab.github.io/blog/Pishem%20svoj%20pervyj%20plagin</id><content type="html" xml:base="https://murlab.github.io/blog/Pishem%20svoj%20pervyj%20plagin%20dla%20RPG%20Maker%20MV/">&lt;p&gt;Всем доброй ночи.&lt;/p&gt;
 
 &lt;p&gt;Изначально урок писался для &lt;a href=&quot;http://rpgmaker.ru/forum/fakultet-skriptov/60680-rmmv-pishem-svoj-pervyj-plagin/&quot;&gt;светлой&lt;/a&gt;, но теперь думаю буду публиковать новые уроки сначала здесь.&lt;/p&gt;
 
@@ -1268,11 +1268,11 @@ var faceIndex = $gameMessage.faceIndex();
 
 &lt;p&gt;Начать мне хотелось бы с редактора. Как вы уже, наверное, заметили, в отличии от VX Ace в MV своего редактора нет. Скрипты лежат в открытом виде и можете спокойно их редактировать в любом текстовом редакторе. В одном из видеоуроков человек порекомендовал brackets. Опыта у меня не много в подобного рода редакторах, но мне понравился. Особенно очень удобно, когда начинаешь что-то писать, а тебе бац и сразу подсказки. Мелочь, а приятно. При желании можно выбрать удобную цветовую тему. Так что можете тоже попробовать &lt;a href=&quot;http://brackets.io/&quot;&gt;совершенно бесплатно&lt;/a&gt;.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;/images.posts/2015-11-05/Pishem svoj pervyj plagin dla RPG Maker MV/brackets.png&quot; class=&quot;imgCenter&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/images.posts/2015.11/05 - Pishem svoj pervyj plagin dla RPG Maker MV/brackets.png&quot; class=&quot;imgCenter&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;Для начала о том, что мы будем сегодня делать. Этот простой плагин рисует на экране небольшое окошко с иконкой и цифрой. Данные берутся из переменных (Variables) RPG Maker. А с помощью ключа (switch) можно включить или спрятать отображение данного окна. Теперь для чего? Например, NPC даёт герою задание, что нужно собрать 20 шишек. Понятно, что задание не сильно увеселительное, но можно игроку немного скрасить жизнь. Отображая, например, цифрами, сколько ему ещё осталось мучится. Выглядит это примерно так:&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;/images.posts/2015-11-05/Pishem svoj pervyj plagin dla RPG Maker MV/screenshot_01.png&quot; class=&quot;imgCenter&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/images.posts/2015.11/05 - Pishem svoj pervyj plagin dla RPG Maker MV/screenshot_01.png&quot; class=&quot;imgCenter&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;Для того, чтобы пользователь мог выбрать произвольные ячейки (Variables) и ключ (Switch) для отображения, мы выведем эти параметры в настройки нашего плагина. В принципе можно вынести и размер окна, и его положение на экране, но мне бы пока не хотелось так всё сразу запутывать.&lt;/p&gt;
 
@@ -1342,7 +1342,7 @@ var countVarId = Number(parameters['countVarId']);
 
 &lt;p&gt;А так это выглядит, когда мы подключаем наш плагин:&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;/images.posts/2015-11-05/Pishem svoj pervyj plagin dla RPG Maker MV/params.png&quot; class=&quot;imgCenter&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/images.posts/2015.11/05 - Pishem svoj pervyj plagin dla RPG Maker MV/params.png&quot; class=&quot;imgCenter&quot; /&gt;&lt;/p&gt;
 
 &lt;pre&gt;&lt;code class=&quot;javascript&quot;&gt;//Обновление всех окон
 var _Scene_Map_createAllWindows = Scene_Map.prototype.createAllWindows;
@@ -1503,7 +1503,7 @@ Scene_Battle.prototype.createAllWindows = function() {
 
 &lt;p&gt;Правда появятся небольшие проблемы:&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;/images.posts/2015-11-05/Pishem svoj pervyj plagin dla RPG Maker MV/items_on_map.png&quot; class=&quot;imgCenter&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/images.posts/2015.11/05 - Pishem svoj pervyj plagin dla RPG Maker MV/items_on_map.png&quot; class=&quot;imgCenter&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;Наше окошко будет перекрывать системные сообщения о битве. Поэтому нужно указать где-то другое место.&lt;/p&gt;
 
@@ -1512,7 +1512,7 @@ Scene_Battle.prototype.createAllWindows = function() {
 &lt;ul&gt;
   &lt;li&gt;Готовый &lt;a href=&quot;https://yadi.sk/d/j7MrpQHK3GZNun&quot;&gt;пример проекта&lt;/a&gt; с использованием вышеописанного плагина.&lt;/li&gt;
   &lt;li&gt;Свежая версия скрипта &lt;a href=&quot;https://github.com/murlab/rpg-maker-mv-plugins/blob/master/examples/ItemOnMap.js&quot;&gt;ItemOnMap.js&lt;/a&gt; всегда доступна на github в разделе &lt;a href=&quot;https://github.com/murlab/rpg-maker-mv-plugins/blob/master/examples/&quot;&gt;примеров&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;</content><author><name></name></author><category term="archive" /><category term="rpg maker mv" /><category term="plugins" /><category term="story" /><category term="уроки" /><summary type="html">Всем доброй ночи.</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://murlab.github.io/Pishem%20svoj%20pervyj%20plagin%20dla%20RPG%20Maker%20MV/plugin_title.png" /></entry><entry><title type="html">Всем привет!</title><link href="https://murlab.github.io/blog/Vsem%20privet!/" rel="alternate" type="text/html" title="Всем привет!" /><published>2015-11-05T00:00:00+03:00</published><updated>2015-11-05T00:00:00+03:00</updated><id>https://murlab.github.io/blog/Vsem%20privet!</id><content type="html" xml:base="https://murlab.github.io/blog/Vsem%20privet!/">&lt;p&gt;Всем привет и добро пожаловать в мой блог, посвященный редактору rpg maker и в частности разработке моей игрушки «Приключения нэки: кошачья деревня».&lt;/p&gt;
+&lt;/ul&gt;</content><author><name></name></author><category term="archive" /><category term="rpg maker mv" /><category term="plugins" /><category term="story" /><category term="уроки" /><summary type="html">Всем доброй ночи.</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://murlab.github.io/05%20-%20Pishem%20svoj%20pervyj%20plagin%20dla%20RPG%20Maker%20MV/plugin_title.png" /></entry><entry><title type="html">Всем привет!</title><link href="https://murlab.github.io/blog/Vsem%20privet!/" rel="alternate" type="text/html" title="Всем привет!" /><published>2015-11-05T00:00:00+03:00</published><updated>2015-11-05T00:00:00+03:00</updated><id>https://murlab.github.io/blog/Vsem%20privet!</id><content type="html" xml:base="https://murlab.github.io/blog/Vsem%20privet!/">&lt;p&gt;Всем привет и добро пожаловать в мой блог, посвященный редактору rpg maker и в частности разработке моей игрушки «Приключения нэки: кошачья деревня».&lt;/p&gt;
 
 &lt;p&gt;Честно говоря, идея создать свой блог возникла спонтанно, после прочтения одной заметки о том, как создатели игры «&lt;a href=&quot;http://message-quest.com/&quot;&gt;Message Quest&lt;/a&gt;» проходили Greenlight.&lt;/p&gt;
 
@@ -1520,27 +1520,27 @@ Scene_Battle.prototype.createAllWindows = function() {
 
 &lt;p&gt;Основная идея статьи сводилась к тому, что к выпуску игры нужно готовится заранее, а лучше о ней рассказывать, как можно чаще и интереснее, особенно нравится читать о всяческих трудностях технического характера и как разработчики с этим справлялись.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;/images.posts/2015-11-05/Vsem privet!/screenshot_01.png&quot; class=&quot;imgCenter&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/images.posts/2015.11/05 - Vsem privet!/screenshot_01.png&quot; class=&quot;imgCenter&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;По правде говоря, в начале у меня как бы не было идеи делать что-то серьёзное и уж тем более мечтать о Greenlight или даже Steam. Мне просто хотелось осуществить давнюю мечту, попробовать сделать свою игру. Знаний и возможностей у меня не было, а тут так удачно полученный подарок в виде RPG Maker VX Ace меня заинтриговал. Сделав небольшую демку из стандартных ресурсов и показав её друзьям из Google+, мне вдруг захотелось немного большего. Не смотря на массу ошибок, ляпов и недочётов игра всё-таки понравилась им, была даже организована целая группа &lt;del&gt;поддержки&lt;/del&gt; по разбору ошибок. В последствии группа даже переродилась даже в более что-то серьёзное, отчёты об ошибках в системе &lt;a href=&quot;https://trello.com/b/5Q55S9zn/%D0%BF%D1%80%D0%B8%D0%BA%D0%BB%D1%8E%D1%87%D0%B5%D0%BD%D0%B8%D1%8F-%D0%BD%D1%8D%D0%BA%D0%B8&quot;&gt;Trello&lt;/a&gt;. (Отдельное спасибо за помощь &lt;a href=&quot;https://plus.google.com/+%D0%9A%D0%B8%D1%80%D0%B8%D0%BB%D0%BB%D0%A5%D1%80%D0%BE%D0%BC%D0%BE%D0%B2&quot;&gt;+Кирилл Хромов&lt;/a&gt;)&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;/images.posts/2015-11-05/Vsem privet!/screenshot_02.png&quot; class=&quot;imgCenter&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/images.posts/2015.11/05 - Vsem privet!/screenshot_02.png&quot; class=&quot;imgCenter&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;Видя всю серьёзность дела, первым что мне захотелось, это по возможности заменить стандартную графику, которую предоставляет редактор. Ибо первое что кидается в глаза в Steam это просто жуткое однообразие игр, сделанных в RPG Maker. Все они выглядят как братья близнецы и очень сложно себе представить, чем же таким так заинтересовали авторы, что им удалось не только пройти Steam Greenlight, но и продаваться. Впрочем, почитав комментарии, не трудно убедится, что мои опасения не напрасны. Сразу всем кидается в глаза это то, что всё как с кальки срисовано, а также, что игра в очень маленьком окошке.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;/images.posts/2015-11-05/Vsem privet!/screenshot_03.png&quot; class=&quot;imgCenter&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/images.posts/2015.11/05 - Vsem privet!/screenshot_03.png&quot; class=&quot;imgCenter&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;Изначально игра делалась в «RPG Maker VX Ace», использовалось достаточно много (порядка 50 штук), как сторонних скриптов, так и моих небольших доделок, правок и мелких скриптов на Ruby, за что хочется сказать отдельное спасибо &lt;a href=&quot;https://plus.google.com/+ReiAyanamiSuki&quot;&gt;+Rei Ayanami&lt;/a&gt;. Благодаря его помощи мне удалось решить кучу мелких и не очень вопросов по скриптам. Так же очень хотелось бы поблагодарить &lt;a href=&quot;https://www.youtube.com/channel/UCGHnC1c6jY_oxOsAyJ9iA7Q&quot;&gt;Hellyintar Black&lt;/a&gt; он же Сириус. Благодаря его урокам мне удалось за относительно короткое время разобраться со скриптами и особенностями редактора. А кроме того он часто показывает в своих уроках, что не всегда обязательно использование скриптов и что многие вещи можно сделать стандартными средствами RPG Maker.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;/images.posts/2015-11-05/Vsem privet!/rpg_maker_mv.jpg&quot; class=&quot;imgCenter&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/images.posts/2015.11/05 - Vsem privet!/rpg_maker_mv.jpg&quot; class=&quot;imgCenter&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;C выходом «RPG Maker MV» мне захотелось перенести игру на него. Во-первых, он наконец стал поддерживать большие разрешения экрана, игра визуально работает быстрее, ну и плюс ещё возможность выпускать игру одновременно и на мобильных устройствах. Новый редактор предоставляет гораздо большие возможности, однако и требует заново разбираться со скриптовым языком, на этот раз с JavaScript. Само собой, это повлекло некоторую «заморозку» игры. Помимо того, что старые скрипты уже не работают, выяснилось, что и графика теперь стала крупнее. Всё остальное же без проблем было перенесено из старого редактора VX Ace. Осталось всё привести в порядок, подправить графику до актуального состояния ну и найти замену старым скриптам.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;/images.posts/2015-11-05/Vsem privet!/screenshot_04.png&quot; class=&quot;imgCenter&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/images.posts/2015.11/05 - Vsem privet!/screenshot_04.png&quot; class=&quot;imgCenter&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;К сожалению, как видно из скриншота, банальное увеличение размера тайлов не очень хорошо сказалось на картине в целом. Графика стала слегка как бы замыленная, а в местах стыков, например, тех же деревьев, видны артефакты. Так что «халявы» не получилось. Придётся опять засучить рукава и приводить всё в порядок. Зато главная героиня стала крупнее, красивее и похожа на то, как задумывалась изначально. В целом всё остальное работает нормально, я имею в виду диалоги, события и всё что не завязано на скрипты.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;/images.posts/2015-11-05/Vsem privet!/sv_mainhero.png&quot; class=&quot;imgCenter&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/images.posts/2015.11/05 - Vsem privet!/sv_mainhero.png&quot; class=&quot;imgCenter&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;В данный момент я усиленно разбираюсь как с самим редактором, так и со скриптами и хочу сказать, что у меня получается гораздо лучше. Возможно сказывается уже опыт «ковыряния» скриптов на VX Ace, возможно по JavaScript больше понятной документации, а возможно и не без помощи &lt;a href=&quot;http://rpgmaker.ru/social/mypage/17159-evilcat&quot;&gt;EvilCat&lt;/a&gt; со светлой, которая имеет хороший опыт разработки на JavaScript, а главное, что этот опыт применим к RPG Maker. Впрочем, она и сама уже начала писать различные плагины и охотно отвечает на все мои вопросы.&lt;/p&gt;
 
@@ -1550,4 +1550,4 @@ Scene_Battle.prototype.createAllWindows = function() {
 
 &lt;p&gt;Ах да, самое же главное! Спасибо огромное &lt;a href=&quot;https://plus.google.com/+VeelkaBelka&quot;&gt;+Veel&lt;/a&gt; за потрясающую титульную картинку.&lt;/p&gt;
 
-&lt;p&gt;p.s. Исправленные некоторые ляпы, неточности и ссылки 13 декабря 2017 года.&lt;/p&gt;</content><author><name></name></author><category term="archive" /><category term="story" /><summary type="html">Всем привет и добро пожаловать в мой блог, посвященный редактору rpg maker и в частности разработке моей игрушки «Приключения нэки: кошачья деревня».</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://murlab.github.io/Vsem%20privet!/hello_title.jpg" /></entry></feed>
+&lt;p&gt;p.s. Исправленные некоторые ляпы, неточности и ссылки 13 декабря 2017 года.&lt;/p&gt;</content><author><name></name></author><category term="archive" /><category term="story" /><summary type="html">Всем привет и добро пожаловать в мой блог, посвященный редактору rpg maker и в частности разработке моей игрушки «Приключения нэки: кошачья деревня».</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://murlab.github.io/05%20-%20Vsem%20privet!/hello_title.jpg" /></entry></feed>

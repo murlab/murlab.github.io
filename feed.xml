@@ -1,4 +1,155 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.6.2">Jekyll</generator><link href="https://murlab.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://murlab.github.io/" rel="alternate" type="text/html" /><updated>2017-12-29T15:18:14+03:00</updated><id>https://murlab.github.io/</id><title type="html">Mur Laboratory</title><subtitle>Обожаю сладкое, аниме и игры. Так же пытаюсь делать свои с помощью RPG Maker и Godot. Иногда рисую, да,… (ღ˘⌣˘ღ)</subtitle><entry><title type="html">RMMV Графика для событий</title><link href="https://murlab.github.io/blog/RMMV%20Grafika%20dlja%20sobytij/" rel="alternate" type="text/html" title="RMMV Графика для событий" /><published>2017-12-29T02:04:00+03:00</published><updated>2017-12-29T02:04:00+03:00</updated><id>https://murlab.github.io/blog/RMMV%20Grafika%20dlja%20sobytij</id><content type="html" xml:base="https://murlab.github.io/blog/RMMV%20Grafika%20dlja%20sobytij/">&lt;p&gt;Всем привет!&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.6.2">Jekyll</generator><link href="https://murlab.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://murlab.github.io/" rel="alternate" type="text/html" /><updated>2017-12-31T18:46:16+03:00</updated><id>https://murlab.github.io/</id><title type="html">Mur Laboratory</title><subtitle>Обожаю сладкое, аниме и игры. Так же пытаюсь делать свои с помощью RPG Maker и Godot. Иногда рисую, да,… (ღ˘⌣˘ღ)</subtitle><entry><title type="html">Своя страничка на github</title><link href="https://murlab.github.io/blog/Svoja%20stranichka%20na%20github/" rel="alternate" type="text/html" title="Своя страничка на github" /><published>2017-12-29T02:04:00+03:00</published><updated>2017-12-29T02:04:00+03:00</updated><id>https://murlab.github.io/blog/Svoja%20stranichka%20na%20github</id><content type="html" xml:base="https://murlab.github.io/blog/Svoja%20stranichka%20na%20github/">&lt;p&gt;Новогодний привет всем!&lt;/p&gt;
+
+&lt;p&gt;Сегодня, в последний день уходящего года, мне бы хотелось… нет, не подведения итогов (: а поделится более ценной информацией, а именно как завести свою страничку, сайт на &lt;a href=&quot;https://pages.github.com/&quot;&gt;github&lt;/a&gt;.&lt;/p&gt;
+
+&lt;!--break--&gt;
+
+&lt;p&gt;Для чего это может понадобится? Ну, возможно вам захочется просто делится какой-нибудь информацией, как мне, например. Можно конечно и просто сделать файловый архив своих проектов, хотя конечно авторы и не приветствуют такие «свалки». Но самое главное можно сделать онлайн версию игры на RPG Maker, как это было описано в статье — «Запускаем проект в браузере».&lt;/p&gt;
+
+&lt;p&gt;В отличии от «приключений» с тем же &lt;a href=&quot;https://www.google.com/intl/ru_ALL/drive/&quot;&gt;google drive&lt;/a&gt;, как мы это делали в «&lt;a href=&quot;/blog/Zapuskaem proekt v brauzere/&quot;&gt;Запускаем проект в браузере&lt;/a&gt;», здесь нам не придётся прибегать к каким-то хитроумным действиям, всё до боли просто и понятно. Хотя конечно, как и в любом деле, есть свои нюансы. Но обо всём по порядку.&lt;/p&gt;
+
+&lt;p&gt;Для начала нам нужно зарегистрироваться на сервисе github. По сути github.io и github.com принадлежат одной организации, с той лишь разницей, что на io расположены repository или по-русски хранилище, а на com собственно сам сервис страниц пользователей.&lt;/p&gt;
+
+&lt;p&gt;При регистрации стоит обратить внимание, что имя пользователя будет использоваться в адресе доступа к вашей странице! То есть если вы зарегистрируетесь под именем aaabbyyyyyrrrrvaaaaalgghhh, то и доступ вашей странице будет aaabbyyyyyrrrrvaaaaalgghhh.github.io! Об этом стоит помнить!&lt;/p&gt;
+
+&lt;p&gt;Итак, переходим по &lt;a href=&quot;https://github.com/join?source=header-home&quot;&gt;ссылке&lt;/a&gt; и создаём новый аккаунт. Регистрация на английском языке, но думаю заполнение нескольких полей не вызовет у вас трудности.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images.posts/2017.12/31 - Svoja stranichka na github/step_1.png&quot; class=&quot;imgCenter&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Хочу обратить ваше внимание, что указанный e-mail адрес должен быть уникальным, то есть регистрации с таким e-mail не должно быть на github. В противном случае вы получите сообщение об ошибке. Пароль тоже должен быть достаточно сложным.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images.posts/2017.12/31 - Svoja stranichka na github/step_2.png&quot; class=&quot;imgCenter&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;На втором шаге нам предложат выбрать тарифный план (по умолчанию сервис бесплатный), ну и при желании можно включить подписку на рассылку новостей. Нажимаем далее (зелёная кнопка «Continue»).&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images.posts/2017.12/31 - Svoja stranichka na github/step_3.png&quot; class=&quot;imgCenter&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;На третьем шаге вас попросят заполнить небольшую анкету о ваших навыках в программировании и кем вы являетесь.
+По сути вы можете пропустить данный шаг, нажав внизу «skip this step».
+К этому моменту на почту должно прийти письмо с подтверждением о регистрации. Нажимаем на ссылку и получаем подтверждение о завершении регистрации — «Your e-mail was verified».&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images.posts/2017.12/31 - Svoja stranichka na github/step_4.png&quot; class=&quot;imgCenter&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Далее нажимаем на кнопку «Start a project» и заполняем поля в открывшейся форме.&lt;/p&gt;
+
+&lt;p&gt;Важно! В «Repository name» указываем имя как будет называться наш сайт, а именно имя_пользователя.github.io! Никаких других символов здесь быть не должно, в противном случает система не увидит наше хранилище и как следствие вместо страницы сайт мы получим ошибку! В поле «Description» можно указать описание сайта, что это и для чего. Оставляем режим «Public», так как «Private» доступен только по подписке за дополнительную плату.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images.posts/2017.12/31 - Svoja stranichka na github/step_5.png&quot; class=&quot;imgCenter&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Важно! Не в коем разе не ставьте чекбокс на «Initialize this repository with a README»!! Если это сделать, система автоматически создаст в корне проекта файл README.md и сделает его главным файлом сайта вместо index.html! Даже если потом создать файл index.html, сайт упорно будет отображать содержимое README.md. Возможно где-то в глубине настроек и есть возможность переключить режим отображения на index.html, но найти это сходу мне не удалось.&lt;/p&gt;
+
+&lt;p&gt;Если вы разбираетесь в видах лицензий, то можете выбрать одну из них. Если же нет, оставляете всё как есть и нажимаете «Create repository».&lt;/p&gt;
+
+&lt;p&gt;Поздравляю! Вы сделали всё правильно и теперь перед глазами новый, пустой проект. Что бы проверить наш новоиспечённый сайт, нажимаем на кнопку «Create new file».&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images.posts/2017.12/31 - Svoja stranichka na github/step_6.png&quot; class=&quot;imgCenter&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;В открывшейся форме задаём название файла index.html, а в содержимом пару строк с «Hello world!»:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&quot;html&quot;&gt;&amp;lt;html&amp;gt;
+  &amp;lt;body&amp;gt;
+    hello world!
+  &amp;lt;/body&amp;gt;
+&amp;lt;/html&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Промотав чуть ниже заполним ещё пару строк. Очень важно при добавлении нового файла или редактировании старого, или при любых других операциях, github всегда требует описать, что сейчас происходит. Это нужно для того, чтобы в последующем вы не запутались, какие действия были произведены.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images.posts/2017.12/31 - Svoja stranichka na github/step_7a.png&quot; class=&quot;imgCenter&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;В данном случае мы создали новый файл, поэтому так и пишем «Новый файл index.html». Если происходило много действий, которые вы бы хотели так же описать, можно уточнить информацию в большем поле ниже.&lt;/p&gt;
+
+&lt;p&gt;Больше ничего не трогаем и нажимаем зелёную кнопку «Commit new file».&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images.posts/2017.12/31 - Svoja stranichka na github/step_7b.png&quot; class=&quot;imgCenter&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Во вновь загруженной странице мы увидим наш файл и описание действий, при которых он был создан (изменён).&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images.posts/2017.12/31 - Svoja stranichka na github/step_8.png&quot; class=&quot;imgCenter&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Теперь самое время перейти на нашу страницу и проверить, что всё работает как надо:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images.posts/2017.12/31 - Svoja stranichka na github/step_9.png&quot; class=&quot;imgCenter&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;На этом этапе можно считать регистрацию завершенной и перейти непосредственно к наполнению нашего сайта.&lt;/p&gt;
+
+&lt;p&gt;Для работы с repository (хранилищем) на github мы воспользуемся программой «&lt;a href=&quot;https://desktop.github.com/&quot;&gt;GitHub Desktop&lt;/a&gt;». Как ни прискорбно, но авторы программы отказались от поддержки 32-битной версии Windows, посчитав что 3% от числа всех разработчиков это слишком мало, чтобы заморачиваться такой ерундой. Если вам не повезло и у вас такая версия, то при установке вы получите сообщение об ошибке.&lt;/p&gt;
+
+&lt;p&gt;При случае я постараюсь рассмотреть ещё и другие программы (альтернативные) или же вы можете это сделать пока самостоятельно. Если же у вас Windows 64bit, то жмём кнопку «Download for Windows (64bit)» и устанавливаем программу. При первом запуске программы она предложит авторизоваться.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images.posts/2017.12/31 - Svoja stranichka na github/desktop_1.png&quot; class=&quot;imgCenter&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Нажимаем на ссылку «Sign into GitHub.com», после чего откроется форма, где вводим логин и пароль, который вы задавали при регистрации. Затем синюю кнопку «Sign in».&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images.posts/2017.12/31 - Svoja stranichka na github/desktop_2.png&quot; class=&quot;imgCenter&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;После авторизации программа сообщит, что нам присвоено имя и уникальный идентификатор под которым будут загружаться изменение я в наш репозитарий (хранилище) на github. Нажимаем синюю кнопку «Continue». Программа ещё спросил разрешение для сбора анонимной статистки по использовании программы. Если вы не хотите, что никуда не отсылались никакие данные, просто снимите чекбокс(галочку) с «Yes, submit anonymized data usage» и наконец-таки нажмите синюю кнопку «Finish».&lt;/p&gt;
+
+&lt;p&gt;Перед нами откроется рабочее окно программы:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images.posts/2017.12/31 - Svoja stranichka na github/desktop_3.png&quot; class=&quot;imgCenter&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Нас интересует третий пункт «Clone repository». Находим в списке наш проект и выбираем его. Так же можно задать расположение проекта на диске. У меня, например, создана папка Projects на диске C. Но, если вы не хотите ничего менять, то можете оставить путь по умолчанию. Главное не забудьте, где оно будет расположено:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images.posts/2017.12/31 - Svoja stranichka na github/desktop_4.png&quot; class=&quot;imgCenter&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Далее нажимаем синюю кнопку «Clone» и дожидаемся пока наш проект загрузится из интернета.&lt;/p&gt;
+
+&lt;p&gt;Теперь если мы откроем в проводнике нашу папку с проектом, то увидим наш файл index.html, а также файл лицензии, если он был задан при регистрации аккаунта.&lt;/p&gt;
+
+&lt;p&gt;Если у вас в проводнике включен режим отображения скрытых и системных файлов, то вы можете видеть ещё и папку «.git». Ни при каких условия ничего не меняйте и тем более не удаляйте эту папку! В противном случае вы не сможете загрузить файлы сайта обратно в github.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images.posts/2017.12/31 - Svoja stranichka na github/desktop_5.png&quot; class=&quot;imgCenter&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Теперь попробуем отредактировать наш файл «index.html» в любом текстовом редакторе, например, открыв его в блокноте. Изменим содержимое на:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&quot;html&quot;&gt;&amp;lt;html&amp;gt;
+  &amp;lt;body&amp;gt;
+    &amp;lt;h1&amp;gt;Hello world!&amp;lt;/h1&amp;gt;
+    Happy New Year 2018!
+  &amp;lt;/body&amp;gt;
+&amp;lt;/html&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Не забудем сохранить изменения и переключимся обратно в программу «Desktop GitHub»:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images.posts/2017.12/31 - Svoja stranichka na github/desktop_6.png&quot; class=&quot;imgCenter&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Рассмотрим подробнее, что же мы тут видим. Слева колонка с файлами (папками) которые были изменены. В данном случае у нас изменён только один файл — «index.html». В правой колонке показаны изменения, которые были произведены с данным файлом, а именно удалена строка 3, она отмечена красным и на её место добавлены две новых (отмечены зелёным).&lt;/p&gt;
+
+&lt;p&gt;Теперь зададим описание действий, что мы делали — «Обновлён index.html» и нажимаем синюю кнопку «Commit to master». Изменения будут сохранены в локальной копии, а для того что бы загрузить их на наш сайт нажимаем вверху, в серой панели — «Push Origin» (На скриншоте она в данный момент выглядит как «Fetch Origin»).&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images.posts/2017.12/31 - Svoja stranichka na github/desktop_7.png&quot; class=&quot;imgCenter&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Теперь заходим в наш репозитарий (хранилище) на github и так же видим наши изменения. В зависимости от размера загружаемых данных, изменения на сайте применятся от нескольких секунд до пары минут. Теперь можем обновить нашу страничку в браузере и увидеть изменения:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images.posts/2017.12/31 - Svoja stranichka na github/desktop_8.png&quot; class=&quot;imgCenter&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Теперь можно локально (у себя на диске) изменять файлы, удалять, создавать новые, переименовывать, перемещать итд. Главное не забывать делать «Commit to master» и затем «Push Origin».&lt;/p&gt;
+
+&lt;p&gt;Ну и в заключении, для чего мы всё это делали. Создадим новый проект в RPG Maker MV или возьмём готовый. В меню выберем «File → Deployment» (в русской версии это будет «Файл → Экспорт»). В открывшемся окошке выбираем «Web Browsers» (Веб-браузеры). Ставим обязательно галочку в option — «Exclude unused files» (Исключить не использованные файлы). Указываем путь куда выгрузить наш проект и нажимаем «OK»:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images.posts/2017.12/31 - Svoja stranichka na github/upload_1.png&quot; class=&quot;imgCenter&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Несмотря на то, что мы включили режим «исключить не использованные файлы» проект получился достаточно объёмным, около 90Mb. Поэтому при желании лучше его ещё почистить от неиспользованных файлов. GitHub предоставляет в использование по рекомендации до 1GB - на каждый из хранилищ. При достижении данного объема система пришлет вам письмо «об уменьшении объемов занимаемых файлов». Так же есть ограничение, что один файл не должен иметь размер более 100МБ.&lt;/p&gt;
+
+&lt;p&gt;Но вернёмся к нашим выгруженным файлам. Внутри мы находим папку с названием нашего проекта, а ещё дальше папку www. Теперь копируем её содержимое в папку где у нас располагается локальная копия сайта github (у меня это было C:\Projects\murplay.github.io). При этом переписываем наш файл index.html. По завершении копирования, мы увидим следующую картинку в «GitHub Desktop»:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images.posts/2017.12/31 - Svoja stranichka na github/online_1.png&quot; class=&quot;imgCenter&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Теперь остаётся добавить сначала всё в локальную копию, выполнить «Commit to master», и затем «Push Origin».&lt;/p&gt;
+
+&lt;p&gt;Загрузка займёт некоторое время, всё-таки порядка 280 файлов будет загружаться.&lt;/p&gt;
+
+&lt;p&gt;По завершении открываем страничку с нашим проектом и вуаля, наша онлайн-версия работает.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images.posts/2017.12/31 - Svoja stranichka na github/final.png&quot; class=&quot;imgCenter&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Конечно тут будут некоторые нюансы, например, та же музыка будет воспроизводится не сразу, а лишь после подзагрузки, но это всё мелочи, решаемые плагинами. Так же хочу сказать, что github, это далеко не обычное облачное хранилище как например dropbox или google disk. Это серьёзный инструмент с возможностью контроля версий, возможностью сравнить различные версии, возможностью работать в команде и другие всякие серьёзные плюшки. Когда-нибудь (когда я в этом разберусь) я обязательно расскажу подробнее, а пока на этом всё!&lt;/p&gt;
+
+&lt;p&gt;Хорошего настроения, творческих успехов и конечно же удачи в новом году!&lt;/p&gt;
+
+&lt;p&gt;p.s. В будущем можно будет попробовать новые плагины онлайн — &lt;a href=&quot;http://murplay.github.io/&quot;&gt;http://murplay.github.io/&lt;/a&gt;&lt;/p&gt;</content><author><name></name></author><category term="rpg maker mv" /><category term="github" /><category term="уроки" /><summary type="html">Новогодний привет всем!</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://murlab.github.io/31%20-%20Svoja%20stranichka%20na%20github/page_title.png" /></entry><entry><title type="html">RMMV Графика для событий</title><link href="https://murlab.github.io/blog/RMMV%20Grafika%20dlja%20sobytij/" rel="alternate" type="text/html" title="RMMV Графика для событий" /><published>2017-12-29T02:04:00+03:00</published><updated>2017-12-29T02:04:00+03:00</updated><id>https://murlab.github.io/blog/RMMV%20Grafika%20dlja%20sobytij</id><content type="html" xml:base="https://murlab.github.io/blog/RMMV%20Grafika%20dlja%20sobytij/">&lt;p&gt;Всем привет!&lt;/p&gt;
 
 &lt;p&gt;Сегодня мне бы хотелось рассказать об одной своей новой поделке, а именно о скрипте для RPG Maker MV — «MUR Event Graphics».&lt;/p&gt;
 
@@ -1361,260 +1512,4 @@ var faceIndex = $gameMessage.faceIndex();
 &lt;div class=&quot;hline&quot;&gt;&lt;/div&gt;
 &lt;ul&gt;
   &lt;li&gt;Свежая версия скрипта &lt;a href=&quot;https://github.com/murlab/rpg-maker-mv-plugins/blob/master/examples/BigAvatar.js&quot;&gt;BigAvatar.js&lt;/a&gt; всегда доступна на github в разделе &lt;a href=&quot;https://github.com/murlab/rpg-maker-mv-plugins/blob/master/examples/&quot;&gt;примеров&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;</content><author><name></name></author><category term="archive" /><category term="rpg maker mv" /><category term="plugins" /><category term="javascript" /><category term="story" /><category term="уроки" /><summary type="html">Всем привет!</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://murlab.github.io/05%20-%20Pishem%20plagin%20dla%20otobrazhenia%20bolshih%20avatarok/avatars_title.png" /></entry><entry><title type="html">Пишем свой первый плагин для RPG Maker MV</title><link href="https://murlab.github.io/blog/Pishem%20svoj%20pervyj%20plagin%20dla%20RPG%20Maker%20MV/" rel="alternate" type="text/html" title="Пишем свой первый плагин для RPG Maker MV" /><published>2015-11-05T01:00:00+03:00</published><updated>2015-11-05T01:00:00+03:00</updated><id>https://murlab.github.io/blog/Pishem%20svoj%20pervyj%20plagin</id><content type="html" xml:base="https://murlab.github.io/blog/Pishem%20svoj%20pervyj%20plagin%20dla%20RPG%20Maker%20MV/">&lt;p&gt;Всем доброй ночи.&lt;/p&gt;
-
-&lt;p&gt;Изначально урок писался для &lt;a href=&quot;http://rpgmaker.ru/forum/fakultet-skriptov/60680-rmmv-pishem-svoj-pervyj-plagin/&quot;&gt;светлой&lt;/a&gt;, но теперь думаю буду публиковать новые уроки сначала здесь.&lt;/p&gt;
-
-&lt;p&gt;Сегодня мой день был потрачен не зря, ибо мне удалось написать свой первый небольшой плагин для нового RPG Maker MV. Сразу скажу, что ни разу не профессионал, занимаюсь в свободное от кухни время и только-только разбираюсь во всём это безобразии&lt;/p&gt;
-
-&lt;!--break--&gt;
-
-&lt;p&gt;Хотя есть некоторый опыт скриптоковыряния VX Ace, что конечно же мне помог и тут. В любом случае спешу поделится своими изысканиями и надеюсь они будут ещё полезны кому-нибудь.&lt;/p&gt;
-
-&lt;p&gt;Начать мне хотелось бы с редактора. Как вы уже, наверное, заметили, в отличии от VX Ace в MV своего редактора нет. Скрипты лежат в открытом виде и можете спокойно их редактировать в любом текстовом редакторе. В одном из видеоуроков человек порекомендовал brackets. Опыта у меня не много в подобного рода редакторах, но мне понравился. Особенно очень удобно, когда начинаешь что-то писать, а тебе бац и сразу подсказки. Мелочь, а приятно. При желании можно выбрать удобную цветовую тему. Так что можете тоже попробовать &lt;a href=&quot;http://brackets.io/&quot;&gt;совершенно бесплатно&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/images.posts/2015.11/05 - Pishem svoj pervyj plagin dla RPG Maker MV/brackets.png&quot; class=&quot;imgCenter&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;Для начала о том, что мы будем сегодня делать. Этот простой плагин рисует на экране небольшое окошко с иконкой и цифрой. Данные берутся из переменных (Variables) RPG Maker. А с помощью ключа (switch) можно включить или спрятать отображение данного окна. Теперь для чего? Например, NPC даёт герою задание, что нужно собрать 20 шишек. Понятно, что задание не сильно увеселительное, но можно игроку немного скрасить жизнь. Отображая, например, цифрами, сколько ему ещё осталось мучится. Выглядит это примерно так:&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/images.posts/2015.11/05 - Pishem svoj pervyj plagin dla RPG Maker MV/screenshot_01.png&quot; class=&quot;imgCenter&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;Для того, чтобы пользователь мог выбрать произвольные ячейки (Variables) и ключ (Switch) для отображения, мы выведем эти параметры в настройки нашего плагина. В принципе можно вынести и размер окна, и его положение на экране, но мне бы пока не хотелось так всё сразу запутывать.&lt;/p&gt;
-
-&lt;p&gt;Итак, создадим новый файл ItemOnMap.js в папке нашего проекта, а именно js\plugins. Этого уже достаточно, чтобы он уже появился в списке доступных плагинов, однако всё же стоит добавить его описание:&lt;/p&gt;
-
-&lt;pre&gt;&lt;code class=&quot;javascript&quot;&gt;//=============================================================================
-// ItemOnMap.js
-//=============================================================================
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;Здесь название нашего файла. Не могу сказать, что это нужно наверняка, но во всех плагинах под MV примерно такое-же оформление. Возможно система поэтому определяет, что это именно наш плагин, а ни чей-нибудь ещё.&lt;/p&gt;
-
-&lt;pre&gt;&lt;code class=&quot;javascript&quot;&gt;/*:
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;Открываем комментарий и описываем различные параметры:&lt;/p&gt;
-
-&lt;pre&gt;&lt;code class=&quot;javascript&quot;&gt;* @plugindesc отображает на экране количество предметов в ячейке
-* @author Mur
-*
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;Далее указывается описание плагина (@plugindesc) и собственно кто автор (@author)&lt;/p&gt;
-
-&lt;pre&gt;&lt;code class=&quot;javascript&quot;&gt;* @param enableSwitchId
-* @desc показать/скрыть (номер ключа)
-* @default 1
-*
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;Затем следуют перечисления параметров нашего плагина. Тут надо быть очень внимательными, ибо эти название затем используются в скрипте. И если что-то напутать, ничего не получится. Один параметр состоит из трёх частей, собственно его названия @param (на английском языке и честно не знаю, можно ли писать на русском), описание данного параметра @desc (не знаю почему, но описание на русском не отображается) и значение по умолчанию @default. Данный параметр указывает какой ключ (switch) будет разрешать или запрещать отображение данного окошка.&lt;/p&gt;
-
-&lt;pre&gt;&lt;code class=&quot;javascript&quot;&gt;* @param itemVarId
-* @desc Иконка предмета (номер переменной)
-* @default 1
-*
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;Здесь указывает номер переменной (Variable) в которой хранится номер предмета, который должен собирать наш главный герой. Иконка этого предмета и отображается в нашем окошке.&lt;/p&gt;
-
-&lt;pre&gt;&lt;code class=&quot;javascript&quot;&gt;* @param countVarId
-* @desc Количество предметов (номер переменной)
-* @default 2
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;Ну и завершает это всё последний параметр, который так же указывает на номер переменной (Variable) в которой хранится количество собранных предметов.&lt;/p&gt;
-
-&lt;pre&gt;&lt;code class=&quot;javascript&quot;&gt;*/&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;Закрываем комментарий и далее следует уже наш скрипт самого плагина.&lt;/p&gt;
-
-&lt;pre&gt;&lt;code class=&quot;javascript&quot;&gt;(function() {&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;Такой строчкой начинаются почти все плагины, которая собственно и сообщает системе, что сейчас мы будет творить!&lt;/p&gt;
-
-&lt;pre&gt;&lt;code class=&quot;javascript&quot;&gt;var parameters = PluginManager.parameters('ItemOnMap');
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;Для начала нам нужно добраться до настроек нашего плагина. Не знаю, как это всё связано, но обратите внимание, что наш файл, первый кусочек и здесь название плагина везде одинаковое, в данном случае это «ItemOnMap».&lt;/p&gt;
-
-&lt;pre&gt;&lt;code class=&quot;javascript&quot;&gt;var enableSwitchId = Number(parameters['enableSwitchId']);
-var itemVarId = Number(parameters['itemVarId']);
-var countVarId = Number(parameters['countVarId']);
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;Здесь мы получаем значение наших параметров. Честно не знаю, зачем тут написано Number, но в других скриптах сделано так же, так что видимо так надо.&lt;/p&gt;
-
-&lt;p&gt;А так это выглядит, когда мы подключаем наш плагин:&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/images.posts/2015.11/05 - Pishem svoj pervyj plagin dla RPG Maker MV/params.png&quot; class=&quot;imgCenter&quot; /&gt;&lt;/p&gt;
-
-&lt;pre&gt;&lt;code class=&quot;javascript&quot;&gt;//Обновление всех окон
-var _Scene_Map_createAllWindows = Scene_Map.prototype.createAllWindows;
-Scene_Map.prototype.createAllWindows = function() {
-	_Scene_Map_createAllWindows.call(this);
-	this._itemOnMap = new ItemOnMap(10,10, 120, 60);
-	this.addWindow(this._itemOnMap);
-};
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;Вот тут очень важный и сложный момент. Для того, чтобы наше окно постоянно отображалось. Нам нужно втиснутся в основную функцию создания всех окон (createAllWindows). Если вы писали скрипты (или хотя бы пытались что-то изменить в чужих, как я, например) под VX Ace, то наверняка заметили схожий приём. Когда главная функция системы подменялась на нашу, а потом вызывалась внутри с такими же параметрами. Ну не суть важно, я думаю если кому интересно он спросит у знатоков, а тут просто для пояснения.&lt;/p&gt;
-
-&lt;p&gt;Сначала создаём «копию» основной функции системы:&lt;/p&gt;
-
-&lt;pre&gt;&lt;code class=&quot;javascript&quot;&gt;var _Scene_Map_createAllWindows = Scene_Map.prototype.createAllWindows;
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;Затем заменяем её уже своей функцией:&lt;/p&gt;
-
-&lt;pre&gt;&lt;code class=&quot;javascript&quot;&gt;Scene_Map.prototype.createAllWindows = function() {
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;внутри которой вызываем настоящую, что бы ничего не поломалось:&lt;/p&gt;
-
-&lt;pre&gt;&lt;code class=&quot;javascript&quot;&gt;	_Scene_Map_createAllWindows.call(this);
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;И затем уже добавляем создание нашего окошка:&lt;/p&gt;
-
-&lt;pre&gt;&lt;code class=&quot;javascript&quot;&gt;	this._itemOnMap = new ItemOnMap(10,10, 120, 60);
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;Первые два числа — это координаты где на экране будет наше окно, а два другие его соответственно ширина и высота.&lt;/p&gt;
-
-&lt;pre&gt;&lt;code class=&quot;javascript&quot;&gt;	this.addWindow(this._itemOnMap);
-}
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;Затем это окно добавляется в систему и далее собственно уже функции нашего окна:&lt;/p&gt;
-
-&lt;pre&gt;&lt;code class=&quot;javascript&quot;&gt;function ItemOnMap() {
-	this.initialize.apply(this, arguments);
-}
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;Честно скажу, назначение этого кусочка мне до конца не ясно. Однако сразу скажу, что без него не работает и кроме того опять же очень важно название — «ItemOnMap»!! Оно идёт везде одинаковое, ошибётесь на 1 букву будут ошибки.&lt;/p&gt;
-
-&lt;pre&gt;&lt;code class=&quot;javascript&quot;&gt;ItemOnMap.prototype = Object.create(Window_Base.prototype);
-ItemOnMap.prototype.constructor = ItemOnMap;
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;Дальше, если я правильно понимаю, копируются все параметры, свойства и собственно функции отрисовки системного окна в наш ItemOnMap. Дальше мы можем в нём менять всё что душе угодно, не боясь, что это отобразиться свойствах всех остальных окошек.&lt;/p&gt;
-
-&lt;pre&gt;&lt;code class=&quot;javascript&quot;&gt;ItemOnMap.prototype.standardPadding = function() {
-	return 0;
-};
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;Например, вот, по умолчанию отступ у всех окон 18px. Для того что бы наш текст и иконка были видны его стоит задать равным 0.&lt;/p&gt;
-
-&lt;pre&gt;&lt;code class=&quot;javascript&quot;&gt;ItemOnMap.prototype.initialize = function(x, y, width, height) {
-Window_Base.prototype.initialize.call(this, x, y, width, height);
-	this._id = 1;
-};
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;Далее, как я понимаю идёт инициализация нашего окна, с такими же параметрами как у главного.&lt;/p&gt;
-
-&lt;p&gt;Ну и самое интересное. Окно появилось, и остаётся только вывести в него информацию:&lt;/p&gt;
-
-&lt;pre&gt;&lt;code class=&quot;javascript&quot;&gt;ItemOnMap.prototype.update = function() {
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;Для этого необходимо в функции update написать то, что мы хотим вывести в нашем окне.&lt;/p&gt;
-
-&lt;pre&gt;&lt;code class=&quot;javascript&quot;&gt;	this.contents.clear();
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;Для начала его надо очистить, если этого не сделать всё будет накладываться друг на дружку и в конце концов будет выглядеть ужасно.&lt;/p&gt;
-
-&lt;pre&gt;&lt;code class=&quot;javascript&quot;&gt;	if ($gameSwitches.value(enableSwitchId)) {
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;Далее мы проверяем, разрешено ли показывать наше окно, если да, то:&lt;/p&gt;
-
-&lt;pre&gt;&lt;code class=&quot;javascript&quot;&gt;		this.show();
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;Покажем окно&lt;/p&gt;
-
-&lt;pre&gt;&lt;code class=&quot;javascript&quot;&gt;		this.resetTextColor();
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;Установим настройки (цвет, размер) текста по умолчанию&lt;/p&gt;
-
-&lt;pre&gt;&lt;code class=&quot;javascript&quot;&gt;		var itemId = $gameVariables.value(itemVarId);
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;Берём номер предмета, который нужно отобразить:&lt;/p&gt;
-
-&lt;pre&gt;&lt;code class=&quot;javascript&quot;&gt;		if (itemId == 0) {
-			itemId = 1;
-		}
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;Проверяем, что бы он не был равен 0, иначе будет ошибка.&lt;/p&gt;
-
-&lt;pre&gt;&lt;code class=&quot;javascript&quot;&gt;		this.drawIcon($dataItems[itemId].iconIndex, 15, 15);
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;Рисуем нашу иконку. $dataItems[itemId].iconIndex номер иконки предмета, и две последующие цифры это координаты x,y внутри нашего окна.&lt;/p&gt;
-
-&lt;pre&gt;&lt;code class=&quot;javascript&quot;&gt;		this.drawTextEx(&quot;:&quot; + $gameVariables.value(countVarId), 52, 15);
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;Далее выводим наше число из переменной, и опять же два последующих числа это координаты x,y внутри нашего окна, но только уже для вывода текста.&lt;/p&gt;
-
-&lt;pre&gt;&lt;code class=&quot;javascript&quot;&gt;	} else {
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;Если же показывать окно нельзя, то&lt;/p&gt;
-
-&lt;pre&gt;&lt;code class=&quot;javascript&quot;&gt;		this.hide();
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;Скроем его и закончим данную функцию.&lt;/p&gt;
-
-&lt;pre&gt;&lt;code class=&quot;javascript&quot;&gt;	}
-}
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;Собственно, на этом всё, остаётся только не забыть закончить главную функцию плагина:&lt;/p&gt;
-
-&lt;pre&gt;&lt;code class=&quot;javascript&quot;&gt;})();
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;Как видите ничего сложного почти нет. Хотя по правде говоря было очень непросто сходу разобраться со всем этим, и, если бы не потраченные дни предварительного разбирания и ковыряния VX Ace, мне бы не удалось это всё сделать так «быстро». Однако надо сказать огромное спасибо авторам, что так же как в VX Ace, RMMV название функций и переменных очень схожи, что конечно хоть и не сильно, но всё же упрощает написание плагинов под RMMV.&lt;/p&gt;
-
-&lt;p&gt;Если вдруг будут какие-то вопросы, постараюсь в меру своих сил ответить.&lt;/p&gt;
-
-&lt;p&gt;p.s. огромное спасибо всем, кто мне помогал и помогает разбираться с премудростями RPG Maker, как здесь на форуме, так и в нашем горячо любимом чатике. Как видите мои глупые вопросы наконец вылились во что-то если не серьёзное, так во что-то не плохое это точно.&lt;/p&gt;
-
-&lt;p&gt; Небольшое дополнение:&lt;/p&gt;
-&lt;div class=&quot;hline&quot;&gt;&lt;/div&gt;
-
-&lt;p&gt;Если необходимо, что бы окно так же отображалось во время боя, то для этого достаточно перед строчкой «function ItemOnMap() {»&lt;/p&gt;
-
-&lt;p&gt;Добавить, по аналогии с «_Scene_Map_createAllWindows»:&lt;/p&gt;
-
-&lt;pre&gt;&lt;code class=&quot;javascript&quot;&gt;//Обновление окон во время битвы
-var _Scene_Battle_createAllWindows = Scene_Battle.prototype.createAllWindows;
-Scene_Battle.prototype.createAllWindows = function() {
-	_Scene_Battle_createAllWindows.call(this);
-	this._itemOnMap = new ItemOnMap(10,10, 120, 60);
-	this.addWindow(this._itemOnMap);
-};
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;Правда появятся небольшие проблемы:&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/images.posts/2015.11/05 - Pishem svoj pervyj plagin dla RPG Maker MV/items_on_map.png&quot; class=&quot;imgCenter&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;Наше окошко будет перекрывать системные сообщения о битве. Поэтому нужно указать где-то другое место.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt; Ссылки по теме&lt;/strong&gt;:&lt;/p&gt;
-&lt;div class=&quot;hline&quot;&gt;&lt;/div&gt;
-&lt;ul&gt;
-  &lt;li&gt;Готовый &lt;a href=&quot;https://yadi.sk/d/j7MrpQHK3GZNun&quot;&gt;пример проекта&lt;/a&gt; с использованием вышеописанного плагина.&lt;/li&gt;
-  &lt;li&gt;Свежая версия скрипта &lt;a href=&quot;https://github.com/murlab/rpg-maker-mv-plugins/blob/master/examples/ItemOnMap.js&quot;&gt;ItemOnMap.js&lt;/a&gt; всегда доступна на github в разделе &lt;a href=&quot;https://github.com/murlab/rpg-maker-mv-plugins/blob/master/examples/&quot;&gt;примеров&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;</content><author><name></name></author><category term="archive" /><category term="rpg maker mv" /><category term="plugins" /><category term="javascript" /><category term="story" /><category term="уроки" /><summary type="html">Всем доброй ночи.</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://murlab.github.io/05%20-%20Pishem%20svoj%20pervyj%20plagin%20dla%20RPG%20Maker%20MV/plugin_title.png" /></entry></feed>
+&lt;/ul&gt;</content><author><name></name></author><category term="archive" /><category term="rpg maker mv" /><category term="plugins" /><category term="javascript" /><category term="story" /><category term="уроки" /><summary type="html">Всем привет!</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://murlab.github.io/05%20-%20Pishem%20plagin%20dla%20otobrazhenia%20bolshih%20avatarok/avatars_title.png" /></entry></feed>

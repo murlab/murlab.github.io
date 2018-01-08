@@ -1,4 +1,133 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.6.2">Jekyll</generator><link href="https://murlab.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://murlab.github.io/" rel="alternate" type="text/html" /><updated>2018-01-08T19:39:38+03:00</updated><id>https://murlab.github.io/</id><title type="html">Mur Laboratory</title><subtitle>Обожаю сладкое, аниме и игры. Так же пытаюсь делать свои с помощью RPG Maker и Godot. Иногда рисую, да,… (ღ˘⌣˘ღ)</subtitle><entry><title type="html">Своя страничка на github</title><link href="https://murlab.github.io/blog/Svoja%20stranichka%20na%20github/" rel="alternate" type="text/html" title="Своя страничка на github" /><published>2017-12-31T19:00:00+03:00</published><updated>2017-12-31T19:00:00+03:00</updated><id>https://murlab.github.io/blog/Svoja%20stranichka%20na%20github</id><content type="html" xml:base="https://murlab.github.io/blog/Svoja%20stranichka%20na%20github/">&lt;p&gt;Новогодний привет всем!&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.6.2">Jekyll</generator><link href="https://murlab.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://murlab.github.io/" rel="alternate" type="text/html" /><updated>2018-01-08T22:40:52+03:00</updated><id>https://murlab.github.io/</id><title type="html">Mur Laboratory</title><subtitle>Обожаю сладкое, аниме и игры. Так же пытаюсь делать свои с помощью RPG Maker и Godot. Иногда рисую, да,… (ღ˘⌣˘ღ)</subtitle><entry><title type="html">RMMV Awesome Battleground</title><link href="https://murlab.github.io/blog/RMMV%20Awesome%20Battleground/" rel="alternate" type="text/html" title="RMMV Awesome Battleground" /><published>2018-01-08T19:55:00+03:00</published><updated>2018-01-08T19:55:00+03:00</updated><id>https://murlab.github.io/blog/RMMV%20Awesome%20Battleground</id><content type="html" xml:base="https://murlab.github.io/blog/RMMV%20Awesome%20Battleground/">&lt;p&gt;И снова всем привет!&lt;/p&gt;
+
+&lt;p&gt;В конце октября, начале ноября прошлого года на «Светлой Академии» проходил конкурс плагинов для RPG Maker. Конкурс проходил первый раз и как организатору данного мероприятия мне было немного боязно, что работ будет очень мало, если вообще будут.&lt;/p&gt;
+
+&lt;!--break--&gt;
+
+&lt;p&gt;По этой причине, по большей части для массовки, мной был написан плагин «Awesome Battleground». Но случилось чудо, работ было предоставлено аж двенадцать штук, а моя работа разделила второе место, с чем себя и поздравляю.&lt;/p&gt;
+
+&lt;p&gt;И сегодня мне бы хотелось рассказать немного подробнее о своей работе.&lt;/p&gt;
+
+&lt;p&gt;По умолчанию в RPG Maker MV фоновое изображение для битвы, а также музыку можно задать только для всей карты. Да её можно изменить с помощью команд, но придётся это делать для каждого события на карте, это честно скажу немного утомительно. А как быть если противник двигается по карте? Тут он стоит на песочке, а тут уже переходит реку по мосту, а затем уже в лесу? Писать сложную логику и каждый раз задавать картинки?&lt;/p&gt;
+
+&lt;p&gt;Что бы избавить разработчика от «головной боли» и был изначально придуман плагин «Awesome Battleground».  На карте можно промаркировать зоны и в зависимости от цифры задать какое фоновое изображение, и музыка будут тут использованы:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images.posts/2018.01/08 - RMMV Awesome Battleground/regions.png&quot; class=&quot;imgCenter&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Так же номер зоны можно изменить в любой момент командой плагина «setcurrentregionid NN» прямо в диалогах, где NN номер региона. Например, после общения с противником мир вокруг главного героя меняется и начинается битва. Главное не забыть по окончании вернуть значение региона на 0.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images.posts/2018.01/08 - RMMV Awesome Battleground/example.png&quot; class=&quot;imgCenter&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Но на этом идея не остановилась и захотелось немного приукрасить оформление. К сожалению, в RPG Maker вообще очень много статичных картинок, поэтому было решено добавить немного динамичности, а именно помимо двух стандартных добавилось ещё два слоя для параллаксов. А также возможность разместить элементы анимации:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images.posts/2018.01/08 - RMMV Awesome Battleground/layers.png&quot; class=&quot;imgCenter&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Для каждого слоя параллаксов можно задать один из эффектов, а точнее способ поведения изображения на экране:&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Зацикленные движения:
+    &lt;ul&gt;
+      &lt;li&gt;вверх&lt;/li&gt;
+      &lt;li&gt;вниз&lt;/li&gt;
+      &lt;li&gt;влево&lt;/li&gt;
+      &lt;li&gt;вправо&lt;/li&gt;
+      &lt;li&gt;вверх влево&lt;/li&gt;
+      &lt;li&gt;вверх право&lt;/li&gt;
+      &lt;li&gt;вниз влево&lt;/li&gt;
+      &lt;li&gt;вниз вправо&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Движение в виде маятника:
+    &lt;ul&gt;
+      &lt;li&gt;вверх-вниз&lt;/li&gt;
+      &lt;li&gt;влево-вправо&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Произвольные движения:
+    &lt;ul&gt;
+      &lt;li&gt;зигзагом&lt;/li&gt;
+      &lt;li&gt;по часовой стрелке&lt;/li&gt;
+      &lt;li&gt;против часовой стрелки&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Проявление (fade in) и затухание (fade out)&lt;/li&gt;
+  &lt;li&gt;Мерцание&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;Для зацикленных движений создаётся дубликат картинки и в зависимости от направления движения он располагается либо справа, либо снизу. Для движений по кругу создаётся 4 копии картинок, так что важно, чтобы они аккуратно стыковались (как например 3D текстуры) без швов. В противном случае это будет выглядеть не аккуратно.&lt;/p&gt;
+
+&lt;p&gt;Проявление и затухание — это одинарная картинка, которая плавно проявляется и исчезает с помощью изменения значения альфа-канала.&lt;/p&gt;
+
+&lt;p&gt;Так же в параметрах слоя параллакса можно задать скорость с которой будет двигаться слой, а также (при необходимости) можно задать задержку перед повтором. Например, можно выбрать что слой будет двигаться циклически вверх, но перед повторным движением будет выжидаться пауза.&lt;/p&gt;
+
+&lt;p&gt;Помимо двух слоёв параллаксов, можно добавить на сцену анимацию. Всего можно указать четыре вида анимации, но с неограниченным количеством координат на экране. Основная идея была задать один вид анимации и продублировать их несколько раз на экране. Причём помимо координат задаётся ещё номер кадра с которого начинать, в результате чего анимация уже не выглядит как синхронные «китайские болванчики».&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images.posts/2018.01/08 - RMMV Awesome Battleground/animation.png&quot; class=&quot;imgCenter&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Немаловажным нововведением плагина, является возможность вместе с музыкой задать шумовой эффект (чириканье птичек, раскаты грома итд). Ну и конечно можно задать уровень громкости, как музыки, так и шумовых эффектов.&lt;/p&gt;
+
+&lt;p&gt;Так же в плагине есть небольшое дополнение, позволяющий задать размер экрана. В отличии от многих других аналогичных, он корректно расставляет участников боя, если размер экрана больше 816x624. А также может учитывать соотношение сторон 16:9 или 3:4, что позволяет избавится от чёрных полосок по бокам в полноэкранном режиме. Если вам это не нужно или у вас есть другие планы, реализовывающие этот функционал, данную опцию можно отключить.&lt;/p&gt;
+
+&lt;p&gt;К сожалению, для многих оказались не вполне понятно, как его настраивать. Поэтому остановимся немного подробнее на настройке параметров плагина.&lt;/p&gt;
+
+&lt;p&gt;Начиная с версии RPG Maker MV 1.5.x появилась возможность, более продвинутой настройке плагинов. Но она же порой и вносит ещё большую путаницу, поскольку имеет много уровней вложенности и сразу не понятно, как куда попасть и где что расположено.&lt;/p&gt;
+
+&lt;p&gt;Начнём с главной части настроек. Здесь всё просто, выбираем интересующий нас раздел, кликаем на него и открывается окно с настройками:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images.posts/2018.01/08 - RMMV Awesome Battleground/params_01.png&quot; class=&quot;imgCenter&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Далее откроем меню с настройками для регионов, нажав на соответствующий пункт «Настройки для регионов». Пусть вас не пугает огромный список на скриншоте, изначально он будут пуст и для каждого региона вы должны задать свои настройки. Для этого делаем двойной клик мышкой на пустой строчке и откроется окошко для настройки нового региона:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images.posts/2018.01/08 - RMMV Awesome Battleground/params_02.png&quot; class=&quot;imgCenter&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Здесь тоже относительно всё просто. Вначале нам нужно задать номер региона, который мы хотим настроить. Если выбрать 0, то будут настройки по умолчанию, когда регион не указан на карте. Если не создать такую запись, то на территории, где не задан номер региона будет стандартный фон для битвы на данной карты, без плюшек плагина «Awesome Battleground».&lt;/p&gt;
+
+&lt;p&gt;После того как мы указали номер региона, нам нужно выбрать две картинки: заднего фона (battleground) и переднего (foreground). Картинки используются не из стандартной поставки RPG Maker, поэтому их нужно расположить в «img/fx_background» и «img/fx_foreground» соответственно. Примеры таких картинок вы можете найти в полном проекте.&lt;/p&gt;
+
+&lt;p&gt;На этом собственно базовая настройка и завершена. Если же мы хотим добавить в сцену динамичности, можно настроить ещё 2 параллакса.&lt;/p&gt;
+
+&lt;p&gt;Изображение с заготовками параллаксов должно быть предварительно скопировано в папку «img/fx_parallax».
+Далее выбираем эффект как себя вести изображению (двигаться, проявляться или мерцать). Также указываем скорость с которой будет двигаться наше изображение для параллакса.&lt;/p&gt;
+
+&lt;p&gt;Для достижения эффекта параллакса, и в зависимости от выбранного эффекта, изображение будет дублироваться в памяти по горизонтали и/или вертикали. Это стоит учитывать при создании бесшовных изображений.&lt;/p&gt;
+
+&lt;p&gt;По умолчанию эффект применяется постоянно, например, плывут облака по кругу. Но при необходимости, после того, как изображение сместиться на всю свою ширину (высоту) можно задать задержку «Повторить через». Как например это сделано в сцене с роботом, забор двигается постоянно, а фонари там двигаются с интервалами.&lt;/p&gt;
+
+&lt;p&gt;При необходимости повторяем все настройки и для второго параллакса.&lt;/p&gt;
+
+&lt;p&gt;При желании на сцене можно разместить анимационные элементы, как например огонь в сцене с шахтой или подводные растения. Всего видов анимации доступно четыре, но количество на сцене ограниченно лишь вашей фантазией и здравым смыслом.&lt;/p&gt;
+
+&lt;p&gt;Изображение для анимации представляет из себя файл с кадрами, располагающимися друг за другом по вертикали. Файл должен быть скопирован в «img/fx_animation». Затем в параметрах указываем из сколько кадров будет состоять наша анимация, а также задержку между кадрами. Например, если анимация состоит из 50 кадров, то задержка будет 0, если из 25-ти, то уже 1, а для 17 может быть и 3. В любом случае подбирается значение индивидуально.&lt;/p&gt;
+
+&lt;p&gt;Так же можно задать значение «Реверс», если хотим, чтобы анимация повторялась по кругу не с 1 кадра, а возвращалась в обратном порядке.&lt;/p&gt;
+
+&lt;p&gt;После того, как закончили с настройкой анимации, переходим к её размещению на экране. К сожалению, в RPG Maker MV нет встроенных средств, поэтому координаты на экране придётся задавать вручную, указывая положение X и Y.&lt;/p&gt;
+
+&lt;p&gt;Для этого так же делаем двойной клик мышкой на поле «Положение». Откроется ещё одно окно со списком координат. Для создания нового положения анимации на экране так же делаем двойной клик мышкой на пустой вкладке:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images.posts/2018.01/08 - RMMV Awesome Battleground/params_03.png&quot; class=&quot;imgCenter&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Помимо координат на экране, можно задать номер кадра с которого начать анимацию. Причём для каждого нового положения на экране можно задать своё значение. В результате чего анимация не будет выглядеть как «синхронное плавание», а создаст некоторое подобие разнообразия.&lt;/p&gt;
+
+&lt;p&gt;Как уже было сказано выше, ограничения на количество таких анимаций нет, но не стоит всё-таки сильно увлекаться, ибо не у всех компьютеры достаточно быстрые и велик риск того, что сцена боя превратится буквально в «пошаговую стратегию».&lt;/p&gt;
+
+&lt;p&gt;По аналогии задаются настройки и для остальных трёх анимаций.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images.posts/2018.01/08 - RMMV Awesome Battleground/params_04.png&quot; class=&quot;imgCenter&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;В конце есть ещё несколько пунктов настроек звуков для региона, с которыми, я надеюсь, вы без труда разберётесь сами.&lt;/p&gt;
+
+&lt;p&gt;В качестве демонстрации скромных возможностей плагина было сделано это видео:&lt;/p&gt;
+
+&lt;iframe width=&quot;850&quot; height=&quot;498&quot; src=&quot;https://www.youtube.com/embed/eecgqzTflIU&quot; frameborder=&quot;0&quot; gesture=&quot;media&quot; allow=&quot;encrypted-media&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
+
+&lt;p&gt;Одним из дополнительных условий конкурса был «красивый» и понятный код, скрипт по возможности наполнен комментариями, что, где и на какой строке происходит. Сейчас это не актуально, поэтому если вам не интересно разбираться с внутренностями скрипта, можно скачать «чистую» версию с настройкой параметров на &lt;a href=&quot;https://github.com/murlab/rpg-maker-mv-plugins/blob/master/Awesome%20Battleground/%5BRU%5D%20MUR_AwesomeBattleground.js&quot;&gt;русском&lt;/a&gt; и &lt;a href=&quot;https://github.com/murlab/rpg-maker-mv-plugins/blob/master/Awesome%20Battleground/%5BEN%5D%20MUR_AwesomeBattleground.js&quot;&gt;английском&lt;/a&gt; языках. Если же интересно разобраться, что и как устроено, можно скачать &lt;a href=&quot;https://github.com/murlab/rpg-maker-mv-plugins/blob/master/Awesome%20Battleground/%5BRU%5D%20MUR_AwesomeBattleground%20(with%20comments).js&quot;&gt;версию с комментариями&lt;/a&gt;. В любом случае главное не забыть переименовать файл в виде «MUR_AwesomeBattleground.js» иначе плагин не увидит свои настройки и вывалится с ошибкой.&lt;/p&gt;
+
+&lt;p&gt;Все версии как обычно доступны на &lt;a href=&quot;https://github.com/murlab/rpg-maker-mv-plugins/tree/master/Awesome%20Battleground&quot;&gt;github&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;А так же можно теперь посмотреть версию плагина &lt;a href=&quot;https://murplay.github.io/&quot;&gt;online&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Если вам не совсем понятно как настраивать плагин, то можете &lt;a href=&quot;https://cloud.mail.ru/public/H2VU/ekPoQc4vq&quot;&gt;скачать готовый проект&lt;/a&gt; (~172Mb) для RPG Maker MV, который чуть выше демонстрируется на видео.&lt;/p&gt;</content><author><name></name></author><category term="rpg maker mv" /><category term="plugins" /><category term="javascript" /><summary type="html">И снова всем привет!</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://murlab.github.io/08%20-%20RMMV%20Awesome%20Battleground/plugin_title.png" /></entry><entry><title type="html">Своя страничка на github</title><link href="https://murlab.github.io/blog/Svoja%20stranichka%20na%20github/" rel="alternate" type="text/html" title="Своя страничка на github" /><published>2017-12-31T19:00:00+03:00</published><updated>2017-12-31T19:00:00+03:00</updated><id>https://murlab.github.io/blog/Svoja%20stranichka%20na%20github</id><content type="html" xml:base="https://murlab.github.io/blog/Svoja%20stranichka%20na%20github/">&lt;p&gt;Новогодний привет всем!&lt;/p&gt;
 
 &lt;p&gt;Сегодня, в последний день уходящего года, мне бы хотелось… нет, не подведения итогов (: а поделится более ценной информацией, а именно как завести свою страничку, сайт на &lt;a href=&quot;https://pages.github.com/&quot;&gt;github&lt;/a&gt;.&lt;/p&gt;
 
@@ -1342,211 +1471,4 @@ end
 Единственное, что, если ваша игра/приложение будет иметь большую популярность, и, как следствие — требовать больших мощностей из-за обилия запросов, лучше обзавестись собственным сервером с SSL.
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
-&lt;p&gt;На этом разрешите откланяться и пожелать удачи в ваших проектах! =^‿~=&lt;/p&gt;</content><author><name></name></author><category term="archive" /><category term="rpg maker mv" /><category term="story" /><category term="уроки" /><summary type="html">Обновление от 2 февраля 2017 года:</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://murlab.github.io/06%20-%20Zapuskaem%20proekt%20v%20brauzere/browser_title.png" /></entry><entry><title type="html">Пишем плагин для отображения больших аватарок</title><link href="https://murlab.github.io/blog/Pishem%20plagin%20dla%20otobrazhenia%20bolshih%20avatarok/" rel="alternate" type="text/html" title="Пишем плагин для отображения больших аватарок" /><published>2015-11-05T02:00:00+03:00</published><updated>2015-11-05T02:00:00+03:00</updated><id>https://murlab.github.io/blog/Pishem%20plagin%20dla%20otobrazhenia%20bolshih%20avatarok</id><content type="html" xml:base="https://murlab.github.io/blog/Pishem%20plagin%20dla%20otobrazhenia%20bolshih%20avatarok/">&lt;p&gt;Всем привет!&lt;/p&gt;
-
-&lt;p&gt;С вами опять я, и мои очумелые ручки вновь не дают мне покоя. Ну и собственно по этой причине я спешу поделиться с вами своим новыми изысканиями.&lt;/p&gt;
-
-&lt;p&gt;Изыскивать мы сегодня будем как с помощью нескольких изменений, вывести на экран большие аватарки. На подобии «&lt;a href=&quot;https://galvs-scripts.com/2012/12/01/message-busts/&quot;&gt;Message busts&lt;/a&gt;» от &lt;a href=&quot;https://galvs-scripts.com/&quot;&gt;Galv&lt;/a&gt;. Стой лишь разницей, что у него скрипт написан для VX Ace, ну а мы соответственно будем изыскивать для RPG Maker MV.&lt;/p&gt;
-
-&lt;!--break--&gt;
-
-&lt;p&gt;Для начала общая идея, как я себе это представляю:
-В обычном редакторе текстовых диалогов, мы выбираем файл с группой аватаров, выбираем один из них и задаём текст сообщения. Всё как обычно.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/images.posts/2015.11/05 - Pishem plagin dla otobrazhenia bolshih avatarok/4.png&quot; class=&quot;imgCenter&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;Затем, находим место где выводится на экран аватарка. Изменяем скрипт на то что нам нужно, а именно выбрать картинку из папки img\bigfaces\ загрузить её вместо стандартной и вуаля, всё готово. На практике оказалось не всё так просто. Дело в том, что размеры окна (в данном случае с текстом сообщения) жестко задают границы и если попробовать загрузить другую (большую) картинку, то всё что попадает за пределы окна попросту обрезается.&lt;/p&gt;
-
-&lt;p&gt;Довольно неожиданно, но мысль не давала мне покоя. Ну хорошо, а что, если нам сделать новое своё окошко, убрать к примеру все декорации, и загрузить в него нашу большую картинку. Отличная идея, как мне тогда казалось, но не совсем,… Да, новое большое окно у меня получилось вывести, но тут меня ждало разочарование. Дело в том, что как только новое окно перекрыло часть окна с сообщением, всё что находилось под ним попросту исчезло.&lt;/p&gt;
-
-&lt;p&gt;Мдяя,… как говорится, а праздник был близко. Ну что ж, мы не отчаиваемся и самое время перестать маяться дурью и наконец посмотреть, а как же эту проблему решает Galv в своём скрипте? Всё оказалось просто. Скрипт, который выводит обычную аватарку убирается, а вместо него с помощью Sprite спокойно отображается картинка поверх всех окошек. Алллилуйя! Вот оно!&lt;/p&gt;
-
-&lt;p&gt;Итак, идея ясна, осталось только всё сделать.&lt;/p&gt;
-
-&lt;p&gt;Начнём мы, как и в прошлый раз с описания нашего скрипта. На деталях я останавливаться уже не стану, скажу только, что нам понадобится одна переменная в настройках, а именно сколько отступить тексту с левого края. Картинки у нас большие и если оставить настройки по умолчанию, то текст будет накладываться поверх персонажа, что не всегда хорошо читается. Впрочем, кто-то может в этом узреть особенность дизайна.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/images.posts/2015.11/05 - Pishem plagin dla otobrazhenia bolshih avatarok/1.png&quot; class=&quot;imgCenter&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;Начало нашего скрипта:&lt;/p&gt;
-
-&lt;pre&gt;&lt;code class=&quot;javascript&quot;&gt;//=============================================================================
-// BigAvatar.js
-//=============================================================================
-
-/*:
-* @plugindesc показывает большую аватарку
-* @author Mur
-*
-* @param avatarWidth
-* @desc padding for text
-* @default 320
-*
-*/
-
-(function() {
-
-var parameters = PluginManager.parameters(‘BigAvatar’);
-var avatarWidth = Number(parameters[‘avatarWidth’]);
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;Прочитаем в переменную avatarWidth ширину нашей большой картинки, или точнее сколько нам отступать.&lt;/p&gt;
-
-&lt;pre&gt;&lt;code class=&quot;javascript&quot;&gt;var spr = new Sprite();
-var bitmap;
-var sprPosX;
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;Далее подготовим несколько переменных: &lt;strong&gt;&lt;em&gt;spr&lt;/em&gt;&lt;/strong&gt; это собственно наш спрайт с которым мы будем работать дальше; &lt;strong&gt;&lt;em&gt;bitmap&lt;/em&gt;&lt;/strong&gt; — сюда мы будем загружать нашу большую картинку и затем копировать в спрайт; &lt;strong&gt;&lt;em&gt;sprPosX&lt;/em&gt;&lt;/strong&gt; — это положение нашего спрайта на экране. Забегая немного вперёд скажу, что мне захотелось не просто вывести картинку на экран — БАМЦ! а что бы она плавно выезжала из-за края экрана. Но обо всём по порядку.&lt;/p&gt;
-
-&lt;pre&gt;&lt;code class=&quot;javascript&quot;&gt;Window_Message.prototype.newLineX = function() {
-	return $gameMessage.faceName() === '' ? 0 : avatarWidth;
-};
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;Здесь мы указываем наш отступ для текста, если аватар не указан, то отступ равен 0. В противном случает отступ для текста устанавливается из нашей переменной &lt;strong&gt;&lt;em&gt;avatarWidth&lt;/em&gt;&lt;/strong&gt;.&lt;/p&gt;
-
-&lt;pre&gt;&lt;code class=&quot;javascript&quot;&gt;Window_Base.prototype.drawFace = function(faceName, faceIndex, x, y, width, height) {
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;Далее собственно то место, где рисуется аватарка персонажа, который говорит наш текст.&lt;/p&gt;
-
-&lt;pre&gt;&lt;code class=&quot;javascript&quot;&gt;if (faceName != '') {
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;Проверяем, а задано ли название аватара, который нам нужно отобразить. Уж не знаю или моя ошибка, или где-то кто-то что-то пропустил, но мы сюда иногда попадаем с пустым именем. В результате чего ошибка на экране и «поезд дальше никуда уже не идёт».&lt;/p&gt;
-
-&lt;p&gt;Если имя не задано, то просто ничего не делаем.&lt;/p&gt;
-
-&lt;pre&gt;&lt;code class=&quot;javascript&quot;&gt;if (spr.bitmap) {
-	this.removeChild(spr);
-}
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;Вот тут очень важный и интересный момент. Если у нас уже была загружена картинка (мы сюда попали не первый раз), то нужно убрать старый спрайт с экрана. Поскольку если этого не сделать на экране будет каша, все наши картинки начнут накладываться одна на другую.&lt;/p&gt;
-
-&lt;pre&gt;&lt;code class=&quot;javascript&quot;&gt;bitmap = ImageManager.loadBitmap('img/bigfaces/' + faceName + '/', faceIndex+1, null, true);
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;Далее мы загружаем картинку. ‘img/bigfaces/’ — место где лежат наши большие аватарки. &lt;strong&gt;&lt;em&gt;faceName&lt;/em&gt;&lt;/strong&gt; это название файла с 8ю маленькими аватарками, который мы использовали при составлении текста. Но в данном случае это будет ещё одна папка, где будут лежать наши 8 больших картинок с номерами от 1 до 8. &lt;strong&gt;&lt;em&gt;faceIndex+1&lt;/em&gt;&lt;/strong&gt; это собственно уже название нашей картинки которую мы хотим загрузить. +1 потому что счёт у них не с 1, а 0. и «.png» не нужно добавлять, так как система сама это сделает за нас.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/images.posts/2015.11/05 - Pishem plagin dla otobrazhenia bolshih avatarok/5.png&quot; class=&quot;imgCenter&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;Как видно из рисунка, «Тест» название нашего проекта «img\bigfaces» это где хранятся наши картинки «Package1» одноимённое название файла с аватарами и дальше собственно от 1 до 8 картинки.&lt;/p&gt;
-
-&lt;pre&gt;&lt;code class=&quot;javascript&quot;&gt;var face = this;
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;Об этом чуть ниже.&lt;/p&gt;
-
-&lt;pre&gt;&lt;code class=&quot;javascript&quot;&gt;bitmap.addLoadListener(function() {
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;Далее очень важный момент. Поскольку картинка не может загрузится мгновенно, нам нужно написать специальную нашу функцию, которая будет вызвана после того, как картинка будет загружена. Если этого не сделать на экране мы в лучшем случае не получим ничего, а в худшем случае ошибку.&lt;/p&gt;
-
-&lt;pre&gt;&lt;code class=&quot;javascript&quot;&gt;spr.bitmap = new Bitmap(bitmap.width, bitmap.height);
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;После того, как картинка загружена, нам нужно её скопировать в спрайт. Для этого создадим пустую картинку в спрайте точно такими же размерами, как у вновь загруженной картинки.&lt;/p&gt;
-
-&lt;pre&gt;&lt;code class=&quot;javascript&quot;&gt;spr.bitmap.blt(bitmap, 0, 0, bitmap.width, bitmap.height, 0, 0);
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;Затем копируем загруженную картинку &lt;strong&gt;&lt;em&gt;bitmap&lt;/em&gt;&lt;/strong&gt; в спрайт &lt;strong&gt;&lt;em&gt;spr&lt;/em&gt;&lt;/strong&gt;. Первые два числа (0,0) это координаты в нашей картинке, например, если мы хотим скопировать не всю, а только часть. Далее два числа (&lt;strong&gt;&lt;em&gt;bitmap.width&lt;/em&gt;&lt;/strong&gt;, &lt;strong&gt;&lt;em&gt;bitmap.height&lt;/em&gt;&lt;/strong&gt;) это собственно размер нашей копируемой картинки. Ну и последние два нуля это место куда мы хотим вставить нашу картинку в спрайт.&lt;/p&gt;
-
-&lt;pre&gt;&lt;code class=&quot;javascript&quot;&gt;sprPosX = -(bitmap.width);
-spr.x = sprPosX;
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;Здесь мы указываем начальную координату &lt;strong&gt;&lt;em&gt;X&lt;/em&gt;&lt;/strong&gt; для нашего спрайта. Как уже сказано выше, у меня есть задумка сделать так, чтобы спрайт появлялся не сразу на экране, а выезжал из-за границы экрана. Поэтому тут отрицательное число равное ширине нашей загруженной картинки.&lt;/p&gt;
-
-&lt;pre&gt;&lt;code class=&quot;javascript&quot;&gt;spr.y = -(bitmap.height - face.height);
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;В этом месте задаётся вертикальное положение на экране, координата &lt;strong&gt;&lt;em&gt;Y&lt;/em&gt;&lt;/strong&gt;. Координата 0, как может показаться это не верхний левый угол экрана, а координата относительно нашего окна с текстом. Поэтому для того, чтобы «выскочить» за его границы нам так же нужно задать отрицательное число. Для этого берём высоту нашей картинки, уменьшаем её на высоту обычной аватарки и зададим координату Y.&lt;/p&gt;
-
-&lt;pre&gt;&lt;code class=&quot;javascript&quot;&gt;face.addChildToBack(spr);
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;Ну и теперь главный момент. Собственно, надо «прикрепить» наш спрайт к окну с сообщением. Возможно есть способ лучше, и EvilCat меня поправит, но ничего лучше мне не пришло в голову. По идеи здесь должно быть написано было &lt;strong&gt;&lt;em&gt;this.addChildToBack&lt;/em&gt;&lt;/strong&gt;, но поскольку &lt;strong&gt;&lt;em&gt;this&lt;/em&gt;&lt;/strong&gt; у нас внутри нашей функции уже указывает на &lt;strong&gt;&lt;em&gt;bitmap&lt;/em&gt;&lt;/strong&gt;, то мы получим ошибку. Поэтому тут как бы такая вот странная конструкция, мы сохраняем в &lt;strong&gt;&lt;em&gt;face&lt;/em&gt;&lt;/strong&gt; наш старый &lt;strong&gt;&lt;em&gt;this&lt;/em&gt;&lt;/strong&gt; на окошко, а затем просим систему добавить к нему спрайт.&lt;/p&gt;
-
-&lt;pre&gt;&lt;code class=&quot;javascript&quot;&gt;}.bind(bitmap));
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;Заканчивается загрузка картинки такой вот странной конструкцией. С радостью послушаю EvilCat для чего оно нужно, но скажу одно этот момент у меня очень много крови попил и заставил вчера просидеть аж почти до 4х утра. Пока не попался другой пример, с таким вот «хвостом». Уже отчаявшись, копирую этот кусочек и о чудо! Загрузка картинок заработала, иначе получались пустые файлы.&lt;/p&gt;
-
-&lt;pre&gt;&lt;code class=&quot;javascript&quot;&gt;    }
-};
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;Закрываем нашу проверку пустого имени и собственно всей функции.&lt;/p&gt;
-
-&lt;pre&gt;&lt;code class=&quot;javascript&quot;&gt;var _Window_Base_close = Window_Base.prototype.close;
-Window_Base.prototype.close = function() {
-	_Window_Base_close.call(this);
-	this.removeChild(spr);
-};
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;Этот кусочек не менее важен чем другие и отнял у меня тоже достаточно много времени. Дело в том, что, когда мы загружаем картинки постепенно по мере открытия новых диалогов, всё красиво и прекрасно. Но если обратится к НПЦ ещё раз, на доли секунды на экране появляется старая (последняя) картинка, прежде чем успевает загрузится новая. Это не очень красиво, и логично было бы удалять наш спрайт с экрана, после закрытия окна с текстом.&lt;/p&gt;
-
-&lt;p&gt;Думаю, комментарии тут излишни. Так же как и в первом уроке мы «дублируем» основную функцию системы &lt;strong&gt;&lt;em&gt;Window_Base.prototype.close&lt;/em&gt;&lt;/strong&gt; и добавляем после всех основных команд системы, команду удалить наш спрайт с экрана &lt;strong&gt;&lt;em&gt;this.removeChild(spr)&lt;/em&gt;&lt;/strong&gt;.&lt;/p&gt;
-
-&lt;pre&gt;&lt;code class=&quot;javascript&quot;&gt;var _Window_Base_update = Window_Base.prototype.update;
-Window_Base.prototype.update = function() {
-	_Window_Base_update.call(this);
-	if (sprPosX &amp;lt;0) {
-		sprPosX += 5;
-		spr.x = sprPosX;
-	}
-};
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;Ну и осталась ещё одна функция, которая будет двигать наш спрайт из-за экрана до тех пор, пока координата &lt;strong&gt;&lt;em&gt;X&lt;/em&gt;&lt;/strong&gt; не будет равна 0.&lt;/p&gt;
-
-&lt;p&gt;Так же как и с предыдущей функцией, мы делаем «дубликат» системной функции &lt;strong&gt;&lt;em&gt;Window_Base.prototype.update&lt;/em&gt;&lt;/strong&gt;. После того как отработает система, мы проверяем координату &lt;strong&gt;&lt;em&gt;X&lt;/em&gt;&lt;/strong&gt; нашего спрайта, и если она меньше 0, то увеличиваем её на 5 точек. Никаких дополнительных действий для загрузки изображения не требуется, достаточно обновить координату спрайта &lt;strong&gt;&lt;em&gt;spr.x&lt;/em&gt;&lt;/strong&gt; и оно сместиться на новое место автоматически.&lt;/p&gt;
-
-&lt;pre&gt;&lt;code class=&quot;javascript&quot;&gt;})();
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;На этом всё, закрываем основную функцию нашего плагина и отправляемся тестировать.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/images.posts/2015.11/05 - Pishem plagin dla otobrazhenia bolshih avatarok/3.png&quot; class=&quot;imgCenter&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;Стоит обратить внимание, что получившийся у нас плагин это всего лишь маленькая не законченная часть. Вывод аватара используется в совершенно неожиданных местах. И если, например, при отображении результатов битвы или списка персонажей в меню, это ещё не так фатально выглядит:&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/images.posts/2015.11/05 - Pishem plagin dla otobrazhenia bolshih avatarok/6.png&quot; class=&quot;imgCenter&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;то при выборе, например, экипировки:&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/images.posts/2015.11/05 - Pishem plagin dla otobrazhenia bolshih avatarok/7.png&quot; class=&quot;imgCenter&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;уже выглядит не столь оптимистично.&lt;/p&gt;
-
-&lt;p&gt;Понятно, что все эти нюансы ещё стоит учесть. Но минимальную задачу мы на сегодня выполнили. Разобрались как устроен вывод аватарок. Как загрузить свою картинку в спрайт и вывести на экран. И собственно, как сделать минимальную анимацию (выезд картинки из-за края экрана).&lt;/p&gt;
-
-&lt;p&gt;На этом всё. Всем спасибо за внимание и до новых встреч. В следующий раз думаю мы ещё что-нибудь интересное расковыряем ;)  Удачи!&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt; Небольшое обновление&lt;/strong&gt;:&lt;/p&gt;
-&lt;div class=&quot;hline&quot;&gt;&lt;/div&gt;
-
-&lt;p&gt;Для того, чтобы большие аватарки показывались только в сообщениях, собственно и нужно «трогать» только функцию сообщений, а не вообще всех аватарок.&lt;/p&gt;
-
-&lt;p&gt;Поэтому вместо кусочка:&lt;/p&gt;
-
-&lt;pre&gt;&lt;code class=&quot;javascript&quot;&gt;Window_Base.prototype.drawFace = function(faceName, faceIndex, x, y, width, height) {
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;Перед &lt;strong&gt;&lt;em&gt;«if (faceName != ») {»&lt;/em&gt;&lt;/strong&gt; надо написать:&lt;/p&gt;
-
-&lt;pre&gt;&lt;code class=&quot;javascript&quot;&gt;Window_Message.prototype.drawMessageFace = function() {
-var faceName = $gameMessage.faceName();
-var faceIndex = $gameMessage.faceIndex();
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;Вот теперь будут заменяться аватарки только в сообщениях.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt; Ссылки по теме&lt;/strong&gt;:&lt;/p&gt;
-&lt;div class=&quot;hline&quot;&gt;&lt;/div&gt;
-&lt;ul&gt;
-  &lt;li&gt;Свежая версия скрипта &lt;a href=&quot;https://github.com/murlab/rpg-maker-mv-plugins/blob/master/examples/BigAvatar.js&quot;&gt;BigAvatar.js&lt;/a&gt; всегда доступна на github в разделе &lt;a href=&quot;https://github.com/murlab/rpg-maker-mv-plugins/blob/master/examples/&quot;&gt;примеров&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;</content><author><name></name></author><category term="archive" /><category term="rpg maker mv" /><category term="plugins" /><category term="javascript" /><category term="story" /><category term="уроки" /><summary type="html">Всем привет!</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://murlab.github.io/05%20-%20Pishem%20plagin%20dla%20otobrazhenia%20bolshih%20avatarok/avatars_title.png" /></entry></feed>
+&lt;p&gt;На этом разрешите откланяться и пожелать удачи в ваших проектах! =^‿~=&lt;/p&gt;</content><author><name></name></author><category term="archive" /><category term="rpg maker mv" /><category term="story" /><category term="уроки" /><summary type="html">Обновление от 2 февраля 2017 года:</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://murlab.github.io/06%20-%20Zapuskaem%20proekt%20v%20brauzere/browser_title.png" /></entry></feed>

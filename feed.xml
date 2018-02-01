@@ -1,4 +1,31 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.6.2">Jekyll</generator><link href="https://murlab.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://murlab.github.io/" rel="alternate" type="text/html" /><updated>2018-01-30T18:05:48+03:00</updated><id>https://murlab.github.io/</id><title type="html">Mur Laboratory</title><subtitle>Обожаю сладкое, аниме и игры. Так же пытаюсь делать свои с помощью RPG Maker и Godot. Иногда рисую, да,… (ღ˘⌣˘ღ)</subtitle><entry><title type="html">RMMV Event Hero</title><link href="https://murlab.github.io/blog/RMMV%20Event%20Hero/" rel="alternate" type="text/html" title="RMMV Event Hero" /><published>2018-01-30T17:55:00+03:00</published><updated>2018-01-30T17:55:00+03:00</updated><id>https://murlab.github.io/blog/RMMV%20Event%20Hero</id><content type="html" xml:base="https://murlab.github.io/blog/RMMV%20Event%20Hero/">&lt;p&gt;Нян!&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.6.2">Jekyll</generator><link href="https://murlab.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://murlab.github.io/" rel="alternate" type="text/html" /><updated>2018-02-01T17:21:17+03:00</updated><id>https://murlab.github.io/</id><title type="html">Mur Laboratory</title><subtitle>Обожаю сладкое, аниме и игры. Так же пытаюсь делать свои с помощью RPG Maker и Godot. Иногда рисую, да,… (ღ˘⌣˘ღ)</subtitle><entry><title type="html">Event Move Speed</title><link href="https://murlab.github.io/blog/Event%20Move%20Speed/" rel="alternate" type="text/html" title="Event Move Speed" /><published>2018-02-01T16:50:00+03:00</published><updated>2018-02-01T16:50:00+03:00</updated><id>https://murlab.github.io/blog/Event%20Move%20Speed</id><content type="html" xml:base="https://murlab.github.io/blog/Event%20Move%20Speed/">&lt;div class=&quot;dictum&quot;&gt;«Эх, давно не брал я в руки шашек» © Василий Иванович&lt;/div&gt;
+
+&lt;p&gt;Итак по просьбе многоуважаемого Котè (он же PanzerCat) удалось выдушить из меня пару строк на ruby, а именно скрипт — «Event Move Speed»&lt;/p&gt;
+
+&lt;!--break--&gt;
+
+&lt;p&gt;Как ясно из названия данный скрипт позволяет задать для отдельно взятого события(event) на карте произвольную скорость перемещения. В частности Котè хотел что бы ивент буквально ползал по карте. К сожалению стандартными средствами этот вопрос было не решить, ибо скорость перемещения оставалась всё ровно очень большая.&lt;/p&gt;
+
+&lt;p&gt;Скрипт просто до безобразия. Создаём необходимый нам event, прописываем в первой строчке комментарий вида &lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt;speed: NN&amp;gt;&lt;/code&gt; где NN число с плавающей точкой. Значение 0 стандартная скорость перемещения (с учётом настроек). Если задать число меньше нуля скорость будет падать. Подобрать можно экспериментальным путём, например -1.5 или даже -3.5 даёт вполне ползающую тушку. Если значение увеличить (вдруг кому надо) ивент будет «летать».&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images.posts/2018.02/01 - Event Move Speed/1.png&quot; class=&quot;imgCenter&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images.posts/2018.02/01 - Event Move Speed/2.png&quot; class=&quot;imgCenter&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Дабы персонаж не спотыкался на каждом шаге в обязательно порядке надо установить частоту обновления (Freq:) на максимальное значение.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Небольшое дополнение:&lt;/strong&gt;:&lt;/p&gt;
+&lt;div class=&quot;hline&quot;&gt;&lt;/div&gt;
+
+&lt;p&gt;Поскольку изначально мы с Котè не совсем поняли друг дружку. Скрипт немного доработан:&lt;/p&gt;
+
+&lt;p&gt;Теперь помимо скорости перемещения, можно задать задержку для кадров анимации, с помощью команды &lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt;nextframe: NN&amp;gt;&lt;/code&gt; где NN число которое будет прибавляться для смены следующего кадра. По умолчанию оно равно 1, но если например задать значение 0.1:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images.posts/2018.02/01 - Event Move Speed/3.png&quot; class=&quot;imgCenter&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;то мышка будет ну ооооочень медленно махать крыльями.&lt;/p&gt;
+
+&lt;p&gt;Скачать свежую версию как всегда можно на &lt;a href=&quot;https://github.com/murlab/rpg-maker-vx-ace-scripts/tree/master/Event%20Move%20Speed&quot;&gt;github&lt;/a&gt;.&lt;/p&gt;</content><author><name></name></author><category term="rpg maker vx ace" /><category term="scripts" /><category term="ruby" /><summary type="html">«Эх, давно не брал я в руки шашек» © Василий Иванович</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://murlab.github.io/01%20-%20Event%20Move%20Speed/plugin_title.png" /></entry><entry><title type="html">RMMV Event Hero</title><link href="https://murlab.github.io/blog/RMMV%20Event%20Hero/" rel="alternate" type="text/html" title="RMMV Event Hero" /><published>2018-01-30T17:55:00+03:00</published><updated>2018-01-30T17:55:00+03:00</updated><id>https://murlab.github.io/blog/RMMV%20Event%20Hero</id><content type="html" xml:base="https://murlab.github.io/blog/RMMV%20Event%20Hero/">&lt;p&gt;Нян!&lt;/p&gt;
 
 &lt;p&gt;По просьбе Петра (с «&lt;a href=&quot;http://rpgmaker.su&quot;&gt;нейтралки&lt;/a&gt;») быстрородился такой вот небольшой плагин — «MUR Event Hero».&lt;/p&gt;
 
@@ -1331,77 +1358,4 @@ if (params['Enabled while message'].toUpperCase() == &quot;TRUE&quot;) {
 &lt;ul&gt;
   &lt;li&gt;&lt;a href=&quot;https://www.virustotal.com/#/file/91237b44e723b053b5ec8d0b4f304c418acd0ad1c70ef2a2c0cdd015a4cc890d/&quot;&gt;the_one_pro_alpha_1.exe&lt;/a&gt; ~16Mb&lt;/li&gt;
   &lt;li&gt;&lt;a href=&quot;https://www.virustotal.com/#/file/5167a0b2e29c89f764d6aa0ce0a0207cf202d3fb2b6dc7585047f64fc397bd2d&quot;&gt;the_one_pro_title_test.exe&lt;/a&gt; ~16Mb&lt;/li&gt;
-&lt;/ul&gt;</content><author><name></name></author><category term="godot engine" /><category term="lis" /><category term="the one" /><category term="pixelart" /><category term="the one prototype" /><category term="story" /><summary type="html">Где-то примерно в середине лета мне предложили изучить такую интересную штуку как «Godot Engine», тем более, что она доступна бесплатно и есть даже в Steam.</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://murlab.github.io/08%20-%20Godot%20the%20begining/godot_title.png" /></entry><entry><title type="html">Let’s GO!!</title><link href="https://murlab.github.io/blog/Let's%20GO!!/" rel="alternate" type="text/html" title="Let's GO!!" /><published>2017-12-06T23:59:59+03:00</published><updated>2017-12-06T23:59:59+03:00</updated><id>https://murlab.github.io/blog/Let's%20GO!!</id><content type="html" xml:base="https://murlab.github.io/blog/Let's%20GO!!/">&lt;p&gt;Как говаривал не безызвестный Чебурашка, «Мы строили, строили и наконец построили ;)&lt;/p&gt;
-
-&lt;p&gt;Блуждая по интернету, я периодически задумываюсь о том, что очень классно было бы где-нибудь наконец осесть, да и записать все свои мысли.&lt;/p&gt;
-
-&lt;p&gt;И надо отдать должное у меня даже были некоторые попытки реализовать задуманное на практике.
-Изначально это были записи в закрытом кругу google+, по большому счёту из-за того, что там больше размещались скриншоты и различные записи, как говорится «для своих». Это были самые тёплые, хотя и порой весьма «кусачие» отзывы, но конечно бесценно полезные.&lt;/p&gt;
-
-&lt;!--break--&gt;
-
-&lt;p&gt;Затем была попытка завести блог на различных «условно бесплатных» сервисах. Не буду утомлять вас перечислением того, что мне там не нравилось, скажу лишь, что основная проблема — это дизайн, а точнее отсутствие возможности оформить сайт как того хочется.&lt;/p&gt;
-
-&lt;p&gt;Но были и положительные моменты. Например, на сайте wordpress до сих пор появляются свежие комментарии с благодарностями, следовательно, материал востребован, и я двигаюсь в нужном направлении.
-И вот в одном из комментариев, мне подсказали идею, которая вылилась в размещении всего этого безобразия на &lt;a href=&quot;https://pages.github.com&quot;&gt;pages.github.com&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/images.posts/2017.12/06 - Let's GO!!/professortocat.png&quot; class=&quot;imgLeft&quot; /&gt;Чем же меня так заинтересовал именно этот сайт?&lt;/p&gt;
-
-&lt;p&gt;Ну само собой понятно, что он бесплатный, причём что важно без приставки «условно», он правда бесплатный. То есть на сайте нет ни встраиваемой рекламы, ни жучков, ни какой-либо другой гадости. Потому что на сайте вы размещаете чисто странички html. Как вы их создали у себя на компьютере, так они и будут выглядеть.
-Возможно, многие выскажут своё «Фе!», но положа руку на сердце, скажите, а оправдано ли, что при каждом обращении на сайт страница создаётся заново? Так ли это прямо необходимо? Если это какой-нибудь форум, чат или сайт с динамической информацией, как например сервис по состоянию серверов «&lt;a href=&quot;https://steamstat.us/&quot;&gt;Steam Status&lt;/a&gt;», возможно. Но если это нечасто обновляемый ресурс, то думаю, что такой уж острой необходимости в этом нет. А вот скорость загрузки таких страничек намного выше. «Но позвольте, а как же блог или магазин, я что буду каждую страничку создавать вручную?» А вот тут на помощь приходит такая крутая штука, как &lt;a href=&quot;https://jekyllrb.com/&quot;&gt;Jekyll&lt;/a&gt;. Её написали те же ребята, что и создали &lt;a href=&quot;https://github.com/&quot;&gt;github&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/images.posts/2017.12/06 - Let's GO!!/jekyll_logo.png&quot; class=&quot;imgRight&quot; /&gt;Jekyll это целый «комбайн», который является локальным сервером для тестирования. Он позволяет по шаблонам автоматически создавать новые страницы, вставлять внутрь шаблонов другие кусочки. Так же он поддерживает язык шаблонов &lt;a href=&quot;https://github.com/Shopify/liquid/wiki/liquid-for-designers&quot;&gt;Liquid&lt;/a&gt;, что раскрывает поистине широкие возможности для создания страниц.
-Сам Jekyll написан на Ruby. Если вам недостаточно возможностей Liquid, то можно создать свои плагины и генерировать вообще что душе угодно, ну конечно в пределах разумного ;)
-Если будет интересно, я могу рассказать более подробно об этой системе, те более, что мне удалось даже написать парочку своих плагинов.&lt;/p&gt;
-
-&lt;p&gt;К слову, чем меня так ещё не утраивала возможность создавать свой дизайн, так это отсутствием возможности по-человечески оформить примеры кода. Сейчас с этим полный порядок, во многом благодаря, такой классной штуке как &lt;a href=&quot;https://highlightjs.org/&quot;&gt;highlightjs&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;Например, так выглядит код на javascript:&lt;/p&gt;
-
-&lt;pre&gt;&lt;code class=&quot;javascript&quot;&gt;// Пример комментария 1
-function init() {
-  navbar = document.getElementById(&quot;navbar&quot;);
-  sticky = navbar.offsetTop;
-}
-
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;А вот так выглядит код на ruby:&lt;/p&gt;
-
-&lt;pre&gt;&lt;code class=&quot;ruby&quot;&gt;module Jekyll
-  # this class is used to tell Jekyll to generate a page
-  class DataPage &amp;lt; Page
-    def initialize(site, base, index_files, dir, data, name, template, extension)
-      @site = site
-      @base = base
-    end
-  end
-end
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;Но вернёмся к github. Чистый html хорош ещё тем, что можно размещать web-версию проекта того же RPG Maker или любого другого конструктора и показывать работоспособность online. Раньше для этих целей приходилось городить целый огород, например, с тем же google disk. Но начиная с 2015 года, google прекратил предоставлять доступ и в любом случае пришлось бы искать что-то другое.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/images.posts/2017.12/06 - Let's GO!!/github_desktop.png&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;Так же немаловажной причиной выбора &lt;a href=&quot;https://pages.github.com&quot;&gt;pages.github.com&lt;/a&gt;, стала интеграция его с сервисом контроля версий &lt;a href=&quot;https://github.io/&quot;&gt;github.io&lt;/a&gt;. Конечно, у людей далёких от программирования, могут возникнуть сложности. Однако всё не так страшно, как может показаться на первый взгляд. Существует очень удобная понятная программа &lt;a href=&quot;https://desktop.github.com/&quot;&gt;GitHub Desktop&lt;/a&gt; и при случае я постараюсь рассказать более подробно как ей пользоваться, как зарегистрироваться на сервисе и соответственно завести свою страничку.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/images.posts/2017.12/06 - Let's GO!!/saritocat.png&quot; class=&quot;imgLeft&quot; /&gt;Ну в завершении этой небольшой вводной заметки, собственно для чего это всё, и что ожидать тут в будущем?
-Вообще изначально у меня была задумка просто создать игрушку с помощью RPG Maker. Затем аппетиты быстро начали расти, захотелось и того и сего, и всего побольше. Конечно для того же &lt;a href=&quot;http://www.rpgmakerweb.com/products/programs/rpg-maker-vx-ace&quot;&gt;RPG Maker VX Ace&lt;/a&gt; было написано не мало скриптов, которые позволяли реализовать задуманное, но часто случались ситуации, когда скрипты конфликтовали, когда что-то хотелось сделать немного по-другому или просто дополнить.&lt;/p&gt;
-
-&lt;p&gt;Так пришло осознание в необходимости самостоятельно разбираться в скриптах. В VX Ace они были написаны на Ruby. Честно скажу, не самый простой язык для знакомства с программированием. Было не просто, очень много чего не понятно, и чисто на упорстве и с помощью знакомых, удалось немного сдвинуться с мёртвой точки. Как пример моих многозначительных страданий первый и последний плагин «Ace Shop Options Add-on - Items States». Конечно были ещё всякие мелкие доделки, исправления итд. Возможно я о них ещё тоже расскажу.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/images.posts/2017.12/06 - Let's GO!!/yakuza.png&quot; class=&quot;imgRight&quot; /&gt;С появлением &lt;a href=&quot;http://www.rpgmakerweb.com/products/programs/rpg-maker-mv&quot;&gt;RPG Maker MV&lt;/a&gt;, появилась необходимость разбираться уже с JavaScript. JS в отличии от того же Ruby мне показался более дружелюбным, интуитивно понятным по синтаксису. С ним у нас можно сказать прямо любовь (: Написано не мало различных плагинов, о которых я конечно же ещё расскажу.&lt;/p&gt;
-
-&lt;p&gt;Немногим позже мне понадобилось разобраться в одном скрипте на Python &amp;gt;_&amp;lt;’ так открылась ещё одна грань в моём изучении чего-то нового, непонятного, но ужасно интересного. В будущем мне это сильно пригодилось при изучении Godot, ведь его скрипты очень схожи по синтаксису с Python.&lt;/p&gt;
-
-&lt;p&gt;О &lt;a href=&quot;https://godotengine.org/&quot;&gt;Godot&lt;/a&gt; можно рассказывать много и бесконечно. Это как катаясь по кругу на пони, вдруг вырваться и носиться по полю. Да он не прост, и новичкам будет многое сложно и не понятно, но после RPG Maker, это действительно свобода действий. Осталось только понять, а чего собственно я хочу? (:&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/images.posts/2017.12/06 - Let's GO!!/kot_obormot.png&quot; class=&quot;imgLeft&quot; /&gt;Ну вот собственно и всё. Ах да, иногда на меня находит вдохновение, и я рисую. Собственно, это тоже будет по возможности пролетать тут, ну по крайней мере я на это надеюсь.&lt;/p&gt;
-
-&lt;p&gt;Пару заметок по сайту. На панельку (ввверху) вытащены «основные» ссылки, на мой взгляд, на важные разделы. Записи в этих разделах будут отображаться и в основной ленте блога, просто они туда вынесены для быстрого доступа. Например, если выбрать «графика», то будут отфильтрованы посты на тему моих картинок, если «rpg maker», то всё что связано с ним итд.&lt;/p&gt;
-
-&lt;p&gt;Слева есть ещё выпадающее меню [≡], в котором так же продублированы основные фильтры, а также некоторые другие пункты. Например, раздел «Архив», куда я утяну старые свои записи, не будет отображаться в основной ленте блога.&lt;/p&gt;
-
-&lt;p&gt;Так же в нём есть ссылка на раздел с материалами для скачивания. Есть ещё раздел тегов, и список материалов с этими метками. Ну и конечно куда же современному сайту без RSS-ленты, конечно же не без помощи Jekyll. В общем много чего ещё интересного. Подписывайтесь и оставляйте отзывы.&lt;/p&gt;
-
-&lt;p&gt;Не прощаюсь, ещё увидимся.&lt;/p&gt;</content><author><name></name></author><category term="web" /><category term="blog" /><summary type="html">Как говаривал не безызвестный Чебурашка, «Мы строили, строили и наконец построили ;)</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://murlab.github.io/06%20-%20Let's%20GO!!/github_logo.png" /></entry></feed>
+&lt;/ul&gt;</content><author><name></name></author><category term="godot engine" /><category term="lis" /><category term="the one" /><category term="pixelart" /><category term="the one prototype" /><category term="story" /><summary type="html">Где-то примерно в середине лета мне предложили изучить такую интересную штуку как «Godot Engine», тем более, что она доступна бесплатно и есть даже в Steam.</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://murlab.github.io/08%20-%20Godot%20the%20begining/godot_title.png" /></entry></feed>

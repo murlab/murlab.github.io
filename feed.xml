@@ -1,8 +1,8 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.6.2">Jekyll</generator><link href="https://murlab.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://murlab.github.io/" rel="alternate" type="text/html" /><updated>2018-02-15T11:15:04+03:00</updated><id>https://murlab.github.io/</id><title type="html">Mur Laboratory</title><subtitle>Обожаю сладкое, аниме и игры. Так же пытаюсь делать свои с помощью RPG Maker и Godot. Иногда рисую, да,… (ღ˘⌣˘ღ)</subtitle><entry><title type="html">RMMV Tools</title><link href="https://murlab.github.io/blog/RMMV%20Tools/" rel="alternate" type="text/html" title="RMMV Tools" /><published>2018-02-04T17:44:00+03:00</published><updated>2018-02-04T17:44:00+03:00</updated><id>https://murlab.github.io/blog/RMMV%20Tools</id><content type="html" xml:base="https://murlab.github.io/blog/RMMV%20Tools/">&lt;p&gt;KageDesu поднял интересную тему &lt;a href=&quot;http://rpgmaker.ru/&quot;&gt;светлой&lt;/a&gt; — «в чём вы создаёте и редактируете плагины для RPG Maker MV»?&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.6.2">Jekyll</generator><link href="https://murlab.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://murlab.github.io/" rel="alternate" type="text/html" /><updated>2018-05-16T17:34:29+03:00</updated><id>https://murlab.github.io/</id><title type="html">Mur Laboratory</title><subtitle>Обожаю сладкое, аниме и игры. Так же пытаюсь делать свои с помощью RPG Maker и Godot. Иногда рисую, да,… (ღ˘⌣˘ღ)</subtitle><entry><title type="html">RMMV Tools</title><link href="https://murlab.github.io/blog/RMMV%20Tools/" rel="alternate" type="text/html" title="RMMV Tools" /><published>2018-02-04T17:44:00+03:00</published><updated>2018-02-04T17:44:00+03:00</updated><id>https://murlab.github.io/blog/RMMV%20Tools</id><content type="html" xml:base="https://murlab.github.io/blog/RMMV%20Tools/">&lt;p&gt;KageDesu поднял интересную тему &lt;a href=&quot;http://rpgmaker.ru/&quot;&gt;светлой&lt;/a&gt; — «в чём вы создаёте и редактируете плагины для RPG Maker MV»?&lt;/p&gt;
 
 &lt;p&gt;Так уж повелось, что плагины я создаю в редакторе «&lt;a href=&quot;http://brackets.io/&quot;&gt;Brackets&lt;/a&gt;», однако по сути, кроме раскраски и некоторых небольших плюшек он ничем не лучше и не хуже других. По сути можно и в блокноте писать.&lt;/p&gt;
 
-&lt;p&gt;Но захотелось мне немного расширить его функционал, с точки зрения удобства именно для создании плагинов для RPG Maker MV. Попробовать, так сказать свои силы в написании плагинов, но уже для самого этого «Brackets».&lt;/p&gt;
+&lt;p&gt;Но захотелось мне немного расширить его функционал, с точки зрения удобства именно для создания плагинов для RPG Maker MV. Попробовать, так сказать свои силы в написании плагинов, но уже для самого этого «Brackets».&lt;/p&gt;
 
 &lt;!--break--&gt;
 
@@ -25,9 +25,9 @@
 
 &lt;p&gt;Для начала нужно задать название нашего плагина. Тоже латинскими буквами, так как это будет использовано в имени файла.&lt;/p&gt;
 
-&lt;p&gt;Затем выбираем лицензию под которой мы планируем выпустить свой плагин. Список взят с GitHub. Если вы не хотите заморачиваться этими вопросами, может выбрать пункт «Неизвестно, либо не задано».&lt;/p&gt;
+&lt;p&gt;Затем выбираем лицензию, под которой мы планируем выпустить свой плагин. Список взят с GitHub. Если вы не хотите заморачиваться этими вопросами, может выбрать пункт «Неизвестно, либо не задано».&lt;/p&gt;
 
-&lt;p&gt;Далее укажем где и при каких условиях можно использовать наш плагин: для коммерческих, бесплатных или и то и то. Опять же если вы ни хотите ничего никому говорить, оставляем пункт — «нет».&lt;/p&gt;
+&lt;p&gt;Далее укажем где и при каких условиях можно использовать наш плагин: для коммерческих, бесплатных или и то, и то. Опять же если вы ни хотите ничего никому говорить, оставляем пункт — «нет».&lt;/p&gt;
 
 &lt;p&gt;При желании можно сделать небольшое описание плагина.&lt;/p&gt;
 
@@ -40,11 +40,11 @@
 
 &lt;p&gt;&lt;img src=&quot;/images.posts/2018.02/04 - RMMV Tools/4.png&quot; class=&quot;imgCenter&quot; /&gt;&lt;/p&gt;
 
-&lt;p&gt;Кнопка OK не будет активна пока не будет задано имя. Параметры выбранные при создании предыдущего плагина, сохраняются в редакторе, и автоматически проставляются при создании нового. В результате чего не надо каждый раз заново выбирать лицензию или другие настройки.&lt;/p&gt;
+&lt;p&gt;Кнопка OK не будет активна пока не будет задано имя. Параметры, выбранные при создании предыдущего плагина, сохраняются в редакторе, и автоматически проставляются при создании нового. В результате чего не надо каждый раз заново выбирать лицензию или другие настройки.&lt;/p&gt;
 
-&lt;p&gt;Ну собственно пока и всё, будем считать что это такая пробная версия.&lt;/p&gt;
+&lt;p&gt;Ну собственно пока и всё, будем считать, что это такая пробная версия.&lt;/p&gt;
 
-&lt;p&gt;Если кому интересно посмотреть как всё это устроено внутри, что добро пожаловать на &lt;a href=&quot;https://github.com/murlab/brackets-plugins/tree/master/RMMV%20Tools&quot;&gt;GitHub&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Если кому интересно посмотреть, как всё это устроено внутри, что добро пожаловать на &lt;a href=&quot;https://github.com/murlab/brackets-plugins/tree/master/RMMV%20Tools&quot;&gt;GitHub&lt;/a&gt;.&lt;/p&gt;
 
 &lt;p&gt;Скачать готовый архив можно в разделе — &lt;a href=&quot;https://github.com/murlab/brackets-plugins/tree/master/RMMV%20Tools/releases&quot;&gt;releases&lt;/a&gt;.&lt;/p&gt;</content><author><name></name></author><category term="brackets" /><category term="plugins" /><category term="javascript" /><summary type="html">KageDesu поднял интересную тему светлой — «в чём вы создаёте и редактируете плагины для RPG Maker MV»?</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://murlab.github.io/04%20-%20RMMV%20Tools/plugin_title.png" /></entry><entry><title type="html">Event Move Speed</title><link href="https://murlab.github.io/blog/Event%20Move%20Speed/" rel="alternate" type="text/html" title="Event Move Speed" /><published>2018-02-01T16:50:00+03:00</published><updated>2018-02-01T16:50:00+03:00</updated><id>https://murlab.github.io/blog/Event%20Move%20Speed</id><content type="html" xml:base="https://murlab.github.io/blog/Event%20Move%20Speed/">&lt;div class=&quot;dictum&quot;&gt;«Эх, давно не брал я в руки шашек» © Василий Иванович&lt;/div&gt;
 
@@ -52,7 +52,7 @@
 
 &lt;!--break--&gt;
 
-&lt;p&gt;Как ясно из названия данный скрипт позволяет задать для отдельно взятого события(event) на карте произвольную скорость перемещения. В частности Котè хотел что бы ивент буквально ползал по карте. К сожалению стандартными средствами этот вопрос было не решить, ибо скорость перемещения оставалась всё ровно очень большая.&lt;/p&gt;
+&lt;p&gt;Как ясно из названия данный скрипт позволяет задать для отдельно взятого события(event) на карте произвольную скорость перемещения. В частности, Котè хотел, чтобы ивент буквально ползал по карте. К сожалению стандартными средствами этот вопрос было не решить, ибо скорость перемещения оставалась всё ровно очень большая.&lt;/p&gt;
 
 &lt;p&gt;Скрипт просто до безобразия. Создаём необходимый нам event, прописываем в первой строчке комментарий вида &lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt;speed: NN&amp;gt;&lt;/code&gt; где NN число с плавающей точкой. Значение 0 стандартная скорость перемещения (с учётом настроек). Если задать число меньше нуля скорость будет падать. Подобрать можно экспериментальным путём, например -1.5 или даже -3.5 даёт вполне ползающую тушку. Если значение увеличить (вдруг кому надо) ивент будет «летать».&lt;/p&gt;
 
@@ -62,12 +62,12 @@
 
 &lt;p&gt;Дабы персонаж не спотыкался на каждом шаге в обязательно порядке надо установить частоту обновления (Freq:) на максимальное значение.&lt;/p&gt;
 
-&lt;p&gt;&lt;strong&gt;Небольшое дополнение:&lt;/strong&gt;:&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Небольшое дополнение:&lt;/strong&gt;&lt;/p&gt;
 &lt;div class=&quot;hline&quot;&gt;&lt;/div&gt;
 
 &lt;p&gt;Поскольку изначально мы с Котè не совсем поняли друг дружку. Скрипт немного доработан:&lt;/p&gt;
 
-&lt;p&gt;Теперь помимо скорости перемещения, можно задать задержку для кадров анимации, с помощью команды &lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt;nextframe: NN&amp;gt;&lt;/code&gt; где NN число которое будет прибавляться для смены следующего кадра. По умолчанию оно равно 1, но если например задать значение 0.1:&lt;/p&gt;
+&lt;p&gt;Теперь помимо скорости перемещения, можно задать задержку для кадров анимации, с помощью команды &lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt;nextframe: NN&amp;gt;&lt;/code&gt; где NN число которое будет прибавляться для смены следующего кадра. По умолчанию оно равно 1, но, если, например, задать значение 0.1:&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&quot;/images.posts/2018.02/01 - Event Move Speed/3.png&quot; class=&quot;imgCenter&quot; /&gt;&lt;/p&gt;
 
@@ -75,13 +75,13 @@
 
 &lt;p&gt;Скачать свежую версию как всегда можно на &lt;a href=&quot;https://github.com/murlab/rpg-maker-vx-ace-scripts/tree/master/Event%20Move%20Speed&quot;&gt;github&lt;/a&gt;.&lt;/p&gt;</content><author><name></name></author><category term="rpg maker vx ace" /><category term="scripts" /><category term="ruby" /><summary type="html">«Эх, давно не брал я в руки шашек» © Василий Иванович</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://murlab.github.io/01%20-%20Event%20Move%20Speed/plugin_title.png" /></entry><entry><title type="html">RMMV Event Hero</title><link href="https://murlab.github.io/blog/RMMV%20Event%20Hero/" rel="alternate" type="text/html" title="RMMV Event Hero" /><published>2018-01-30T17:55:00+03:00</published><updated>2018-01-30T17:55:00+03:00</updated><id>https://murlab.github.io/blog/RMMV%20Event%20Hero</id><content type="html" xml:base="https://murlab.github.io/blog/RMMV%20Event%20Hero/">&lt;p&gt;Нян!&lt;/p&gt;
 
-&lt;p&gt;По просьбе Петра (с «&lt;a href=&quot;http://rpgmaker.su&quot;&gt;нейтралки&lt;/a&gt;») быстрородился такой вот небольшой плагин — «MUR Event Hero».&lt;/p&gt;
+&lt;p&gt;По просьбе Петра (с «&lt;a href=&quot;http://rpgmaker.su&quot;&gt;нейтралки&lt;/a&gt;») быстро родился такой вот небольшой плагин — «MUR Event Hero».&lt;/p&gt;
 
 &lt;p&gt;Если внутри события (event) задать комментарий вида &lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt;hero: ID&amp;gt;&lt;/code&gt;, где ID это номер (ID) героя в системе, то в этот event скопируется графика из этого героя.&lt;/p&gt;
 
 &lt;!--break--&gt;
 
-&lt;p&gt;Например комментарий:&lt;/p&gt;
+&lt;p&gt;Например, комментарий:&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&quot;/images.posts/2018.01/30 - RMMV Event Hero/1.png&quot; class=&quot;imgCenter&quot; /&gt;&lt;/p&gt;
 
@@ -97,7 +97,7 @@
 
 &lt;p&gt;Если у героя не задана картинка, то и у события тоже вместо картинки будет пустота.&lt;/p&gt;
 
-&lt;p&gt;Посмотреть этот плагин в действии, а так же некоторые другие можно на моём &lt;a href=&quot;https://murplay.github.io/&quot;&gt;online-полигоне&lt;/a&gt; :3&lt;/p&gt;
+&lt;p&gt;Посмотреть этот плагин в действии, а также некоторые другие можно на моём &lt;a href=&quot;https://murplay.github.io/&quot;&gt;online-полигоне&lt;/a&gt; :3&lt;/p&gt;
 
 &lt;p&gt;Скачать свежую версию как всегда можно на &lt;a href=&quot;https://github.com/murlab/rpg-maker-mv-plugins/tree/master/Event%20Hero&quot;&gt;github&lt;/a&gt;.&lt;/p&gt;</content><author><name></name></author><category term="rpg maker mv" /><category term="plugins" /><category term="javascript" /><summary type="html">Нян!</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://murlab.github.io/30%20-%20RMMV%20Event%20Hero/plugin_title.png" /></entry><entry><title type="html">RMMV Awesome Battleground</title><link href="https://murlab.github.io/blog/RMMV%20Awesome%20Battleground/" rel="alternate" type="text/html" title="RMMV Awesome Battleground" /><published>2018-01-08T19:55:00+03:00</published><updated>2018-01-08T19:55:00+03:00</updated><id>https://murlab.github.io/blog/RMMV%20Awesome%20Battleground</id><content type="html" xml:base="https://murlab.github.io/blog/RMMV%20Awesome%20Battleground/">&lt;p&gt;И снова всем привет!&lt;/p&gt;
 

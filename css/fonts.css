@@ -1,0 +1,12 @@
+@font-face {
+    font-family: 'Upheaval Pro';
+    src: url('../fonts/upheavalpro-regular-webfont.eot');
+    src: url('../fonts/upheavalpro-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/upheavalpro-regular-webfont.woff2') format('woff2'),
+         url('../fonts/upheavalpro-regular-webfont.woff') format('woff'),
+         url('../fonts/upheavalpro-regular-webfont.ttf') format('truetype'),
+         url('../fonts/upheavalpro-regular-webfont.svg#upheaval_proregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}

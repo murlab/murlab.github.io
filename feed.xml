@@ -1,4 +1,294 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.6.2">Jekyll</generator><link href="https://murlab.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://murlab.github.io/" rel="alternate" type="text/html" /><updated>2018-07-31T13:30:46+03:00</updated><id>https://murlab.github.io/</id><title type="html">Mur Laboratory</title><subtitle>Обожаю сладкое, аниме и игры. Так же пытаюсь делать свои с помощью RPG Maker и Godot. Иногда рисую, да,… (ღ˘⌣˘ღ)</subtitle><entry><title type="html">Godot Начало</title><link href="https://murlab.github.io/blog/Godot%20Nachalo/" rel="alternate" type="text/html" title="Godot Начало" /><published>2018-05-16T23:55:00+03:00</published><updated>2018-05-16T23:55:00+03:00</updated><id>https://murlab.github.io/blog/Godot%20%D0%9D%D0%B0%D1%87%D0%B0%D0%BB%D0%BE</id><content type="html" xml:base="https://murlab.github.io/blog/Godot%20Nachalo/">&lt;p&gt;Всем привет!&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.6.2">Jekyll</generator><link href="https://murlab.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://murlab.github.io/" rel="alternate" type="text/html" /><updated>2019-02-07T19:23:58+03:00</updated><id>https://murlab.github.io/</id><title type="html">Mur Laboratory</title><subtitle>Обожаю сладкое, аниме и игры. Так же пытаюсь делать свои с помощью RPG Maker и Godot. Иногда рисую, да,… (ღ˘⌣˘ღ)</subtitle><entry><title type="html">Octobit 2018</title><link href="https://murlab.github.io/blog/Octobit%202018/" rel="alternate" type="text/html" title="Octobit 2018" /><published>2019-02-07T18:04:26+03:00</published><updated>2019-02-07T18:04:26+03:00</updated><id>https://murlab.github.io/blog/Octobit%202018</id><content type="html" xml:base="https://murlab.github.io/blog/Octobit%202018/">&lt;p&gt;И снова здравствуйте.
+Сегодня, мне бы хотелось посвятить пост небольшому отчёту об участии в ежегодном мероприятии — Octobit 2018.  Это такого рода челендж, суть которого сводится к тому, чтобы рисовать каждый день на заданную тему.&lt;/p&gt;
+
+&lt;!--break--&gt;
+
+&lt;p&gt;Изначально Octobit придумал &lt;a href=&quot;https://twitter.com/brunopixels&quot;&gt;Бруно Мораес&lt;/a&gt;. Идея вылилась из другого масштабного челенджа Inktober, но в отличии от него, где рисовать можно на чём угодно, Octobit заточен только под pixelart графику. Более подробно можно почитать об этом в посте &lt;a href=&quot;/blog/October,%20Inktober,%208bit...%20Octobit!/&quot;&gt;за 2017й год&lt;/a&gt;, скажу только, что в отличии от предыдущих лет, кроме «отца-основателя» присоединились и другие участники, предложившие свои темы.&lt;/p&gt;
+
+&lt;p&gt;Но я остановлюсь только на тематике Бруно Мораес, поскольку темы именно этого автора мне ближе, и именно его темы и брались за основу при создании моих работ.
+В этот раз Бруно предложил рисовать pixelart в изометрии. Своеобразные плитки, кусочки мозаики из которых затем, при желании, можно собрать целую карту. Так же, как и прошлые годы было представлены темы с той лишь разницей, что рисовать можно не строго по дням, а в произвольном порядке. Итого 31 тема для 31 дня состояла из:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Абсурд (Absurd)&lt;/li&gt;
+  &lt;li&gt;Биологическая угроза (Biohazard)&lt;/li&gt;
+  &lt;li&gt;Гаджет (Gadget)&lt;/li&gt;
+  &lt;li&gt;Голограмма (Hologram)&lt;/li&gt;
+  &lt;li&gt;Дюна (Dune)&lt;/li&gt;
+  &lt;li&gt;Еда (Food)&lt;/li&gt;
+  &lt;li&gt;Иглу (Igloo)&lt;/li&gt;
+  &lt;li&gt;Колодец (Well)&lt;/li&gt;
+  &lt;li&gt;Компаньон (Companion)&lt;/li&gt;
+  &lt;li&gt;Король (King)&lt;/li&gt;
+  &lt;li&gt;Космонавт (Spaceman)&lt;/li&gt;
+  &lt;li&gt;Лава (Lava)&lt;/li&gt;
+  &lt;li&gt;Механическое (Mechanic)&lt;/li&gt;
+  &lt;li&gt;Минерал (Mineral)&lt;/li&gt;
+  &lt;li&gt;Неон (Neon)&lt;/li&gt;
+  &lt;li&gt;Оружие (Weapon)&lt;/li&gt;
+  &lt;li&gt;Панк (Punk)&lt;/li&gt;
+  &lt;li&gt;Пещера (Cave)&lt;/li&gt;
+  &lt;li&gt;Растение (Plant)&lt;/li&gt;
+  &lt;li&gt;Ретро (Retro)&lt;/li&gt;
+  &lt;li&gt;Ручей (Creek)&lt;/li&gt;
+  &lt;li&gt;Рынок (Mart)&lt;/li&gt;
+  &lt;li&gt;Слизь (Slime)&lt;/li&gt;
+  &lt;li&gt;Сокровище (Treasure)&lt;/li&gt;
+  &lt;li&gt;Страшное (Scary)&lt;/li&gt;
+  &lt;li&gt;Существо (Creature)&lt;/li&gt;
+  &lt;li&gt;Топливо (Fuel)&lt;/li&gt;
+  &lt;li&gt;Транспорт (Vehicle)&lt;/li&gt;
+  &lt;li&gt;Фольклор (Folklore)&lt;/li&gt;
+  &lt;li&gt;Черви (Worms)&lt;/li&gt;
+  &lt;li&gt;Ядовитое (Toxic)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Как всегда, огромное спасибо &lt;em&gt;Dmy&lt;/em&gt; (со светлой) за перевод.&lt;/p&gt;
+
+&lt;p&gt;Надо отдать должное, что именно небольшие кусочки (а не гигантомания, как в прошлый раз) и выбор произвольной тематики позволили выдержать почти целиком весь челендж. Осталось нарисовать всего несколько работ, но тут уже сказывалось отсутствие свободного времени, да и общая усталость в целом.
+В любом случае работ получилось достаточно много и сейчас я немного расскажу о создании.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;День первый. «Абсурд (Absurd)»&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images.posts/2019.02/07 - Octobit 2018/01.png&quot; class=&quot;imgCenter&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Лично у меня, абсурд ассоциируется с чем-то не реальным, то что не имеет никакого смысла и, следовательно, не может существовать в этом физическом мире. Как нельзя лучше под это дело подходят абсурдные геометрические фигуры, или проще говоря сломай мозг.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;День второй. «Топливо (Fuel)»&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images.posts/2019.02/07 - Octobit 2018/02.png&quot; class=&quot;imgCenter&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Поскольку меня не отпускала идея в конечном итоге создать что-то типа карты городка, мне захотелось и дальше придерживаться этой тематики. Театр начинается с вешалки, а наш городок будет начинаться с заправки.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;День третий. «Дюна (Dune)»&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images.posts/2019.02/07 - Octobit 2018/03.png&quot; class=&quot;imgCenter&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Мне захотелось немного схитрить, а за одно и немного поностальгировать. Поэтому сегодняшний рисунок — это как бы dune, но немного хитро так.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;День четвёртый. «Лава (Lava)»&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images.posts/2019.02/07 - Octobit 2018/04.png&quot; class=&quot;imgCenter&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Четвёртый день octobit моя тушка извращалась как могла. Сегодняшняя тема была выбрана lava, но разве я могу просто нарисовать лаву? Нит! Мы будем рисовать Lavalamp! Ну чем она не лава?&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;День пятый. «Неон (Neon)»&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images.posts/2019.02/07 - Octobit 2018/05.png&quot; class=&quot;imgCenter&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Пятый день octobit — пятница!! Можно немного и пошалить (:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;День шестой. «Биологическая угроза (Biohazard)»&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images.posts/2019.02/07 - Octobit 2018/06.png&quot; class=&quot;imgCenter&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Для кого как, а для меня тема biohazard в первую очередь ассоциируется с корпорацией Umbrella. Поэтому получился такой вот мутантик между небоскрёбом и колбой с отравой. Вертолёт взорвём в другой раз.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;День седьмой. «Голограмма (Hologram)»&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images.posts/2019.02/07 - Octobit 2018/07.png&quot; class=&quot;imgCenter&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Всё просто голограмма, «звёздные воины» и конечно же Tie Fighter. Прямо хотелось сделать анимацию, как он вращается, но время и жёсткое ограничение по времени внесли свою корректировку.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;День восьмой. «Минерал (Mineral)»&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images.posts/2019.02/07 - Octobit 2018/08.png&quot; class=&quot;imgCenter&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Собственно, добавить тут и нечего, булыжник он и есть булыжник. Возможно лимонит, а может просто окрасился в лучах заходящего солнца.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;День девятый. «Растение (Plant)»&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images.posts/2019.02/07 - Octobit 2018/09.png&quot; class=&quot;imgCenter&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;И снова немного схалтурю, хорошо известный персонаж из мира Марио конечно же это piranha plant! Но тем не менее она очень хорошо подходит к теме.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;День десятый. «Гаджет (Gadget)»&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images.posts/2019.02/07 - Octobit 2018/10.png&quot; class=&quot;imgCenter&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Времени ещё меньше, а нарисовать что-то надо, поэтому десятый день octobit очень скромный, эдакий gadget в стиле памятника, продукции nintendo.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;День одиннадцатый. «Космонавт (Spaceman)»&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images.posts/2019.02/07 - Octobit 2018/11.png&quot; class=&quot;imgCenter&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Всегда нравились такие вот стеклянные шары со снегом и мне захотелось немного пошалить и запихнуть туда бедного spaceman’а, что собственно и является выбранной темой дня.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;День двенадцатый. «Ретро (Retro)»&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images.posts/2019.02/07 - Octobit 2018/12.png&quot; class=&quot;imgCenter&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Времени стало чуть побольше и выбрана сложная тема — retro. Что можно изобразить в такой тематике? Ну, наверное, магический шар для предсказаний, вечные спутники — игральные карты, трость и конечно же бессмертный атрибут цилиндр. Рисовалось по псевдопросьбе Paranoid со светлой.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;День тринадцатый. «Страшное (Scary)»&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images.posts/2019.02/07 - Octobit 2018/13.png&quot; class=&quot;imgCenter&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Что же нарисовать в тринадцатый день octobit? Конечно же что-нибудь ужасненькое и прекрасненькое. Прошлый октобит акула у меня была в аквариуме, теперь пусть в бассейне попрыгает. Страшно аж жуть!&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;День четырнадцатый. «Колодец (Well)»&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images.posts/2019.02/07 - Octobit 2018/14.png&quot; class=&quot;imgCenter&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Сказывается усталость или просто попроще надо темы выдумывать. Но тема четырнадцатого дня — well. По-русски это звучит как колодец поэтому будем выдвигать пожарный гидрант, он тоже в некотором роде колодец. Перспектива немного поплыла увы, но это всё ещё pixelart (ну я так думаю).&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;День пятнадцатый. «Слизь (Slime)»&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images.posts/2019.02/07 - Octobit 2018/15.png&quot; class=&quot;imgCenter&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Снова «разгрузочный» день половина бешенного марафона позади и пятнадцатый день octobit с темой — slime, или по-русски будет слизька :3 Такая вот кавайно-розовая няшка.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;День шестнадцатый. «Сокровище (Treasure)»&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images.posts/2019.02/07 - Octobit 2018/16.png&quot; class=&quot;imgCenter&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Шестнадцатый день octobit, одно из моих любимейших чисел, а также сегодня у нас в гостях герой одного из произведений моего любимейшего автора — Терри Пратчетта. А тема дня — Treasure. Но поверьте сундук на картинке не меньшее сокровище.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;День семнадцатый. «Транспорт (Vehicle)»&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images.posts/2019.02/07 - Octobit 2018/17.png&quot; class=&quot;imgCenter&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Работу семнадцатого дня мне бы хотелось посвятить хорошо известному «рохле-мену», автору &lt;a href=&quot;https://twitter.com/Shurichello&quot;&gt;мебельной ёнкомы&lt;/a&gt;. И конечно же это будет рохля. Не знаю насколько точно мне удалось перерисовать с фотографии сей аппарат, но колёса у неё есть точно, а тема — Vehicle.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;День восемнадцатый. «Оружие (Weapon)»&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images.posts/2019.02/07 - Octobit 2018/18.png&quot; class=&quot;imgCenter&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Немного отдохнув, и снова кидаемся в бой. Итак, догоняем восемнадцатый день octobit и сегодня у нас тема — weapon. Эдакая отсылочка к легендам, ну сами знаете каким.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;День девятнадцатый. «Ручей (Creek)»&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images.posts/2019.02/07 - Octobit 2018/19.png&quot; class=&quot;imgCenter&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Продолжаем догонять осенний марафон, и день девятнадцатый! На этот раз мы пройдёмся с помощью pixelart по экологической тематике — creek, он же ручей, ну или то, что от него осталось.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;День двадцатый. «Ядовитое (Toxic)»&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images.posts/2019.02/07 - Octobit 2018/20.png&quot; class=&quot;imgCenter&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Восхищаясь работами @PixelDiegus мне давно хотелось нарисовать тоже какой-нибудь автомобиль, и вот наконец это свершилось! Сегодняшняя тема — toxic. Что внутри ёмкости? Сие есть тайна великая! Поручик молчать! (:&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;&lt;em&gt;Небольшое лирическое отступление:&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images.posts/2019.02/07 - Octobit 2018/iso_circle.png&quot; class=&quot;imgCenter&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Рисуя грузовик в предыдущей работе для octobit, меня сильно утомило бодаться с изометрическими кругами. Но потом меня осенило, как можно быстро, а главное точно сделать круг в изометрии. Так же «шпаргалка» подойдёт и когда нужно сместить другие объекты.&lt;/em&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;День двадцать первый. «Компаньон (Companion)»&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images.posts/2019.02/07 - Octobit 2018/21.png&quot; class=&quot;imgCenter&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Ох! Сегодня мне захотелось нарисовать companion, компаньоны, напарники, в общем выбор пал на паровозики. Захотелось нарисовать легендарный ВЛ-85. Они работают в паре. Даже не спрашивайте, чего мне это стоило и сколько времени ушло на этот pixelart. Скажу только, что я балда, вместо ВЛ-85, мне попались чертежи ВЛ-10. И только уже нарисовав значительную часть, до меня дошло, обратить внимание на название. Пришлось в срочном порядке перерисовывать. Они хоть и похожи, но всё-таки имеют различия, как по форме окон, так и по количеству колёс, полосок, деталям на крыше итд. Надеюсь с большего мне удалось выдержать разумный компромисс между детализацией и что совсем не умучаться с рисованием.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;День двадцать второй. «Еда (Food)»&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images.posts/2019.02/07 - Octobit 2018/22.png&quot; class=&quot;imgCenter&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Сложно остановится, душа хочет не простеньких картинок, а создать что-нибудь шедевральное. В малюсеньком pixelart сложно передать все детали объекта, но надеюсь мне это удалось. Перед вами ещё один эксперимент, старый советский грузовик — ЗиЛ 157, груженый яблоками. Надеюсь получилось узнаваемо.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;День двадцать третий к сожалению, не задался от слова совсем. Даже не буду указывать тематику. Просто пропущу этот печальный день.&lt;/strong&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;День двадцать четвёртый. «Фольклор (Folklore)».&lt;/strong&gt;&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images.posts/2019.02/07 - Octobit 2018/24.png&quot; class=&quot;imgCenter&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;И вновь меня потянуло поизвращаться с машинками, в результате чего получился очередной pixelart - шедевр — УАЗ 452, она же «Буханка» Тем более меня просили её нарисовать. Она сама как тема фольклора и белорусский орнамент тем более. К сожалению, не смотря на явную схожесть с оригиналом, спустя время можно заметить, что всё-таки мне не удалось до конца выдержать пропорции, и кажется, что машина немного сплюснута сверху. Всё-таки выдерживать пропорции в изометрии достаточно нетривиальное занятие.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;День двадцать пятый. «Рынок (Mart)»&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images.posts/2019.02/07 - Octobit 2018/25.png&quot; class=&quot;imgCenter&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Душа уже понеслась в рай и ещё один автомобиль в копилку octobit, на этот раз американец — MACK Jr. Мне пришла сумасшедшая идея водрузить на этот полутонный грузовичок ларёк с кофе, ибо тема дня — mart. Перевести можно по-разному, это и рынок, и торговая точка, так что вкусное кофе ок.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;День двадцать шестой. «Механическое (Mechanic)»&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images.posts/2019.02/07 - Octobit 2018/26.png&quot; class=&quot;imgCenter&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Свободных тем остаётся всё меньше и меньше, а рисовать автомобили всё ещё хочется. Двадцать шестой день октобит и моя очередная хитрость, тема - mechanic, так почему бы не нарисовать механическую игрушку? Старый добрый volkswagen beetle посвящается одному залёному жучку. Уже с трудом, но помню, были такие игрушки заводные с ключиком. Сейчас уже, наверное, таких и не встретишь, но когда-то они были очень популярны, хотя завода хватало ненадолго и двигались они строго по прямой.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;День двадцать седьмой. «Король (King)»&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images.posts/2019.02/07 - Octobit 2018/27.png&quot; class=&quot;imgCenter&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Всё ещё хочется рисовать машинки и надо снова как-то выкручиваться, ибо тема двадцать седьмого дня - king. Так почему бы не нарисовать машину достойную короля? В этот раз выбор пал на англичан — Rolls Royce Silver Cloud. Кабриолет как нельзя лучше подходит для шествий. Времени как всегда не хватает, и оглядев «незамутнённым» взглядом можно тоже придраться к ляпам, руль не стой стороны, диски хромированные слишком тусклые, да и пропорции опять чуточку не выдержанны. Зато цвета похожи.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;День двадцать восьмой. «Панк (Punk)»&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images.posts/2019.02/07 - Octobit 2018/28.png&quot; class=&quot;imgCenter&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;День двадцать восьмой, тема Punk. Но душа опять хочет рисовать pixelart автомобили! Поэтому берём тему #cyberpunk2077 и реализовываем задуманное.&lt;/p&gt;
+
+&lt;p&gt;Хочется сказать огромное спасибо Kreanym за Quadra V-Tech, без его &lt;a href=&quot;https://sketchfab.com/models/f31b2477e50f4fe284d80ea136c94d8e&quot;&gt;3D модельки&lt;/a&gt; пришлось бы тяжело.&lt;/p&gt;
+
+&lt;p&gt;На этом собственно всё. Собачка почти вытянула этот дурдом, не дотянув всего пару работ. Что тут сказать. Рисовать в течении целого месяца достаточно сложно. С учётом того свободного времени есть только по вечерам, ну и может чуть больше по выходным, а ещё есть домашние дела ну и всего по чуть-чуть.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;&lt;em&gt;Лирический постсриптум (:&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Интересное наблюдение. В основном новые работы публиковались на сайте «Светлой Академии» и в twitter, там же и больше всего было откликов. В tumbler очень сложная публика, реагирующая импульсивно, то на одну работу налетала толпа, а то был полный штиль. Очень странное впечатление от deviant art. Такое ощущение, что сайт просто умер. Очень редкие, считай залётные посетители.
+Но больше всего мне конечно же не понравилось публиковаться на PixelJoint. Жуткое сообщество снобов, со своим монастырским «уставом». Каждая работа перепроверяется 100500 раз, неизвестный модератор может отклонить просто потому что ему показалось недостаточно «чистая» работа. Сайт древний как мамон и не понимает символы unicode, в результате чего некоторые работы пришлось обзывать строго латинскими буквами, как говорится без изысков.
+Очень не понравились комментаторы на pixeljoint. Обычно на англоязычных ресурсах относительно лояльное комьюнити, всегда подскажут, расскажут помогут решить проблему.  А тут всё в стиле «хоть меня и не просили, но я просто обязан высказать своё мнение». Для меня это было весьма неприятным шоком.&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Ну и как «вишенка на торте», вскоре всем, у кого уровень ниже 2го, отключили вообще возможность комментировать работы. То есть я теперь даже как автор не могу написать ответ. Хотя это и объясняется тем, что якобы много спама на сайте, но выглядит это явно кране не дружелюбно по отношению к пользователям. Ведь в конце концов, если последние не будут там публиковать свои работы, смысла в сайте как таковом и нет.&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;Впрочем, никто вас не заставляет в нашу песочницу. Ясно, понятно.&lt;/p&gt;
+
+&lt;p&gt;Но в любом случае, я надеюсь, что вам понравились мои pixelart-поделки. Спасибо за внимание.&lt;/p&gt;</content><author><name></name></author><category term="octobit" /><category term="inktober" /><category term="8bit" /><category term="pixelart" /><category term="story" /><summary type="html">И снова здравствуйте. Сегодня, мне бы хотелось посвятить пост небольшому отчёту об участии в ежегодном мероприятии — Octobit 2018. Это такого рода челендж, суть которого сводится к тому, чтобы рисовать каждый день на заданную тему.</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://murlab.github.io/07%20-%20Octobit%202018/title.png" /></entry><entry><title type="html">Godot Начало</title><link href="https://murlab.github.io/blog/Godot%20Nachalo/" rel="alternate" type="text/html" title="Godot Начало" /><published>2018-05-16T23:55:00+03:00</published><updated>2018-05-16T23:55:00+03:00</updated><id>https://murlab.github.io/blog/Godot%20%D0%9D%D0%B0%D1%87%D0%B0%D0%BB%D0%BE</id><content type="html" xml:base="https://murlab.github.io/blog/Godot%20Nachalo/">&lt;p&gt;Всем привет!&lt;/p&gt;
 
 &lt;p&gt;Давненько от меня не было слышно никаких новостей, тем более и повод соответствующий, наконец-таки поделится своими наработками по Godot, и уже аж версии 3!&lt;/p&gt;
 
@@ -1507,19 +1797,4 @@ if (params['Enabled while message'].toUpperCase() == &quot;TRUE&quot;) {
 
 &lt;div class=&quot;dictum&quot;&gt;…продолжение следует.&lt;/div&gt;
 
-&lt;p&gt;p.s. Надеюсь вас не слишком утомила данная «простыня».&lt;/p&gt;</content><author><name></name></author><category term="rpg maker mv" /><category term="plugins" /><category term="javascript" /><category term="story" /><category term="уроки" /><summary type="html">Немного обновлённая и исправленная версия со «Светлой Академии».</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://murlab.github.io/19%20-%20Pishem%20svoi%20pervyj%20plagin%20v2.0%20chast%201/code_title.png" /></entry><entry><title type="html">Архивация</title><link href="https://murlab.github.io/blog/Arhivacija/" rel="alternate" type="text/html" title="Архивация" /><published>2017-12-17T01:00:00+03:00</published><updated>2017-12-17T01:00:00+03:00</updated><id>https://murlab.github.io/blog/Arhivacija</id><content type="html" xml:base="https://murlab.github.io/blog/Arhivacija/">&lt;p&gt;Всем привет!&lt;/p&gt;
-
-&lt;p&gt;Итак, процесс архивации, или если быть точнее переезда завершен. В ходе переноса были подправленные некоторые ошибки, неточности и опечатки. Так, что здесь теперь более грамотная версия материала. Старый сайт я пока тоже удалять не стану.&lt;/p&gt;
-
-&lt;p&gt;Конечно записи за этот срок сильно устарели и по большей части представляют собой чисто историческую ценность, но тем не менее путь тоже тут побудут.&lt;/p&gt;
-
-&lt;!--break--&gt;
-
-&lt;p&gt;Если кому интересно, все старые записи можно найти в разделе «&lt;a href=&quot;/archive/&quot;&gt;Архив постов&lt;/a&gt;», ну или перейти прямо по ссылкам тут:&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;/blog/Vsem%20privet!/&quot;&gt;Всем привет!&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;/blog/Pishem%20svoj%20pervyj%20plagin%20dla%20RPG%20Maker%20MV/&quot;&gt;Пишем свой первый плагин для RPG Maker MV&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;/blog/Pishem%20plagin%20dla%20otobrazhenia%20bolshih%20avatarok/&quot;&gt;Пишем плагин для отображения больших аватарок&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;/blog/Zapuskaem%20proekt%20v%20brauzere/&quot;&gt;Запускаем проект в браузере&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;</content><author><name></name></author><category term="archive" /><summary type="html">Всем привет!</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://murlab.github.io/17%20-%20Arhivacija/book_title.png" /></entry></feed>
+&lt;p&gt;p.s. Надеюсь вас не слишком утомила данная «простыня».&lt;/p&gt;</content><author><name></name></author><category term="rpg maker mv" /><category term="plugins" /><category term="javascript" /><category term="story" /><category term="уроки" /><summary type="html">Немного обновлённая и исправленная версия со «Светлой Академии».</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://murlab.github.io/19%20-%20Pishem%20svoi%20pervyj%20plagin%20v2.0%20chast%201/code_title.png" /></entry></feed>

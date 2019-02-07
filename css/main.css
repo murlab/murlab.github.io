@@ -18,6 +18,10 @@ body {
 	overflow-x: hidden;
 }
 
+.disabledLink a {
+	cursor: not-allowed;
+}
+
 code {
 	font-size: 18px;
 	font-family: 'Ubuntu Mono', monospace;
@@ -250,7 +254,7 @@ a:hover {
 	color: #fff;
 	text-decoration: none;
 }
-.popupMenuItem .fa {
+.popupMenuItem .fa, .popupMenuItem .fas, .popupMenuItem .far, .popupMenuItem .fab {
 	margin-right: 8px;
 	margin-top: 2px;
 }

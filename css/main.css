@@ -18,6 +18,13 @@ body {
 	overflow-x: hidden;
 }
 
+blockquote {
+	border-left: 5px solid #c9e6ff;
+	padding-left: 15px;
+	font-size: 16px;
+	color: #c9e6ff;
+}
+
 .disabledLink a {
 	cursor: not-allowed;
 }

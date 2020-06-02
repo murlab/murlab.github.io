@@ -1,4 +1,122 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.6.2">Jekyll</generator><link href="https://murlab.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://murlab.github.io/" rel="alternate" type="text/html" /><updated>2019-02-11T16:32:46+03:00</updated><id>https://murlab.github.io/</id><title type="html">Mur Laboratory</title><subtitle>Обожаю сладкое, аниме и игры. Так же пытаюсь делать свои с помощью RPG Maker и Godot. Иногда рисую, да,… (ღ˘⌣˘ღ)</subtitle><entry><title type="html">One Neko Story. v0.00 pre-alpha</title><link href="https://murlab.github.io/blog/2019-02-11-One%20Neko%20Story.%20v0.00%20pre-alpha/" rel="alternate" type="text/html" title="One Neko Story. v0.00 pre-alpha" /><published>2019-02-11T10:10:10+03:00</published><updated>2019-02-11T10:10:10+03:00</updated><id>https://murlab.github.io/blog/One%20Neko%20Story.%20v0.00%20pre-alpha</id><content type="html" xml:base="https://murlab.github.io/blog/2019-02-11-One%20Neko%20Story.%20v0.00%20pre-alpha/">&lt;p&gt;Трям ещё раз.&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.6.2">Jekyll</generator><link href="https://murlab.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://murlab.github.io/" rel="alternate" type="text/html" /><updated>2020-06-02T20:02:54+03:00</updated><id>https://murlab.github.io/</id><title type="html">Mur Laboratory</title><subtitle>Обожаю сладкое, аниме и игры. Так же пытаюсь делать свои с помощью RPG Maker и Godot. Иногда рисую, да,… (ღ˘⌣˘ღ)</subtitle><entry><title type="html">One Neko Story. v0.02 pre-alpha2</title><link href="https://murlab.github.io/blog/2020-06-02-One%20Neko%20Story.%20v0.02%20pre-alpha2/" rel="alternate" type="text/html" title="One Neko Story. v0.02 pre-alpha2" /><published>2020-06-02T16:00:00+03:00</published><updated>2020-06-02T16:00:00+03:00</updated><id>https://murlab.github.io/blog/One%20Neko%20Story.%20v0.02%20pre-alpha2</id><content type="html" xml:base="https://murlab.github.io/blog/2020-06-02-One%20Neko%20Story.%20v0.02%20pre-alpha2/">&lt;p&gt;Всем привет!&lt;/p&gt;
+
+&lt;p&gt;Как говорится, не прошло и три года, а я уже со всех лап спешу донести наконец-таки очередную свою поделку «One Neko Story v0.02 pre-alpha2». На этот раз можно не только посмотреть на карту, но и даже по изучать и взаимодействовать предметами, NPC итд.&lt;/p&gt;
+
+&lt;p&gt;Но обо всём по порядку!&lt;/p&gt;
+
+&lt;!--break--&gt;
+
+&lt;p&gt;Новая версия представляет собой уже что-то более менее похожее на игру. Имеются три дополнительные локации: это комната главной героини, откуда собственно и начинается повествование истории, дом, в котором она проживает вместе с мамой и собственно небольшой подвал, он же погреб.&lt;/p&gt;
+
+&lt;p&gt;История начинается с того, что главной героине снится странный сон, который прерывается звуком будильника. Изначально (ещё в версии под VX Ace) это был небольшой вступительный ролик с титрами в виде сна. Сейчас мне показалось, что это выглядит немного блёкло, поэтому пока не хочу вставлять это в игру. Возможно в будущем это будет что-то типа отдельной видео вставки, а может что-то в виде комикса. В любом случае время подумать ещё будет.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images.posts/2020.06/02 - One Neko Story. v0.02 pre-alpha2/begin.png&quot; class=&quot;imgCenter&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;В данной версии используется моя новая разработка плагин для RPG Maker MV — NPC. Не смотря на довольно короткое название это целый конструктор. Изначально планировалось, что это будет что-то типа упрощенного варианта диалогов. Мне не нравилось, что при каждом диалоге в новом месте (локации) приходилось создавать новое событие (event) на карте и с помощью кучи переменных, как локальных, так и глобальных разруливать варианты ведения разговора.&lt;/p&gt;
+
+&lt;p&gt;Конечно, при простеньких диалогов это было не так страшно, но чем больше появлялось ветвлений и вариантов ответов, запутаться становилось всё проще и проще. Так же было очень не удобно, когда NPC, с которым вёлся диалог, перемещался по карте. Это могло быть как в пределах одной карты, так и совершенно на других картах и при различных условиях.&lt;/p&gt;
+
+&lt;p&gt;Так появилась идея создать для каждого действующего лица свой сценарий поведения, который бы не был привязан к конкретному событию на карте. За основу были взяты уже имеющиеся персонажи (актёры / acters) из rpg maker. Во первых у них можно задать сразу аватарку, которая будет отображать в диалогах, а во вторых их можно сразу будет добавить в группу, если по сюжету это будет необходимо.&lt;/p&gt;
+
+&lt;p&gt;В самих событиях на карте, при активации вызывается команда вызова плагина:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images.posts/2020.06/02 - One Neko Story. v0.02 pre-alpha2/plugin_cmd.png&quot; class=&quot;imgCenter&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;После команды может идти либо цифра, которая укажет на ID актёра, либо это может быть название предмета события в виде текста.&lt;/p&gt;
+
+&lt;p&gt;Второй вариант был придуман несколько позже для того, что бы можно было взаимодействовать к предметами на карте. Для них тоже создаётся свой сценарий и сохраняется в отдельную папку.&lt;/p&gt;
+
+&lt;p&gt;Что бы не было путаницы в именах, была сделана древовидная структура в виде вложенной локации карт, например:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images.posts/2020.06/02 - One Neko Story. v0.02 pre-alpha2/structure.png&quot; class=&quot;imgCenter&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Все сценарии хранятся в папке data/npc. Если это сценарий для актёра, то он хранится прямо в корне папки NPC в формате JSON и имеет имя в виде «id_2.json», где 2 это ID актёра. Далее идёт название карт, например:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images.posts/2020.06/02 - One Neko Story. v0.02 pre-alpha2/scenario.png&quot; class=&quot;imgCenter&quot; /&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;neko_village это название главной карты&lt;/li&gt;
+  &lt;li&gt;mi_house это дом главной героини на карте&lt;/li&gt;
+  &lt;li&gt;attic это мансарда, где находится её комната&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;ну и далее название предметов для которых подготовлены сценарии взаимодействия с ними.&lt;/p&gt;
+
+&lt;p&gt;Каждый сценарий имеет свою структуру, в виде одного или нескольких блоков, а каждый блок предстаёт в виде исполняемых шагов:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images.posts/2020.06/02 - One Neko Story. v0.02 pre-alpha2/example.png&quot; class=&quot;imgCenter&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;При обращении к сценарию, плагин берёт номер блока, в котом сценарий остановился предыдущий раз, переходит на этот блок и начинает выполнение сценария с 0-го шага. Исполнение может быть принудительно прервано, может быть определён новый шаг или номер блока, а так же выполнен мгновенный переход. Выполнение сценария заканчивается, когда достигнут последний шаг.&lt;/p&gt;
+
+&lt;p&gt;Каждый шаг представляет собой команду в поле «type» и вспомогательные данные. Например команда «leader_text» выводит текстовое сообщения от лица главной героини, которое содержится в «content», а для отображения аватарки и эмоции используются данные из «face» и «faceIndex» соответственно. Для других команд могут быть использованы другие (свои) поля с данными.&lt;/p&gt;
+
+&lt;p&gt;С увеличением числа необходимых команд увеличивался и размер сценария, и как следствие росла сложность его редактирования. Уже легко было запутаться в структуре, переходах, а держать все необходимы «переменные» вообще было не простой задачей. Но сложнее всего было в ситуации, когда сценарий нужно было «раздвинуть» и впихнуть новые данные, и все переходы на другие шаги начинали «плыть».&lt;/p&gt;
+
+&lt;p&gt;В результате чего мне пришла в голову очередная «безумная» идея создать свой визуальный редактор, в котором бы с лёгкостью можно было бы добавлять новые блоки, редактировать связи (переходы) итд.&lt;/p&gt;
+
+&lt;p&gt;На данном этапе редактор существует в виде тестовой верии и имеет примерно такой вид:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images.posts/2020.06/02 - One Neko Story. v0.02 pre-alpha2/npc_editor.png&quot; class=&quot;imgCenter&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Пока это всё ещё в довольно-таки сыром виде, но уже можно более-менее наполнять сценарии и все файлы текущей pre-alpha версии созданы с его помощь. В ближайшем будущем скорее всего я выпущу его в виде отдельной программы, но пока загадывать рано.&lt;/p&gt;
+
+&lt;p&gt;Кроме плагина «NPC» в игре используются несколько переработанные плагины:&lt;/p&gt;
+
+&lt;p&gt;«Info Box» — используется для отображения сообщений сбоку, по аналогии со Skyrim ¬‿¬
+Причём плагин сам перехватывает системные события добавление и убавление предметов, вооружения, золота или навыков:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images.posts/2020.06/02 - One Neko Story. v0.02 pre-alpha2/window_info.png&quot; class=&quot;imgCenter&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;«VX Style Choices» — меню выбора вариантов ответа, не виде отдельного окна, а возращает его в область сообщений, как это было в ранних версиях RPG Maker.&lt;/p&gt;
+
+&lt;p&gt;«Big Avatar» — собственно плагин для отображения больших аватарок.&lt;/p&gt;
+
+&lt;p&gt;«Map Title» — плагин для отображения названия местности и других событий:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images.posts/2020.06/02 - One Neko Story. v0.02 pre-alpha2/map_title.png&quot; class=&quot;imgCenter&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;«Window Decor» — переработанный плагин для рамок окошек. Ранее (в VX Ace) средняя часть окошка дублировалась, в результате чего можно было делать красивое оформление. В RPG Maker MV почему-то посчитали это слишком большой роскошью и сделали вариант «тупо растянуть». В результате чего, если окно в виде линий, то всё ок, но если это рисунок, всё превращается в растянутую кашу. Мой плагин, возвращает как было.&lt;/p&gt;
+
+&lt;p&gt;Ну и последние два плагина «Equips» и «Window Info» используются для манипуляций (снять/одеть/подобрать) с экипировкой и отображения информации по предметам и экипировки в целом:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images.posts/2020.06/02 - One Neko Story. v0.02 pre-alpha2/equips.png&quot; class=&quot;imgCenter&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Причём мне так же не понятно, по какой такой причине в стандартном варианте RPG Maker параменты и свойства предметов, а так же суммарные свойства не доступны игроку.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images.posts/2020.06/02 - One Neko Story. v0.02 pre-alpha2/items.png&quot; class=&quot;imgCenter&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Данные плагины по возможности решили данный промах. При этом ещё в Notes предмета можно указать его классовую принадлежность, всего их 8 вариантов:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;NG (no grade) - серого цвета, низкий (crude) класс&lt;/li&gt;
+  &lt;li&gt;D grade - белого цвета, обычный (basic)  класс&lt;/li&gt;
+  &lt;li&gt;C grade - зелёного цвета, надёжный (grand) класс&lt;/li&gt;
+  &lt;li&gt;B grade - синего цвета, раритетный (rare) класс&lt;/li&gt;
+  &lt;li&gt;A grade - фиолетового цвета, скрытый (arcane) класс&lt;/li&gt;
+  &lt;li&gt;S grade - красного цвета, героический (heroic) класс&lt;/li&gt;
+  &lt;li&gt;R1 grade - желтого цвета, эпический (epic) класс&lt;/li&gt;
+  &lt;li&gt;R2 grade - оранжевого цвета, легендарный (legendary) класс&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Цвета пока примерные и в последствии всё возможно ещё поменяется.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images.posts/2020.06/02 - One Neko Story. v0.02 pre-alpha2/equips2.png&quot; class=&quot;imgCenter&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Помимо персонажа Neko, подготовлены варианты для девушки, парня и кота. У кота некоторые слоты недоступны, потому что у него лапки (:&lt;/p&gt;
+
+&lt;p&gt;На этом пока всё, плагины пока выкладывать не буду, ибо они находятся в постоянной доработке.&lt;/p&gt;
+
+&lt;p&gt;Заранее большое спасибо за помощь в тестировании.&lt;/p&gt;
+
+&lt;p&gt;Как и в прошлый раз загрузки разбиты на две части:&lt;/p&gt;
+
+&lt;p&gt;Собственно, сам движок RPG Maker MV ~45Mb в архиве — &lt;a href=&quot;/downloads/my_projects/one_neko_story/OneNekoStory_Engine.7z&quot;&gt;Скачать движок «OneNekoStory_Engine.7z»&lt;/a&gt;, который остался неизменным с прошлого раза.&lt;/p&gt;
+
+&lt;p&gt;И игровые файлы (в данном случае v0.02), папка «www» ~43Mb в архиве (добавились ресурсы в виде картинок, музыки и графики).&lt;/p&gt;
+
+&lt;p&gt;Архив «v0.02.7z» необходимо распаковать внутрь папки «OneNekoStory», туда, где расположена сама игра Game.exe — &lt;a href=&quot;/downloads/my_projects/one_neko_story/v0.02.7z&quot;&gt;Скачать игровые файлы «v0.02.7z»&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;При дальнейших обновлениях вам будет достаточно скачать архив с новой версией и заменить содержимое папки www.&lt;/p&gt;</content><author><name></name></author><category term="мои проекты" /><category term="приключения нэки" /><category term="one neko story" /><category term="rpg maker mv" /><summary type="html">Всем привет!</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://murlab.github.io/02%20-%20One%20Neko%20Story.%20v0.02%20pre-alpha2/title.png" /></entry><entry><title type="html">One Neko Story. v0.00 pre-alpha</title><link href="https://murlab.github.io/blog/2019-02-11-One%20Neko%20Story.%20v0.00%20pre-alpha/" rel="alternate" type="text/html" title="One Neko Story. v0.00 pre-alpha" /><published>2019-02-11T10:10:10+03:00</published><updated>2019-02-11T10:10:10+03:00</updated><id>https://murlab.github.io/blog/One%20Neko%20Story.%20v0.00%20pre-alpha</id><content type="html" xml:base="https://murlab.github.io/blog/2019-02-11-One%20Neko%20Story.%20v0.00%20pre-alpha/">&lt;p&gt;Трям ещё раз.&lt;/p&gt;
 
 &lt;p&gt;Если кто не читал, то вы можете начать с &lt;a href=&quot;/blog/One%20Neko%20Story.%20Kak%20vse%20nachinalos/&quot;&gt;предыстории данного проекта&lt;/a&gt; («One Neko Story»), а мы, как говорится, перейдём от слов к делу.&lt;/p&gt;
 
@@ -1159,105 +1277,4 @@ else:
 
 &lt;p&gt;Хорошего настроения, творческих успехов и конечно же удачи в новом году!&lt;/p&gt;
 
-&lt;p&gt;p.s. В будущем можно будет попробовать новые плагины онлайн — &lt;a href=&quot;http://murplay.github.io/&quot;&gt;http://murplay.github.io/&lt;/a&gt;&lt;/p&gt;</content><author><name></name></author><category term="rpg maker mv" /><category term="github" /><category term="уроки" /><summary type="html">Новогодний привет всем!</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://murlab.github.io/31%20-%20Svoja%20stranichka%20na%20github/page_title.png" /></entry><entry><title type="html">RMMV Графика для событий</title><link href="https://murlab.github.io/blog/RMMV%20Grafika%20dlja%20sobytij/" rel="alternate" type="text/html" title="RMMV Графика для событий" /><published>2017-12-29T02:04:00+03:00</published><updated>2017-12-29T02:04:00+03:00</updated><id>https://murlab.github.io/blog/RMMV%20Grafika%20dlja%20sobytij</id><content type="html" xml:base="https://murlab.github.io/blog/RMMV%20Grafika%20dlja%20sobytij/">&lt;p&gt;Всем привет!&lt;/p&gt;
-
-&lt;p&gt;Сегодня мне бы хотелось рассказать об одной своей новой поделке, а именно о скрипте для RPG Maker MV — «MUR Event Graphics».&lt;/p&gt;
-
-&lt;p&gt;Изначально данный скрипт задумывался для того, чтобы дать возможность немного смещать графику событий, относительно центра.&lt;/p&gt;
-
-&lt;!--break--&gt;
-
-&lt;p&gt;По правде говоря, мне уже порядком поднадоело перерисовывать по десять раз одни и те же картинки каждый раз подгоняя, а достаточно ли теперь стоит тумбочка близко к стене или же её ещё надо подвинуть на пару пикселей. Или же делать несколько вариантов, когда книжка лежит с одного края стола, а теперь она ближе к другому краю, а вот на кровати она вообще должна быть по центру и выше итд.&lt;/p&gt;
-
-&lt;p&gt;Конечно в интернете уже достаточно «обсосали» и не раз эту тему «смещения графики событий» и был написан не один скрипт, как и для VX Ace, так и для MV, но мне всё же захотелось сделать свой вариант и на это были причины.&lt;/p&gt;
-
-&lt;p&gt;Во всех ранее предложенных вариантах была примерна одна и та же схема. В начале события создаются комментарии в которых описываются настройки, как и куда смещать нашу картинку события.  По сути у меня такая же схема, задаём команду с параметрами и вуаля.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/images.posts/2017.12/29 - RMMV Grafika dlja sobytij/comments.png&quot; class=&quot;imgCenter&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;Начнём с первой команды, собственно команды смещения графики — &lt;strong&gt;&amp;lt;move_event_gfx_to: x, y, z&amp;gt;&lt;/strong&gt;. Как не трудно догадаться &lt;strong&gt;x&lt;/strong&gt; и &lt;strong&gt;y&lt;/strong&gt; это смещение по горизонтали и вертикали соответственно. Причём можно задать отрицательные числа и картинка будет смещена в противоположную сторону. Меняя значение &lt;strong&gt;z&lt;/strong&gt; можно задать номер слоя и, картинка может оказаться как за игроком, так и над ним (не меняя основные свойства события — «&lt;em&gt;priority&lt;/em&gt;»).&lt;/p&gt;
-
-&lt;p&gt;Следующая идея была немного «оживить» графику события. В моей игрушке есть дирижабль, который стоит на привязи, но слегка колышется вверх-вниз.&lt;/p&gt;
-
-&lt;p&gt;Изначально у меня было отрисовано три кадра с положением, и они циклически сменялись. Выглядело это не очень, кадров мало, возни много. И тут пришла в голову идея, что было бы очень классно, если бы картинка с дирижаблем «болталась» сама по себе без участия покадровой анимации.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/images.posts/2017.12/29 - RMMV Grafika dlja sobytij/zeppelin.gif&quot; class=&quot;imgLeft&quot; /&gt;Так появилась команда — &lt;strong&gt;&amp;lt;slide_event_vertical: size, speed&amp;gt;&lt;/strong&gt;. Как ясно из названия это скольжение, а если быть точнее, то циклическое движение с эффектом маятника. По краям движение затухает, пока не сменит направление, а в середине максимально ускоряется. В параметрах можно задать размер зоны движения — &lt;strong&gt;size&lt;/strong&gt;, ну и скорость движения «объекта» — &lt;strong&gt;speed&lt;/strong&gt;.&lt;/p&gt;
-
-&lt;p&gt;Команда &lt;strong&gt;&amp;lt;slide_event_horizontal size, speed&amp;gt;&lt;/strong&gt; повторяет предыдущую, лишь с той разницей, что движение (мотание) происходит уже горизонтально.&lt;/p&gt;
-
-&lt;p&gt;Возможно многие замечали, что в RPG Maker MV очень много всяких мелких недочётов, они не влияют на игровой процесс, но это как песок в сандалиях, ходить не мешает, но весьма неприятно.&lt;/p&gt;
-
-&lt;p&gt;К такому вот «песочку» относится момент, когда персонаж заходит в какую-нибудь дверь. Меня вот очень раздражает, что он как бы входит, но при этом верхняя часть головы постоянно задевает за дверной косяк. Конечно можно нарисовать дверь чуть больше, нарисовать какую-нибудь специальную анимацию, но мне захотелось решить это вопрос раз и навсегда.&lt;/p&gt;
-
-&lt;p&gt;Идея заключается в следующем: например, берём событие с дверью, и добавляем к нему две дополнительные картинки. Одна располагается за событием (дверью), другая поверх события.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/images.posts/2017.12/29 - RMMV Grafika dlja sobytij/house_parts.png&quot; class=&quot;imgCenter&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;На первой (фоновой) картинке мы рисуем часть здание с тёмным (светлым) дверным проёмом, а на второй (передней) картинке мы оставляем часть изображения, но лишь до места где начинается уже сам вход.&lt;/p&gt;
-
-&lt;p&gt;Когда персонаж заходит в дверь, он оказывается между двумя картинками и уже «не стукается головой», а спокойно проходит в дверной проём.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/images.posts/2017.12/29 - RMMV Grafika dlja sobytij/house.gif&quot; class=&quot;imgCenter&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;У этой идеи есть ещё один плюс. Во-первых, в тайлах вместо элементов (или даже целого) здания остаётся свободное место под другие элементы декора, а во-вторых теперь здания можно делать более уникальными (красивыми, разнообразными), они не привязаны ни к сетке тайлов, ни к размерам, ни к тем более положению (дверь всегда по центру).&lt;/p&gt;
-
-&lt;p&gt;Ну и собственно сами команды — &lt;strong&gt;&amp;lt;set_event_bg_gfx: bitmap, offsetX, offsetY&amp;gt;&lt;/strong&gt; и &lt;strong&gt;&amp;lt;set_event_fg_gfx: bitmap, offsetX, offsetY&amp;gt;&lt;/strong&gt;. Первая (bg) задаёт фоновую картинку, вторая соответственно переднюю. В bitmap указывается имя картинки, которая будет подгружена из &lt;em&gt;img/events/&lt;/em&gt;, а &lt;strong&gt;offsetX&lt;/strong&gt;, &lt;strong&gt;offsetY&lt;/strong&gt; её смещение относительно центра события, например, если мы всю туже дверь захотим сместить.&lt;/p&gt;
-
-&lt;p&gt;Следующая идея была сделать если не полноценную, то хотя бы упрощённую анимацию. Сейчас, например, можно сделать анимацию у события следующим образом. Наклепать кучу вкладок (шагов) события с привязкой к значению какой-нибудь переменной. Переходим на новый шаг, меняется картинка, меняем переменную, выжидаем паузу и хоп на следующем опросе «системой» у нас новая картина. Ну и конечно всё это должно быть в режиме «&lt;em&gt;parallel&lt;/em&gt;» (параллельно).&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/images.posts/2017.12/29 - RMMV Grafika dlja sobytij/animation.png&quot; class=&quot;imgCenter&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;У этого метода куча недостатков, начиная с того, что это просто нудно делать, и заканчивая тем, что очень сложно потом отследить логику события, если по ходу придётся переключатся по каким-либо условиям.&lt;/p&gt;
-
-&lt;p&gt;Для того, чтобы избавить себя от этого «дурдома» с кадрами, была придумана команда — &lt;strong&gt;&amp;lt;animation_event_start: frames, pause, reverse&amp;gt;&lt;/strong&gt;. Данная команда поэтапно показывает кадры события начиная с вниз 1, вниз 2, вниз 3, влево 1, влево 2,… итд.  Количество кадров можно ограничить, задав параметр — &lt;strong&gt;frames&lt;/strong&gt;. Задержку перед очередной сменой кадра можно задать в &lt;strong&gt;pause&lt;/strong&gt;. Дойдя до последнего кадра, анимация начнётся вновь с первого кадра (вниз 1), но если задать &lt;strong&gt;reverse&lt;/strong&gt; — &lt;em&gt;true&lt;/em&gt;, то анимация продолжится в обратном порядке.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/images.posts/2017.12/29 - RMMV Grafika dlja sobytij/mill.gif&quot; class=&quot;imgCenter&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;Можно конечно было бы сделать возможность и задавать внешний файл с кадрами анимации, и задавать произвольную последовательность кадров, но по правде говоря мне очень не хотелось сильно усложнять плагин, тем более, что в нём и так всё очень непросто.&lt;/p&gt;
-
-&lt;p&gt;В качестве продолжения идеи со «скольжением» картинки, получилась ещё одна команда — &lt;strong&gt;&amp;lt;jump_event: hight, speed&amp;gt;&lt;/strong&gt;. Как не трудно догадаться из названия, картинка будет прыгать. Например, во многих аркадных играх это различные звёздочки, монетки и другие плюшки. Параметр &lt;strong&gt;hight&lt;/strong&gt; задаёт как высоко будет прыгать картинка, а &lt;strong&gt;speed&lt;/strong&gt; соответственно насколько это будет быстро происходить.&lt;/p&gt;
-
-&lt;p&gt;В дополнении к «прыжкам» есть ещё одна команда — &lt;strong&gt;&amp;lt;set_event_shadow_to: bitmap, offsetX, offsetY&amp;gt;&lt;/strong&gt;. Данная команда добавляет позади нашего события ещё одну картинку и работает в паре с &lt;strong&gt;slide_event_vertical&lt;/strong&gt; или &lt;strong&gt;jump_event&lt;/strong&gt;. В отличии от того же &lt;strong&gt;set_event_bg_gfx&lt;/strong&gt; данная картинка подвергается дополнительным изменениям.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/images.posts/2017.12/29 - RMMV Grafika dlja sobytij/coin.gif&quot; class=&quot;imgRight&quot; /&gt; Например, задав в качестве &lt;strong&gt;bitmap&lt;/strong&gt; изображение тени (которое также будет загружено из &lt;em&gt;img/events/&lt;/em&gt;), оно будет изменять свой размер и прозрачность (уровень &lt;em&gt;alpha&lt;/em&gt;) в зависимости от позиции картинки &lt;strong&gt;slide_event_vertical&lt;/strong&gt; или &lt;strong&gt;jump_event&lt;/strong&gt;. Чем выше картинка события, тем меньше картинка тени и соответственно она менее видна, чем картинка опускается ниже, тем тень становится больше и более заметна.&lt;/p&gt;
-
-&lt;p&gt;Всё это конечно же мелочи, но в целом, я думаю, они сделают вашу игру более привлекательной, а процесс её создания менее утомительным. Скачать свежую версию плагина всегда можно с &lt;a href=&quot;https://github.com/murlab/rpg-maker-mv-plugins/tree/master/Event%20Graphics&quot;&gt;github&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;Удачи и творческих успехов!&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Обновление от 2 января 2018 г.&lt;/strong&gt;:&lt;/p&gt;
-&lt;div class=&quot;hline&quot;&gt;&lt;/div&gt;
-&lt;p&gt;К сожалению, совсем вылетело из головы, что такие объекты как Sprite, а тем более bitmap, нельзя создавать в объектах, которые потом будут сохранятся. Начиная ещё с VX Ace, RPG Maker очень нервничает, когда в файле сохранения появляются «крупные» объекты с непонятным содержимым. Так и получилось с Event’ами, ведь их состояние сохраняется в каждом файле сохранения игры, а вместе с ним и пытались сохраниться данные навешанных картинок.&lt;/p&gt;
-
-&lt;p&gt;Сейчас логика скрипта несколько переписана, спрайты и их картинки создаются в массивах плагина и никак не связаны с содержимым event’а. Игра успешно сохраняется и загружает состояние событий.
-Надеюсь больше никаких ляпов не вылезет ещё ~_~’&lt;/p&gt;
-
-&lt;p&gt;Обновлённая версия 1.1 как всегда доступна на &lt;a href=&quot;https://github.com/murlab/rpg-maker-mv-plugins/tree/master/Event%20Graphics&quot;&gt;github&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Обновление от 6 января 2018 г.&lt;/strong&gt;:&lt;/p&gt;
-&lt;div class=&quot;hline&quot;&gt;&lt;/div&gt;
-&lt;p&gt;Пффф! К сожалению, или к радости выявился ещё один досадный глюк, который был успешно исправлен.&lt;/p&gt;
-
-&lt;p&gt;При обновлении сцены (например, открыть/закрыть меню) все ивенты сцены зачем-то удаляются со сцены, а затем на неё же ещё раз и добавляются заново. Ну а поскольку мой скрипт считал, что у нас уже сцена построена и ничего перерисовывать не надо тихо и молчал.&lt;/p&gt;
-
-&lt;p&gt;Теперь при вызове метода Spriteset_Map.prototype.createCharacters элементам проставляется атрибут «а добавься-ка ты на сцену ещё разок».&lt;/p&gt;
-
-&lt;p&gt;Новая версия 1.2 как обычно на &lt;a href=&quot;https://github.com/murlab/rpg-maker-mv-plugins/tree/master/Event%20Graphics&quot;&gt;github&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;И ещё одно обновление от 6 января 2018 г.&lt;/strong&gt;:&lt;/p&gt;
-&lt;div class=&quot;hline&quot;&gt;&lt;/div&gt;
-&lt;p&gt;И всё-таки я балда! (≕&amp;gt;‿(“”) В ходе тестирования плагина, выяснилось что привязка к createCharacters была не самой лучшей идеей. При повторном вызове шага события, например, сменились условия, и мы вернулись на первый шаг, createCharacters вызываться не будет, так как сцена не менялась!! Для этого гораздо лучше подойдёт метод Game_Event.prototype.setupPage который вызывает первый раз при создании (изменении шага) самого события на карте.&lt;/p&gt;
-
-&lt;p&gt;Для этого гораздо лучше подойдёт метод Game_Event.prototype.setupPage который вызывает первый раз при создании(изменении шага) самого события на карте.&lt;/p&gt;
-
-&lt;p&gt;Уффф! Надеюсь это последняя проблема ~_~’&lt;/p&gt;
-
-&lt;p&gt;Исправленная версия 1.3 как обычно на &lt;a href=&quot;https://github.com/murlab/rpg-maker-mv-plugins/tree/master/Event%20Graphics&quot;&gt;github&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;В качестве плюшки, плагин можно посмотреть в действии &lt;a href=&quot;https://murplay.github.io/&quot;&gt;online&lt;/a&gt; собирая монетку. Это заготовка для ещё одного плагина, но пока вот просто добавляется в карман ;)&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;И очередное обновление от 8 января 2018 г.&lt;/strong&gt;:&lt;/p&gt;
-&lt;div class=&quot;hline&quot;&gt;&lt;/div&gt;
-&lt;p&gt;И снова здравствуйте! Мдэ, что-то этот плагин у меня прям совсем никак не получается, уже в печёнках эти ошибки. Снова пришлось переделать всю логику обновления графики событий. Теперь при выходе из боя пропадали картинки и тень. При переделке ещё что-то отвалилось, как в той истории «Нос вытащит — хвост увязит», так и у меня. Надеюсь теперь точно всё.&lt;/p&gt;
-
-&lt;p&gt;Исправленная версия, аж уже 1.4a всё так же доступна на &lt;a href=&quot;https://github.com/murlab/rpg-maker-mv-plugins/tree/master/Event%20Graphics&quot;&gt;github&lt;/a&gt;.&lt;/p&gt;</content><author><name></name></author><category term="rpg maker mv" /><category term="plugins" /><category term="javascript" /><summary type="html">Всем привет!</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://murlab.github.io/29%20-%20RMMV%20Grafika%20dlja%20sobytij/plugin_title.png" /></entry></feed>
+&lt;p&gt;p.s. В будущем можно будет попробовать новые плагины онлайн — &lt;a href=&quot;http://murplay.github.io/&quot;&gt;http://murplay.github.io/&lt;/a&gt;&lt;/p&gt;</content><author><name></name></author><category term="rpg maker mv" /><category term="github" /><category term="уроки" /><summary type="html">Новогодний привет всем!</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://murlab.github.io/31%20-%20Svoja%20stranichka%20na%20github/page_title.png" /></entry></feed>
